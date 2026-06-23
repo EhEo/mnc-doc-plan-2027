@@ -1,0 +1,1184 @@
+<title>KPI 브리핑 — M&amp;C Electronics Vina 2026</title>
+<style>
+  :root {
+    --ground: #0F1B3D;
+    --ground-mid: #1A2D5A;
+    --ground-card: #162447;
+    --text: #E8EDF7;
+    --text-dim: #8B9DC3;
+    --accent: #F5B942;
+    --accent-dim: #C4922E;
+    --accent-glow: rgba(245,185,66,0.18);
+    --white: #FFFFFF;
+    --success: #3DD68C;
+    --warn: #F5814A;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { font-size: 16px; }
+
+  body {
+    background: var(--ground);
+    color: var(--text);
+    font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* ── Scroll container ── */
+  .deck {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
+  .deck::-webkit-scrollbar { display: none; }
+
+  /* ── Slide base ── */
+  .slide {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* ── Nav dots ── */
+  .nav {
+    position: fixed;
+    right: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 100;
+  }
+  .nav a {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--text-dim);
+    opacity: 0.5;
+    transition: all .3s;
+    text-decoration: none;
+  }
+  .nav a.active, .nav a:hover {
+    background: var(--accent);
+    opacity: 1;
+    transform: scale(1.4);
+  }
+
+  /* ── Slide number badge ── */
+  .slide-num {
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    font-size: 11px;
+    letter-spacing: .15em;
+    color: var(--text-dim);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  /* ── Typography ── */
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-size: clamp(38px, 6vw, 72px);
+    font-weight: 800;
+    line-height: 1.05;
+    color: var(--white);
+  }
+  h2 {
+    font-size: clamp(26px, 4vw, 44px);
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--white);
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  h3 { font-size: 18px; font-weight: 700; color: var(--white); }
+  p { color: var(--text-dim); line-height: 1.7; font-size: 15px; }
+
+  /* ── Accent line ── */
+  .accent-line {
+    width: 56px;
+    height: 3px;
+    background: var(--accent);
+    margin: 18px 0 24px;
+  }
+
+  /* ═════════════════════════════════════════
+     SLIDE 1 — HERO
+  ═════════════════════════════════════════ */
+  #s1 { background: var(--ground); }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 60px;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+  }
+
+  .kpi-letters {
+    display: flex;
+    gap: 0;
+    margin-bottom: 20px;
+  }
+  .kpi-letter {
+    font-size: clamp(80px, 12vw, 140px);
+    font-weight: 900;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--accent);
+    transition: all .4s;
+    cursor: default;
+  }
+  .kpi-letter:hover {
+    color: var(--accent);
+    -webkit-text-stroke-width: 0;
+    text-shadow: 0 0 40px var(--accent-glow);
+  }
+
+  .hero-sub {
+    font-size: 14px;
+    color: var(--text-dim);
+    margin-top: 12px;
+    letter-spacing: .05em;
+  }
+
+  /* SVG lifecycle circle */
+  .lifecycle-svg {
+    width: 300px;
+    height: 300px;
+    animation: spin 20s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ═════════════════════════════════════════
+     SLIDE 2 — KPI란?
+  ═════════════════════════════════════════ */
+  #s2 { background: var(--ground); }
+
+  .def-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 960px;
+  }
+  .def-card {
+    background: var(--ground-card);
+    border: 1px solid rgba(245,185,66,.15);
+    border-radius: 12px;
+    padding: 36px 28px;
+    text-align: center;
+    transition: border-color .3s, transform .3s;
+  }
+  .def-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+  }
+  .def-letter {
+    font-size: 64px;
+    font-weight: 900;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .def-word {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 8px;
+  }
+  .def-desc { font-size: 13px; color: var(--text-dim); line-height: 1.6; }
+
+  /* ═════════════════════════════════════════
+     SLIDE 3 — 왜 지금인가?
+  ═════════════════════════════════════════ */
+  #s3 { background: var(--ground-mid); }
+
+  .reason-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 960px;
+  }
+  .reason-card {
+    background: var(--ground);
+    border-radius: 12px;
+    padding: 32px 24px;
+    border-top: 3px solid var(--accent);
+  }
+  .reason-num {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--accent);
+    opacity: .3;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .reason-title { font-size: 16px; font-weight: 700; color: var(--white); margin-bottom: 8px; }
+  .reason-body { font-size: 13px; color: var(--text-dim); line-height: 1.6; }
+
+  .stat-row {
+    display: flex;
+    gap: 48px;
+    margin-top: 36px;
+    padding: 24px 36px;
+    background: var(--accent-glow);
+    border: 1px solid rgba(245,185,66,.2);
+    border-radius: 12px;
+  }
+  .stat-item { text-align: center; }
+  .stat-num {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .stat-label { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+
+  /* ═════════════════════════════════════════
+     SLIDE 4 — 3대 전략 축
+  ═════════════════════════════════════════ */
+  #s4 { background: var(--ground); }
+
+  .axis-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    width: 100%;
+    max-width: 960px;
+  }
+  .axis-card {
+    border-radius: 16px;
+    padding: 40px 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .axis-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: .07;
+    background: radial-gradient(circle at top right, var(--accent) 0%, transparent 70%);
+  }
+  .axis-card.a1 { background: linear-gradient(135deg, #1A2D5A 0%, #0F1B3D 100%); border: 1px solid rgba(245,185,66,.3); }
+  .axis-card.a2 { background: linear-gradient(135deg, #1A3330 0%, #0F1B3D 100%); border: 1px solid rgba(61,214,140,.3); }
+  .axis-card.a3 { background: linear-gradient(135deg, #2D1A3A 0%, #0F1B3D 100%); border: 1px solid rgba(180,100,220,.3); }
+
+  .axis-icon { font-size: 40px; margin-bottom: 16px; }
+  .axis-title { font-size: 20px; font-weight: 700; color: var(--white); margin-bottom: 12px; }
+  .axis-kpi { font-size: 12px; color: var(--text-dim); line-height: 2; }
+  .axis-kpi span { color: var(--accent); font-weight: 600; }
+
+  /* ═════════════════════════════════════════
+     SLIDE 5 — 라이프사이클
+  ═════════════════════════════════════════ */
+  #s5 { background: var(--ground-mid); }
+
+  .lifecycle-flow {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    width: 100%;
+    max-width: 960px;
+    margin-top: 8px;
+  }
+  .phase-block {
+    flex: 1;
+    background: var(--ground);
+    border-radius: 12px;
+    padding: 28px 20px;
+    text-align: center;
+    border-bottom: 3px solid var(--accent);
+    position: relative;
+  }
+  .phase-icon { font-size: 32px; margin-bottom: 10px; }
+  .phase-name { font-size: 16px; font-weight: 700; color: var(--white); margin-bottom: 6px; }
+  .phase-period { font-size: 11px; color: var(--accent); font-weight: 600; letter-spacing: .05em; }
+  .phase-desc { font-size: 12px; color: var(--text-dim); margin-top: 8px; line-height: 1.5; }
+
+  .phase-arrow {
+    color: var(--accent);
+    font-size: 20px;
+    padding: 0 8px;
+    flex-shrink: 0;
+  }
+
+  .cycle-detail {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    width: 100%;
+    max-width: 960px;
+    margin-top: 20px;
+  }
+  .cycle-sub {
+    background: var(--ground-card);
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+  .cycle-sub strong { display: block; color: var(--white); margin-bottom: 4px; font-size: 13px; }
+
+  /* ═════════════════════════════════════════
+     SLIDE 6 — 부문별 KPI
+  ═════════════════════════════════════════ */
+  #s6 { background: var(--ground); }
+
+  .dept-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    width: 100%;
+    max-width: 1080px;
+  }
+  .dept-card {
+    background: var(--ground-card);
+    border-radius: 12px;
+    padding: 24px 16px;
+    border-top: 3px solid transparent;
+    transition: all .3s;
+  }
+  .dept-card:hover { transform: translateY(-6px); border-top-color: var(--accent); }
+  .dept-card.mgt { border-top-color: #5B9BD5; }
+  .dept-card.pr1 { border-top-color: #3DD68C; }
+  .dept-card.pr2 { border-top-color: #F5814A; }
+  .dept-card.qua { border-top-color: #F5B942; }
+  .dept-card.sls { border-top-color: #B46CDC; }
+
+  .dept-icon { font-size: 28px; margin-bottom: 10px; }
+  .dept-name { font-size: 13px; font-weight: 700; color: var(--white); margin-bottom: 8px; }
+  .dept-id { font-size: 10px; color: var(--accent); font-weight: 700; letter-spacing: .1em; margin-bottom: 10px; }
+  .dept-kpi-list { font-size: 11px; color: var(--text-dim); line-height: 2; }
+
+  /* ═════════════════════════════════════════
+     SLIDE 7 — SMART 기준
+  ═════════════════════════════════════════ */
+  #s7 { background: var(--ground-mid); }
+
+  .smart-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 24px;
+  }
+  .smart-card {
+    background: var(--ground);
+    border-radius: 12px;
+    padding: 24px 16px;
+    text-align: center;
+  }
+  .smart-letter-big {
+    font-size: 52px;
+    font-weight: 900;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .smart-word { font-size: 13px; font-weight: 700; color: var(--white); margin-bottom: 6px; }
+  .smart-sub { font-size: 11px; color: var(--text-dim); line-height: 1.5; }
+
+  .example-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 100%;
+    max-width: 1000px;
+  }
+  .ex-box {
+    background: var(--ground-card);
+    border-radius: 10px;
+    padding: 20px 24px;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text-dim);
+  }
+  .ex-box.good { border-left: 3px solid var(--success); }
+  .ex-box.bad  { border-left: 3px solid var(--warn); }
+  .ex-label { font-size: 11px; font-weight: 700; margin-bottom: 8px; letter-spacing: .1em; }
+  .ex-box.good .ex-label { color: var(--success); }
+  .ex-box.bad  .ex-label { color: var(--warn); }
+
+  /* ═════════════════════════════════════════
+     SLIDE 8 — 내가 할 일
+  ═════════════════════════════════════════ */
+  #s8 { background: var(--ground); }
+
+  .role-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 960px;
+  }
+  .role-card {
+    background: var(--ground-card);
+    border-radius: 12px;
+    padding: 28px 24px;
+    border: 1px solid rgba(245,185,66,.1);
+  }
+  .role-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(245,185,66,.15);
+  }
+  .role-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+  .role-item::before {
+    content: '▸';
+    color: var(--accent);
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .deadline-box {
+    margin-top: 32px;
+    padding: 20px 28px;
+    background: var(--accent-glow);
+    border: 1px solid rgba(245,185,66,.3);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    max-width: 960px;
+    width: 100%;
+  }
+  .deadline-icon { font-size: 28px; flex-shrink: 0; }
+  .deadline-text { font-size: 14px; color: var(--text); }
+  .deadline-text strong { color: var(--accent); }
+
+  /* ═════════════════════════════════════════
+     SLIDE 9 — 일정 (Gantt)
+  ═════════════════════════════════════════ */
+  #s9 { background: var(--ground-mid); }
+
+  .gantt-wrap {
+    width: 100%;
+    max-width: 960px;
+    overflow-x: auto;
+  }
+  .gantt-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    min-width: 700px;
+  }
+  .gantt-table th {
+    background: var(--ground);
+    color: var(--text-dim);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    padding: 10px 12px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+  }
+  .gantt-table th.task-col { text-align: left; width: 200px; }
+  .gantt-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(255,255,255,.04);
+    vertical-align: middle;
+  }
+  .gantt-table tr:hover td { background: rgba(255,255,255,.02); }
+  .task-label { color: var(--text); font-weight: 500; }
+  .task-team { font-size: 10px; color: var(--text-dim); margin-top: 2px; }
+
+  .bar-cell { position: relative; height: 32px; min-width: 40px; }
+  .gantt-bar {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    border-radius: 4px;
+    opacity: 0;
+    width: 0;
+    transition: width .8s cubic-bezier(.4,0,.2,1), opacity .3s;
+  }
+  .gantt-bar.animate {
+    opacity: 1;
+  }
+  .gantt-bar.c-accent { background: linear-gradient(90deg, var(--accent-dim), var(--accent)); }
+  .gantt-bar.c-green  { background: linear-gradient(90deg, #2A9E6A, var(--success)); }
+  .gantt-bar.c-blue   { background: linear-gradient(90deg, #2A5DAE, #5B9BD5); }
+  .gantt-bar.c-purple { background: linear-gradient(90deg, #7B3DBB, #B46CDC); }
+  .gantt-bar.c-orange { background: linear-gradient(90deg, #C05A1A, var(--warn)); }
+
+  .month-grid td {
+    background: repeating-linear-gradient(
+      90deg,
+      rgba(255,255,255,.02) 0px,
+      rgba(255,255,255,.02) 1px,
+      transparent 1px,
+      transparent calc(100% / 7)
+    );
+  }
+
+  /* ═════════════════════════════════════════
+     SLIDE 10 — 마무리
+  ═════════════════════════════════════════ */
+  #s10 { background: var(--ground); }
+
+  .closing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    max-width: 960px;
+    align-items: start;
+  }
+  .takeaway-list { list-style: none; }
+  .takeaway-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.5;
+  }
+  .takeaway-num {
+    background: var(--accent);
+    color: var(--ground);
+    font-weight: 900;
+    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .faq-section h3 { margin-bottom: 16px; font-size: 16px; color: var(--accent); }
+  .faq-item {
+    background: var(--ground-card);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    overflow: hidden;
+  }
+  .faq-q {
+    padding: 14px 18px;
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--text);
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+  }
+  .faq-q::after { content: '+'; color: var(--accent); font-size: 18px; transition: transform .3s; }
+  .faq-item.open .faq-q::after { transform: rotate(45deg); }
+  .faq-a {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease;
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.7;
+    padding: 0 18px;
+  }
+  .faq-item.open .faq-a { max-height: 120px; padding-bottom: 14px; }
+
+  .cta-bar {
+    margin-top: 32px;
+    padding: 20px 28px;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dim) 100%);
+    border-radius: 12px;
+    text-align: center;
+    color: var(--ground);
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+    max-width: 960px;
+  }
+
+  @media (max-width: 768px) {
+    .slide { padding: 24px 20px; }
+    .def-cards, .reason-grid, .axis-grid, .role-grid, .smart-grid { grid-template-columns: 1fr; }
+    .dept-grid { grid-template-columns: repeat(2, 1fr); }
+    .lifecycle-flow { flex-direction: column; }
+    .closing-grid { grid-template-columns: 1fr; }
+    .phase-arrow { transform: rotate(90deg); }
+    .stat-row { flex-direction: column; gap: 16px; }
+    .hero-grid { grid-template-columns: 1fr; }
+    .lifecycle-svg { display: none; }
+    .example-row { grid-template-columns: 1fr; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lifecycle-svg { animation: none; }
+    .gantt-bar { transition: none; }
+  }
+</style>
+
+<!-- Navigation dots -->
+<nav class="nav" id="nav">
+  <a href="#s1" class="active"></a>
+  <a href="#s2"></a>
+  <a href="#s3"></a>
+  <a href="#s4"></a>
+  <a href="#s5"></a>
+  <a href="#s6"></a>
+  <a href="#s7"></a>
+  <a href="#s8"></a>
+  <a href="#s9"></a>
+  <a href="#s10"></a>
+</nav>
+
+<div class="deck" id="deck">
+
+  <!-- ══════════ SLIDE 1: HERO ══════════ -->
+  <section class="slide" id="s1">
+    <span class="slide-num">01 / 10</span>
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">M&amp;C Electronics Vina · 2026 H2</div>
+        <div class="kpi-letters">
+          <span class="kpi-letter">K</span>
+          <span class="kpi-letter">P</span>
+          <span class="kpi-letter">I</span>
+        </div>
+        <h1>핵심성과지표<br>도입 브리핑</h1>
+        <div class="accent-line"></div>
+        <p class="hero-sub">AS9100D 품질경영 · 생산성 향상 · 경쟁력 강화<br>— 전 임직원 공통 가이드 —</p>
+      </div>
+      <div>
+        <svg class="lifecycle-svg" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="150" cy="150" r="120" stroke="rgba(245,185,66,.12)" stroke-width="1"/>
+          <circle cx="150" cy="150" r="80"  stroke="rgba(245,185,66,.08)" stroke-width="1"/>
+
+          <!-- Arcs -->
+          <path d="M150,30 A120,120 0 0,1 270,150" stroke="#F5B942" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M270,150 A120,120 0 0,1 150,270" stroke="#3DD68C" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M150,270 A120,120 0 0,1 30,150"  stroke="#5B9BD5" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M30,150  A120,120 0 0,1 150,30"  stroke="#B46CDC" stroke-width="2.5" stroke-linecap="round"/>
+
+          <!-- Dots -->
+          <circle cx="150" cy="30"  r="7" fill="#F5B942"/>
+          <circle cx="270" cy="150" r="7" fill="#3DD68C"/>
+          <circle cx="150" cy="270" r="7" fill="#5B9BD5"/>
+          <circle cx="30"  cy="150" r="7" fill="#B46CDC"/>
+
+          <!-- Labels -->
+          <text x="150" y="14"  text-anchor="middle" fill="#F5B942" font-size="11" font-weight="700" font-family="Malgun Gothic,sans-serif">수립</text>
+          <text x="285" y="155" text-anchor="start"  fill="#3DD68C" font-size="11" font-weight="700" font-family="Malgun Gothic,sans-serif">월간</text>
+          <text x="150" y="290" text-anchor="middle" fill="#5B9BD5" font-size="11" font-weight="700" font-family="Malgun Gothic,sans-serif">분기</text>
+          <text x="4"   y="155" text-anchor="start"  fill="#B46CDC" font-size="11" font-weight="700" font-family="Malgun Gothic,sans-serif">연말</text>
+
+          <!-- Center text -->
+          <text x="150" y="145" text-anchor="middle" fill="rgba(232,237,247,.8)" font-size="13" font-weight="700" font-family="Malgun Gothic,sans-serif">KPI</text>
+          <text x="150" y="163" text-anchor="middle" fill="rgba(139,157,195,.7)" font-size="10" font-family="Malgun Gothic,sans-serif">CYCLE</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SLIDE 2: KPI란? ══════════ -->
+  <section class="slide" id="s2">
+    <span class="slide-num">02 / 10</span>
+    <div class="eyebrow">Foundation</div>
+    <h2>KPI란 무엇인가.</h2>
+    <div class="def-cards">
+      <div class="def-card">
+        <div class="def-letter">K</div>
+        <div class="def-word">Key</div>
+        <div class="def-desc">성과를 결정짓는<br><strong style="color:var(--white)">핵심</strong> 요소만을 선별<br>— 전부가 아닌 가장 중요한 것</div>
+      </div>
+      <div class="def-card">
+        <div class="def-letter">P</div>
+        <div class="def-word">Performance</div>
+        <div class="def-desc">실제로 달성한<br><strong style="color:var(--white)">성과·결과</strong>를 측정<br>— 노력이 아닌 결과물</div>
+      </div>
+      <div class="def-card">
+        <div class="def-letter">I</div>
+        <div class="def-word">Indicator</div>
+        <div class="def-desc">숫자로 표현되는<br><strong style="color:var(--white)">지표</strong>로 비교 가능<br>— 직관이 아닌 데이터</div>
+      </div>
+    </div>
+    <div style="margin-top:32px; padding:20px 28px; background:var(--ground-mid); border-radius:10px; max-width:720px; text-align:center;">
+      <p style="font-size:15px; color:var(--text);">KPI는 <strong style="color:var(--accent)">목표를 숫자로 번역</strong>하고, 팀 전체가 같은 방향을 바라보게 하는 공통 언어입니다.</p>
+    </div>
+  </section>
+
+  <!-- ══════════ SLIDE 3: 왜 지금인가? ══════════ -->
+  <section class="slide" id="s3">
+    <span class="slide-num">03 / 10</span>
+    <div class="eyebrow">Context</div>
+    <h2>왜 지금인가.</h2>
+    <div class="reason-grid">
+      <div class="reason-card">
+        <div class="reason-num">01</div>
+        <div class="reason-title">AS9100D 품질경영 인증</div>
+        <div class="reason-body">항공우주·방산 품질기준 AS9100D는 측정 가능한 KPI 체계를 필수 요건으로 규정합니다. 인증을 위한 첫 단추입니다.</div>
+      </div>
+      <div class="reason-card">
+        <div class="reason-num">02</div>
+        <div class="reason-title">데이터 기반 경영 전환</div>
+        <div class="reason-body">감에서 데이터로 — KPI가 있어야 문제를 조기에 발견하고, 개선 효과를 객관적으로 증명할 수 있습니다.</div>
+      </div>
+      <div class="reason-card">
+        <div class="reason-num">03</div>
+        <div class="reason-title">2027년 성장 기반 구축</div>
+        <div class="reason-body">2026 H2 KPI 체계를 완성해야 2027년 목표를 실적 데이터 기반으로 설정할 수 있습니다.</div>
+      </div>
+    </div>
+    <div class="stat-row">
+      <div class="stat-item">
+        <div class="stat-num">+24%</div>
+        <div class="stat-label">공식 KPI 프로그램 도입 후<br>OEE 향상 (글로벌 제조업 평균)</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">+18%</div>
+        <div class="stat-label">납기 준수율 향상<br>(동종 SME 비교)</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">85%</div>
+        <div class="stat-label">OEE 세계 수준 벤치마크<br>(현재 목표: 80% → 이행)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SLIDE 4: 3대 전략 축 ══════════ -->
+  <section class="slide" id="s4">
+    <span class="slide-num">04 / 10</span>
+    <div class="eyebrow">Strategy</div>
+    <h2>2026 3대 전략 축.</h2>
+    <div class="axis-grid">
+      <div class="axis-card a1">
+        <div class="axis-icon">🏆</div>
+        <div class="axis-title">품질 경쟁력<br>강화</div>
+        <div class="axis-kpi">
+          <span>불량률</span> 0.3% 이하<br>
+          <span>고객 클레임</span> 50% 감소<br>
+          <span>CAPA 완료율</span> 95%+<br>
+          <span>RTY</span> 98% 달성
+        </div>
+      </div>
+      <div class="axis-card a2">
+        <div class="axis-icon">⚙️</div>
+        <div class="axis-title">생산성<br>향상</div>
+        <div class="axis-kpi">
+          <span>OEE</span> 80% 이상<br>
+          <span>납기 준수율</span> 98%+<br>
+          <span>설비 가동률</span> 향상<br>
+          <span>생산 리드타임</span> 단축
+        </div>
+      </div>
+      <div class="axis-card a3">
+        <div class="axis-icon">🌏</div>
+        <div class="axis-title">고객 기반<br>확대</div>
+        <div class="axis-kpi">
+          <span>신규 고객</span> 3사 이상<br>
+          <span>AS9100D</span> 인증 완료<br>
+          <span>납품 단가</span> 경쟁력 확보<br>
+          <span>고객 만족도</span> 향상
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SLIDE 5: 라이프사이클 ══════════ -->
+  <section class="slide" id="s5">
+    <span class="slide-num">05 / 10</span>
+    <div class="eyebrow">Process</div>
+    <h2>KPI 운영 라이프사이클.</h2>
+    <div class="lifecycle-flow">
+      <div class="phase-block">
+        <div class="phase-icon">📋</div>
+        <div class="phase-name">수립</div>
+        <div class="phase-period">7월 초</div>
+        <div class="phase-desc">SMART 기준으로 부문별 KPI 설계 및 경영진 확정</div>
+      </div>
+      <div class="phase-arrow">→</div>
+      <div class="phase-block">
+        <div class="phase-icon">📊</div>
+        <div class="phase-name">월간 추적</div>
+        <div class="phase-period">매월 5일</div>
+        <div class="phase-desc">실적 입력 → 달성률 산출 → 이슈·개선계획 보고</div>
+      </div>
+      <div class="phase-arrow">→</div>
+      <div class="phase-block">
+        <div class="phase-icon">🔍</div>
+        <div class="phase-name">분기 점검</div>
+        <div class="phase-period">9월·12월</div>
+        <div class="phase-desc">누적 트렌드 분석 및 하반기 목표 재조정</div>
+      </div>
+      <div class="phase-arrow">→</div>
+      <div class="phase-block">
+        <div class="phase-icon">🏅</div>
+        <div class="phase-name">연말 평가</div>
+        <div class="phase-period">12월 말</div>
+        <div class="phase-desc">S/A/B/C/D 등급 산출 및 2027 목표 연계</div>
+      </div>
+    </div>
+    <div class="cycle-detail">
+      <div class="cycle-sub"><strong>S등급 (95%+)</strong>탁월한 성과. 2027 목표 상향 + 우수 사례 전파</div>
+      <div class="cycle-sub"><strong>A등급 (90~94%)</strong>우수 성과. 목표 유지 또는 소폭 상향</div>
+      <div class="cycle-sub"><strong>B등급 (80~89%)</strong>양호. 원인 분석 및 개선계획 수립 필요</div>
+      <div class="cycle-sub"><strong>C/D등급 (~79%)</strong>미달. 즉시 CAPA 수립 + 경영진 보고</div>
+    </div>
+  </section>
+
+  <!-- ══════════ SLIDE 6: 부문별 KPI ══════════ -->
+  <section class="slide" id="s6">
+    <span class="slide-num">06 / 10</span>
+    <div class="eyebrow">Departments</div>
+    <h2>5개 부문 KPI 구조.</h2>
+    <div class="dept-grid">
+      <div class="dept-card mgt">
+        <div class="dept-icon">🏢</div>
+        <div class="dept-name">관리부문</div>
+        <div class="dept-id">MGT-001~</div>
+        <div class="dept-kpi-list">
+          교육이수율<br>
+          납기준수율<br>
+          설비가동률<br>
+          채용이행률<br>
+          예산집행율
+        </div>
+      </div>
+      <div class="dept-card pr1">
+        <div class="dept-icon">🏭</div>
+        <div class="dept-name">생산1부문</div>
+        <div class="dept-id">PR1-001~</div>
+        <div class="dept-kpi-list">
+          생산계획달성률<br>
+          OEE<br>
+          납기준수율<br>
+          불량률<br>
+          설비고장시간
+        </div>
+      </div>
+      <div class="dept-card pr2">
+        <div class="dept-icon">⚙️</div>
+        <div class="dept-name">생산2+금형</div>
+        <div class="dept-id">PR2-001~</div>
+        <div class="dept-kpi-list">
+          생산실적율<br>
+          금형수리기간<br>
+          OEE<br>
+          불량률<br>
+          금형유지율
+        </div>
+      </div>
+      <div class="dept-card qua">
+        <div class="dept-icon">✅</div>
+        <div class="dept-name">품질부문</div>
+        <div class="dept-id">QUA-001~</div>
+        <div class="dept-kpi-list">
+          불량률<br>
+          RTY<br>
+          CAPA완료율<br>
+          고객클레임<br>
+          협력사품질
+        </div>
+      </div>
+      <div class="dept-card sls">
+        <div class="dept-icon">📈</div>
+        <div class="dept-name">개발영업</div>
+        <div class="dept-id">SLS-001~</div>
+        <div class="dept-kpi-list">
+          매출달성률<br>
+          신규고객<br>
+          견적승인율<br>
+          납기준수율<br>
+          AS9100D준비
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SLIDE 7: SMART ══════════ -->
+  <section class="slide" id="s7">
+    <span class="slide-num">07 / 10</span>
+    <div class="eyebrow">Criteria</div>
+    <h2>좋은 KPI의 5가지 기준.</h2>
+    <div class="smart-grid">
+      <div class="smart-card">
+        <div class="smart-letter-big">S</div>
+        <div class="smart-word">Specific</div>
+        <div class="smart-sub">무엇을 어떻게<br>측정하는지 명확</div>
+      </div>
+      <div class="smart-card">
+        <div class="smart-letter-big">M</div>
+        <div class="smart-word">Measurable</div>
+        <div class="smart-sub">수식·출처가<br>명확한 수치</div>
+      </div>
+      <div class="smart-card">
+        <div class="smart-letter-big">A</div>
+        <div class="smart-word">Achievable</div>
+        <div class="smart-sub">전년 실적 기반<br>현실적 목표</div>
+      </div>
+      <div class="smart-card">
+        <div class="smart-letter-big">R</div>
+        <div class="smart-word">Relevant</div>
+        <div class="smart-sub">회사 전략·<br>부문 목표 연결</div>
+      </div>
+      <div class="smart-card">
+        <div class="smart-letter-big">T</div>
+        <div class="smart-word">Time-bound</div>
+        <div class="smart-sub">YYYY-MM-DD<br>형식의 명확한 기한</div>
+      </div>
+    </div>
+    <div class="example-row">
+      <div class="ex-box bad">
+        <div class="ex-label">✗ 나쁜 예시</div>
+        "품질을 향상시킨다" — 측정 불가, 기한 없음, 달성 여부 판단 불가
+      </div>
+      <div class="ex-box good">
+        <div class="ex-label">✓ 좋은 예시</div>
+        "2026-12-31까지 완제품 불량률을 현재 0.8%에서 0.3% 이하로 감소 (월간 QC 보고서 기준)"
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SLIDE 8: 내가 할 일 ══════════ -->
+  <section class="slide" id="s8">
+    <span class="slide-num">08 / 10</span>
+    <div class="eyebrow">Action</div>
+    <h2>각 역할의 할 일.</h2>
+    <div class="role-grid">
+      <div class="role-card">
+        <div class="role-title">부문장 / 팀장</div>
+        <div class="role-item">부문 KPI 초안 작성 (SMART 기준)</div>
+        <div class="role-item">KPI_수립서_TEMPLATE.xlsx 작성 후 경영지원팀 제출</div>
+        <div class="role-item">가중치 합계 100% 확인 (F12 셀)</div>
+        <div class="role-item">월간 실적 데이터 수집·검증 책임</div>
+        <div class="role-item">분기 목표 재조정 시 경영진 보고</div>
+      </div>
+      <div class="role-card">
+        <div class="role-title">KPI 담당자</div>
+        <div class="role-item">매월 5일까지 월간실적_TEMPLATE.xlsx 입력</div>
+        <div class="role-item">달성률 공식 확인: 실적 ÷ 목표 × 100</div>
+        <div class="role-item">이슈 발생 시 원인 및 개선계획 반드시 기재</div>
+        <div class="role-item">전월 대비 증감 추이 분석</div>
+        <div class="role-item">측정 데이터 원본 보관 (감사 대비)</div>
+      </div>
+      <div class="role-card">
+        <div class="role-title">경영지원팀</div>
+        <div class="role-item">KPI 제출 현황 취합 및 독촉</div>
+        <div class="role-item">부문간 가중치·형식 일관성 검토</div>
+        <div class="role-item">월간 보고서 취합 → 경영진 보고용 대시보드 생성</div>
+        <div class="role-item">분기별 전체 실적 분석 보고서 작성</div>
+        <div class="role-item">연말 평가 등급 산출 및 결과 통보</div>
+      </div>
+    </div>
+    <div class="deadline-box">
+      <div class="deadline-icon">📅</div>
+      <div class="deadline-text">
+        <strong>제출 기한: 2026년 6월 28일(일)까지</strong> —
+        KPI 수립서 완성본을 경영지원팀(jhlim@mistop.org)에 이메일 제출.
+        미제출 부문은 경영진 면담 진행 예정.
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SLIDE 9: GANTT ══════════ -->
+  <section class="slide" id="s9">
+    <span class="slide-num">09 / 10</span>
+    <div class="eyebrow">Schedule</div>
+    <h2>2026 H2 KPI 추진 일정.</h2>
+    <div class="gantt-wrap">
+      <table class="gantt-table" id="ganttTable">
+        <thead>
+          <tr>
+            <th class="task-col">업무</th>
+            <th>7월</th>
+            <th>8월</th>
+            <th>9월</th>
+            <th>10월</th>
+            <th>11월</th>
+            <th>12월</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="task-label">KPI 수립 &amp; 확정</div>
+              <div class="task-team">전 부문 / 경영지원</div>
+            </td>
+            <td colspan="6" class="bar-cell" style="position:relative;">
+              <div class="gantt-bar c-accent" style="left:2%; width:28%;" data-target-width="28%"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="task-label">월간 실적 보고</div>
+              <div class="task-team">각 부문 담당자</div>
+            </td>
+            <td colspan="6" class="bar-cell" style="position:relative;">
+              <div class="gantt-bar c-green" style="left:16%; width:82%;" data-target-width="82%"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="task-label">Q3 분기 점검</div>
+              <div class="task-team">경영진 + 부문장</div>
+            </td>
+            <td colspan="6" class="bar-cell" style="position:relative;">
+              <div class="gantt-bar c-blue" style="left:48%; width:12%;" data-target-width="12%"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="task-label">AS9100D 내부감사</div>
+              <div class="task-team">품질부문</div>
+            </td>
+            <td colspan="6" class="bar-cell" style="position:relative;">
+              <div class="gantt-bar c-purple" style="left:33%; width:32%;" data-target-width="32%"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="task-label">연말 평가 &amp; 2027 목표</div>
+              <div class="task-team">전 부문 / 경영진</div>
+            </td>
+            <td colspan="6" class="bar-cell" style="position:relative;">
+              <div class="gantt-bar c-orange" style="left:82%; width:16%;" data-target-width="16%"></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ══════════ SLIDE 10: 마무리 ══════════ -->
+  <section class="slide" id="s10">
+    <span class="slide-num">10 / 10</span>
+    <div class="eyebrow">Closing</div>
+    <h2>핵심 메시지.</h2>
+    <div class="closing-grid">
+      <div>
+        <ul class="takeaway-list">
+          <li>
+            <div class="takeaway-num">1</div>
+            KPI는 평가 도구가 아니라 <strong>방향을 맞추는 나침반</strong>입니다. 숫자는 수단이고 팀의 성공이 목적입니다.
+          </li>
+          <li>
+            <div class="takeaway-num">2</div>
+            <strong>6월 28일까지</strong> KPI 수립서를 제출해야 7월 1일부터 공식 추적이 시작됩니다.
+          </li>
+          <li>
+            <div class="takeaway-num">3</div>
+            측정하지 않으면 개선할 수 없습니다. <strong>데이터가 쌓일수록</strong> 내년 목표 설정이 정교해집니다.
+          </li>
+          <li>
+            <div class="takeaway-num">4</div>
+            AS9100D 인증과 KPI는 같은 방향입니다. <strong>품질 시스템 구축 = 회사 경쟁력</strong>입니다.
+          </li>
+        </ul>
+      </div>
+      <div class="faq-section">
+        <h3>자주 묻는 질문</h3>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+          <div class="faq-q">KPI 항목 수는 몇 개가 적당한가요?</div>
+          <div class="faq-a">부문당 5~8개를 권장합니다. 최소 5개 이상이어야 다양한 성과 측면을 반영하고, 8개를 초과하면 관리 부담이 커집니다. 가중치 합계는 반드시 100%여야 합니다.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+          <div class="faq-q">목표치를 얼마나 높게 설정해야 하나요?</div>
+          <div class="faq-a">전년 실적 대비 10~15% 향상을 기준으로 설정하세요. 너무 쉬운 목표는 동기부여가 낮고, 너무 높으면 구성원이 포기합니다. Achievable(달성 가능)이 핵심입니다.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+          <div class="faq-q">월간 실적 데이터는 어디서 가져오나요?</div>
+          <div class="faq-a">각 부문 ERP·생산 시스템의 기존 보고서를 활용합니다. 데이터 출처를 KPI 수립서의 "측정방법" 칸에 명시해 두면 나중에 검증이 쉽습니다.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+          <div class="faq-q">달성률이 낮을 때 어떻게 하나요?</div>
+          <div class="faq-a">70% 미만 시 즉시 원인 분석과 CAPA(시정 및 예방조치)를 수립하고 부문장 보고가 필요합니다. 숨기는 것보다 조기 발견이 훨씬 낫습니다.</div>
+        </div>
+      </div>
+    </div>
+    <div class="cta-bar">
+      질문·문의: 경영지원팀 jhlim@mistop.org &nbsp;|&nbsp; KPI 수립서 제출 기한: 2026-06-28
+    </div>
+  </section>
+
+</div><!-- /.deck -->
+
+<script>
+  // ── Nav dot update ──
+  const slides = document.querySelectorAll('.slide');
+  const navLinks = document.querySelectorAll('.nav a');
+  const deck = document.getElementById('deck');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const idx = [...slides].indexOf(entry.target);
+        navLinks.forEach((l, i) => l.classList.toggle('active', i === idx));
+      }
+    });
+  }, { root: deck, threshold: 0.5 });
+
+  slides.forEach(s => observer.observe(s));
+
+  // ── Gantt bar animation (aesthetic risk) ──
+  const ganttBars = document.querySelectorAll('.gantt-bar');
+  let ganttAnimated = false;
+
+  const ganttObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !ganttAnimated) {
+        ganttAnimated = true;
+        ganttBars.forEach((bar, i) => {
+          const targetWidth = bar.style.width;
+          bar.style.width = '0%';
+          setTimeout(() => {
+            bar.classList.add('animate');
+            bar.style.width = targetWidth;
+          }, i * 200);
+        });
+      }
+    });
+  }, { root: deck, threshold: 0.3 });
+
+  const slide9 = document.getElementById('s9');
+  if (slide9) ganttObserver.observe(slide9);
+
+  // ── Keyboard navigation ──
+  document.addEventListener('keydown', e => {
+    const cur = Math.round(deck.scrollTop / deck.clientHeight);
+    if (e.key === 'ArrowDown' || e.key === 'PageDown') {
+      deck.scrollTo({ top: (cur + 1) * deck.clientHeight, behavior: 'smooth' });
+    }
+    if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+      deck.scrollTo({ top: (cur - 1) * deck.clientHeight, behavior: 'smooth' });
+    }
+  });
+</script>

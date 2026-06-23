@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"d:\\\\Michael\\\\OneDrive - Team Redpanda\\\\ClaudeCowork\\\\.gitignore\"}",
+  "error": "File does not exist. Note: your current working directory is D:\\Michael\\OneDrive - Team Redpanda\\ClaudeCowork\\01_경영재무\\사업계획\\2027년도계획.",
+  "timestamp": "2026-06-23T04:58:02.369Z",
+  "retry_count": 1
+}

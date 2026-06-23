@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"cd \\\"D:\\\\Michael\\\\OneDrive - Team Redpanda\\\\ClaudeCowork\\\\01_경영재무\\\\KPI\\\\2026년\\\"; python kpi-system/scripts/03_generate_dashboard.py\",\"description\":\"대시보드 생성\"}",
+  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"D:\\Michael\\OneDrive - Team Redpanda\\ClaudeCowork\\01_�濵�繫\\KPI\\2026��\\kpi-system\\scripts\\03_generate_dashboard.py\", line 227, in <module>\r\n    main()\r\n    ~~~~^^\r\n  File \"D:\\Michael\\OneDrive - Team Redpanda\\ClaudeCowork\\01_�濵�繫\\KPI\\2026��\\kpi-system\\scripts\\03_generate_dashboard.py\", line 214, in main\r\n    print(\"\\u2705 index.html ���� �Ϸ�\")\r\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nUnicodeEncodeError: 'cp949' codec can't encode character '\\u270...",
+  "timestamp": "2026-06-22T05:27:40.934Z",
+  "retry_count": 1
+}

@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>인사카드 등록 — DFD · 플로우차트</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Malgun Gothic', 'Noto Sans KR', sans-serif; background: #f0f2f5; color: #222; }
+
+  header {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 18px 32px;
+    display: flex; align-items: center; gap: 16px;
+  }
+  header h1 { font-size: 20px; font-weight: 700; }
+  header span { font-size: 13px; opacity: .7; margin-left: auto; }
+
+  nav {
+    display: flex; gap: 0;
+    background: #fff;
+    border-bottom: 2px solid #1a3a5c;
+    padding: 0 32px;
+  }
+  nav button {
+    padding: 12px 28px; font-size: 14px; font-weight: 600;
+    border: none; background: none; cursor: pointer; color: #555;
+    border-bottom: 3px solid transparent; margin-bottom: -2px;
+    transition: all .2s;
+  }
+  nav button.active { color: #1a3a5c; border-bottom-color: #1a3a5c; }
+  nav button:hover { color: #1a3a5c; }
+
+  .page { display: none; padding: 28px 32px; }
+  .page.active { display: block; }
+
+  h2 { font-size: 17px; color: #1a3a5c; margin-bottom: 6px; }
+  .subtitle { font-size: 13px; color: #666; margin-bottom: 24px; }
+
+  /* ── DFD ─────────────────────────────────── */
+  .dfd-wrap { overflow-x: auto; }
+  svg text { font-family: 'Malgun Gothic', 'Noto Sans KR', sans-serif; }
+
+  /* ── Legend ──────────────────────────────── */
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 16px;
+    background: #fff; border: 1px solid #dde2ea; border-radius: 8px;
+    padding: 14px 20px; margin-bottom: 20px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+  .legend-box { width: 28px; height: 18px; border-radius: 3px; }
+  .lb-ext  { background: #4a90d9; }
+  .lb-proc { background: #27ae60; border-radius: 50%; }
+  .lb-ds   { background: #f39c12; }
+  .lb-flow { width: 32px; height: 2px; background: #666; position: relative; }
+  .lb-flow::after { content: '▶'; position: absolute; right: -6px; top: -8px; color: #666; font-size: 12px; }
+
+  /* ── Flowchart ───────────────────────────── */
+  .fc-wrap { overflow-x: auto; }
+
+  /* ── Info cards ──────────────────────────── */
+  .info-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px; margin-top: 24px;
+  }
+  .info-card {
+    background: #fff; border-radius: 10px; border: 1px solid #dde2ea;
+    padding: 16px 20px;
+  }
+  .info-card h3 { font-size: 14px; color: #1a3a5c; margin-bottom: 10px; border-bottom: 1px solid #eef; padding-bottom: 6px; }
+  .info-card ul { list-style: none; }
+  .info-card ul li { font-size: 13px; color: #444; padding: 3px 0; display: flex; align-items: flex-start; gap: 6px; }
+  .info-card ul li::before { content: '•'; color: #4a90d9; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+  .badge { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; margin-left: 4px; }
+  .badge-hr { background: #fdecea; color: #c0392b; }
+  .badge-all { background: #e8f4fd; color: #2980b9; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div style="font-size:11px;opacity:.6;margin-bottom:2px;">M&amp;C ELECTRONICS VINA — 인사시스템</div>
+    <h1>인사카드 등록 — DFD · 플로우차트</h1>
+  </div>
+  <span>기준: 인사카드_양식_베트남법인.xlsx · 2026-06-16</span>
+</header>
+
+<nav>
+  <button class="active" onclick="show('dfd',this)">① 데이터 흐름도 (DFD)</button>
+  <button onclick="show('flow',this)">② 등록 플로우차트</button>
+  <button onclick="show('update',this)">③ 갱신 플로우차트</button>
+  <button onclick="show('info',this)">④ 시트 구성 요약</button>
+</nav>
+
+<!-- ════════════════════════════════════════════
+     PAGE 1 : DFD (Context + Level-1)
+═══════════════════════════════════════════════ -->
+<div id="dfd" class="page active">
+  <h2>데이터 흐름도 (DFD) — Level 1</h2>
+  <p class="subtitle">인사카드 등록·관리 시스템의 주요 데이터 흐름을 표현합니다.</p>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-box lb-ext"></div> 외부 개체 (External Entity)</div>
+    <div class="legend-item"><div class="legend-box lb-proc" style="width:22px;height:22px;border-radius:50%;"></div> 프로세스 (Process)</div>
+    <div class="legend-item"><div class="legend-box lb-ds"></div> 데이터 저장소 (Data Store)</div>
+    <div class="legend-item"><div class="legend-box lb-flow"></div> 데이터 흐름 (Data Flow)</div>
+  </div>
+
+  <div class="dfd-wrap">
+  <svg viewBox="0 0 1020 720" width="1020" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;border-radius:10px;background:#fafbfd;box-shadow:0 2px 12px rgba(0,0,0,.08);">
+    <defs>
+      <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+      </marker>
+      <marker id="arr-red" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L8,3 z" fill="#c0392b"/>
+      </marker>
+      <marker id="arr-green" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L8,3 z" fill="#27ae60"/>
+      </marker>
+    </defs>
+
+    <!-- ── 타이틀 ── -->
+    <text x="510" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3a5c">인사카드 데이터 흐름도 (DFD Level-1)</text>
+
+    <!-- ═══ 외부 개체 ═══ -->
+    <!-- E1 신규직원 -->
+    <rect x="30" y="80" width="120" height="52" rx="4" fill="#4a90d9" opacity=".9"/>
+    <text x="90" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">신규 직원</text>
+    <text x="90" y="118" text-anchor="middle" font-size="11" fill="#dceeff">Nhân viên mới</text>
+
+    <!-- E2 부서장 -->
+    <rect x="30" y="290" width="120" height="52" rx="4" fill="#4a90d9" opacity=".9"/>
+    <text x="90" y="310" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">부서장</text>
+    <text x="90" y="328" text-anchor="middle" font-size="11" fill="#dceeff">Trưởng phòng</text>
+
+    <!-- E3 HR관리자/임원 -->
+    <rect x="30" y="490" width="120" height="52" rx="4" fill="#4a90d9" opacity=".9"/>
+    <text x="90" y="507" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">HR관리자 / 임원</text>
+    <text x="90" y="525" text-anchor="middle" font-size="11" fill="#dceeff">Quản lý HR</text>
+
+    <!-- E4 HR 담당자 (출력) -->
+    <rect x="870" y="80" width="120" height="52" rx="4" fill="#4a90d9" opacity=".9"/>
+    <text x="930" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">HR 담당자</text>
+    <text x="930" y="118" text-anchor="middle" font-size="11" fill="#dceeff">Nhân viên HR</text>
+
+    <!-- ═══ 프로세스 ═══ -->
+    <!-- P1 인사카드 생성 -->
+    <circle cx="300" cy="130" r="72" fill="#27ae60" opacity=".88"/>
+    <text x="300" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">P1</text>
+    <text x="300" y="135" text-anchor="middle" font-size="12" fill="#fff">인사카드</text>
+    <text x="300" y="151" text-anchor="middle" font-size="12" fill="#fff">신규 등록</text>
+
+    <!-- P2 발령·이력 관리 -->
+    <circle cx="510" cy="250" r="72" fill="#27ae60" opacity=".88"/>
+    <text x="510" y="238" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">P2</text>
+    <text x="510" y="255" text-anchor="middle" font-size="12" fill="#fff">발령·이력</text>
+    <text x="510" y="271" text-anchor="middle" font-size="12" fill="#fff">관리</text>
+
+    <!-- P3 인사평가 -->
+    <circle cx="300" cy="400" r="72" fill="#27ae60" opacity=".88"/>
+    <text x="300" y="388" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">P3</text>
+    <text x="300" y="405" text-anchor="middle" font-size="12" fill="#fff">인사평가</text>
+    <text x="300" y="421" text-anchor="middle" font-size="12" fill="#fff">기록</text>
+
+    <!-- P4 급여등급 관리 -->
+    <circle cx="510" cy="530" r="72" fill="#c0392b" opacity=".85"/>
+    <text x="510" y="518" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">P4</text>
+    <text x="510" y="535" text-anchor="middle" font-size="12" fill="#fff">급여등급</text>
+    <text x="510" y="551" text-anchor="middle" font-size="12" fill="#fff">관리 [HR전용]</text>
+
+    <!-- P5 자격증 관리 -->
+    <circle cx="720" cy="350" r="65" fill="#27ae60" opacity=".88"/>
+    <text x="720" y="338" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">P5</text>
+    <text x="720" y="355" text-anchor="middle" font-size="12" fill="#fff">자격증</text>
+    <text x="720" y="371" text-anchor="middle" font-size="12" fill="#fff">관리</text>
+
+    <!-- ═══ 데이터 저장소 ═══ -->
+    <!-- DS1 인사카드 DB (시트②) -->
+    <rect x="620" y="80" width="200" height="42" rx="0" fill="none" stroke="#f39c12" stroke-width="2"/>
+    <line x1="620" y1="80" x2="620" y2="122" stroke="#f39c12" stroke-width="2"/>
+    <line x1="820" y1="80" x2="820" y2="122" stroke="#f39c12" stroke-width="2"/>
+    <text x="720" y="97" text-anchor="middle" font-size="12" font-weight="bold" fill="#b7770d">DS1  인사카드 (시트②)</text>
+    <text x="720" y="113" text-anchor="middle" font-size="11" fill="#888">기본정보·연락처·학력</text>
+
+    <!-- DS2 진급·이력 DB (시트③) -->
+    <rect x="620" y="180" width="200" height="42" rx="0" fill="none" stroke="#f39c12" stroke-width="2"/>
+    <line x1="620" y1="180" x2="620" y2="222" stroke="#f39c12" stroke-width="2"/>
+    <line x1="820" y1="180" x2="820" y2="222" stroke="#f39c12" stroke-width="2"/>
+    <text x="720" y="197" text-anchor="middle" font-size="12" font-weight="bold" fill="#b7770d">DS2  진급·이력 (시트③)</text>
+    <text x="720" y="213" text-anchor="middle" font-size="11" fill="#888">진급이력·발령이력</text>
+
+    <!-- DS3 자격증 DB (시트④) -->
+    <rect x="620" y="450" width="200" height="42" rx="0" fill="none" stroke="#f39c12" stroke-width="2"/>
+    <line x1="620" y1="450" x2="620" y2="492" stroke="#f39c12" stroke-width="2"/>
+    <line x1="820" y1="450" x2="820" y2="492" stroke="#f39c12" stroke-width="2"/>
+    <text x="720" y="467" text-anchor="middle" font-size="12" font-weight="bold" fill="#b7770d">DS3  자격증 (시트④)</text>
+    <text x="720" y="483" text-anchor="middle" font-size="11" fill="#888">자격증·인증 목록</text>
+
+    <!-- DS4 인사평가 DB — HR전용 (시트⑤) -->
+    <rect x="390" y="550" width="220" height="42" rx="0" fill="none" stroke="#c0392b" stroke-width="2"/>
+    <line x1="390" y1="550" x2="390" y2="592" stroke="#c0392b" stroke-width="2"/>
+    <line x1="610" y1="550" x2="610" y2="592" stroke="#c0392b" stroke-width="2"/>
+    <text x="500" y="567" text-anchor="middle" font-size="12" font-weight="bold" fill="#c0392b">DS4  인사평가 [HR전용] (시트⑤)</text>
+    <text x="500" y="583" text-anchor="middle" font-size="11" fill="#888">평가연도·등급·평가자</text>
+
+    <!-- DS5 급여등급 DB — HR전용 (시트⑥) -->
+    <rect x="390" y="640" width="220" height="42" rx="0" fill="none" stroke="#c0392b" stroke-width="2"/>
+    <line x1="390" y1="640" x2="390" y2="682" stroke="#c0392b" stroke-width="2"/>
+    <line x1="610" y1="640" x2="610" y2="682" stroke="#c0392b" stroke-width="2"/>
+    <text x="500" y="657" text-anchor="middle" font-size="12" font-weight="bold" fill="#c0392b">DS5  급여등급 [HR전용] (시트⑥)</text>
+    <text x="500" y="673" text-anchor="middle" font-size="11" fill="#888">등급코드·변경이력·승인자</text>
+
+    <!-- ═══ 데이터 흐름 ═══ -->
+    <!-- E1 → P1: 기본정보 제출 -->
+    <line x1="150" y1="106" x2="226" y2="120" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="170" y="103" font-size="11" fill="#333">기본정보·학력 제출</text>
+
+    <!-- P1 → DS1: 인사카드 저장 -->
+    <line x1="372" y1="112" x2="620" y2="101" stroke="#27ae60" stroke-width="1.5" marker-end="url(#arr-green)"/>
+    <text x="450" y="97" font-size="11" fill="#1e8449">인사카드 저장</text>
+
+    <!-- P1 → E4 (HR담당자에게 완료 통보) -->
+    <line x1="370" y1="104" x2="870" y2="96" stroke="#555" stroke-width="1.5" stroke-dasharray="5,4" marker-end="url(#arr)"/>
+    <text x="600" y="75" font-size="11" fill="#555">등록 완료 통보</text>
+
+    <!-- E2 → P2: 발령정보 -->
+    <line x1="150" y1="310" x2="438" y2="268" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="220" y="278" font-size="11" fill="#333">발령·전보 정보</text>
+
+    <!-- P2 → DS2: 이력 저장 -->
+    <line x1="582" y1="215" x2="620" y2="205" stroke="#27ae60" stroke-width="1.5" marker-end="url(#arr-green)"/>
+    <text x="590" y="198" font-size="11" fill="#1e8449">이력 저장</text>
+
+    <!-- P2 → DS1: 직위 갱신 -->
+    <line x1="582" y1="230" x2="720" y2="122" stroke="#27ae60" stroke-width="1.5" marker-end="url(#arr-green)"/>
+    <text x="670" y="158" font-size="11" fill="#1e8449">직위 갱신</text>
+
+    <!-- E2 → P3: 평가 제출 -->
+    <line x1="150" y1="326" x2="228" y2="370" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="133" y="355" font-size="11" fill="#333">인사평가 제출</text>
+
+    <!-- P3 → DS4 -->
+    <line x1="340" y1="469" x2="430" y2="550" stroke="#c0392b" stroke-width="1.5" marker-end="url(#arr-red)"/>
+    <text x="340" y="512" font-size="11" fill="#c0392b">평가 저장</text>
+
+    <!-- HR관리자 → P3 승인 -->
+    <line x1="150" y1="510" x2="228" y2="430" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="105" y="465" font-size="11" fill="#333">평가 승인</text>
+
+    <!-- HR관리자 → P4 -->
+    <line x1="150" y1="526" x2="438" y2="530" stroke="#c0392b" stroke-width="1.5" marker-end="url(#arr-red)"/>
+    <text x="215" y="518" font-size="11" fill="#c0392b">급여등급 지시</text>
+
+    <!-- P4 → DS4 평가 연동 -->
+    <line x1="510" y1="458" x2="500" y2="550" stroke="#c0392b" stroke-width="1.5" marker-end="url(#arr-red)"/>
+    <text x="515" y="508" font-size="11" fill="#c0392b">평가 연동</text>
+
+    <!-- P4 → DS5 -->
+    <line x1="510" y1="602" x2="500" y2="640" stroke="#c0392b" stroke-width="1.5" marker-end="url(#arr-red)"/>
+    <text x="515" y="626" font-size="11" fill="#c0392b">등급 저장</text>
+
+    <!-- P4 → DS1 급여코드 갱신 -->
+    <line x1="580" y1="500" x2="720" y2="122" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr-red)"/>
+    <text x="695" y="310" font-size="11" fill="#c0392b">급여코드 갱신</text>
+
+    <!-- 신규직원 → P5 자격증 제출 -->
+    <line x1="150" y1="118" x2="655" y2="318" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="300" y="200" font-size="11" fill="#333">자격증 서류</text>
+
+    <!-- P5 → DS3 -->
+    <line x1="720" y1="415" x2="720" y2="450" stroke="#27ae60" stroke-width="1.5" marker-end="url(#arr-green)"/>
+    <text x="728" y="436" font-size="11" fill="#1e8449">자격증 저장</text>
+
+    <!-- DS1 → E4 조회 -->
+    <line x1="820" y1="101" x2="870" y2="101" stroke="#555" stroke-width="1.5" stroke-dasharray="5,4" marker-end="url(#arr)"/>
+    <text x="832" y="94" font-size="11" fill="#555">조회</text>
+
+    <!-- 주석 박스 -->
+    <rect x="700" y="560" width="200" height="58" rx="6" fill="#fef9e7" stroke="#f39c12" stroke-width="1.2"/>
+    <text x="800" y="579" text-anchor="middle" font-size="11" font-weight="bold" fill="#b7770d">⚠ 접근 제한</text>
+    <text x="800" y="595" text-anchor="middle" font-size="11" fill="#7d6608">DS4·DS5 (시트⑤⑥):</text>
+    <text x="800" y="610" text-anchor="middle" font-size="11" fill="#7d6608">HR 관리자·임원만 열람</text>
+  </svg>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════
+     PAGE 2 : 등록 플로우차트
+═══════════════════════════════════════════════ -->
+<div id="flow" class="page">
+  <h2>인사카드 신규 등록 플로우차트</h2>
+  <p class="subtitle">신규 입사자 발생 시점부터 인사카드 등록 완료까지의 절차를 표현합니다.</p>
+
+  <div class="fc-wrap">
+  <svg viewBox="0 0 860 1200" width="860" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;border-radius:10px;background:#fafbfd;box-shadow:0 2px 12px rgba(0,0,0,.08);">
+    <defs>
+      <marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+      </marker>
+      <marker id="a2r" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L8,3 z" fill="#c0392b"/>
+      </marker>
+    </defs>
+
+    <!-- ── 스윔레인 배경 ── -->
+    <rect x="0" y="0" width="860" height="1200" fill="#f8f9fc"/>
+    <!-- 레인1: 신규직원 -->
+    <rect x="0" y="0" width="200" height="1200" fill="#e8f4fb" opacity=".6"/>
+    <text x="100" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5276">신규 직원</text>
+    <!-- 레인2: HR 담당자 -->
+    <rect x="200" y="0" width="260" height="1200" fill="#eafaf1" opacity=".6"/>
+    <text x="330" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5276">HR 담당자</text>
+    <!-- 레인3: HR 관리자/임원 -->
+    <rect x="460" y="0" width="200" height="1200" fill="#fdfde7" opacity=".6"/>
+    <text x="560" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5276">HR 관리자/임원</text>
+    <!-- 레인4: 시스템/저장소 -->
+    <rect x="660" y="0" width="200" height="1200" fill="#fef5e7" opacity=".6"/>
+    <text x="760" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5276">시스템 / 저장소</text>
+
+    <!-- 레인 구분선 -->
+    <line x1="200" y1="0" x2="200" y2="1200" stroke="#ccc" stroke-width="1"/>
+    <line x1="460" y1="0" x2="460" y2="1200" stroke="#ccc" stroke-width="1"/>
+    <line x1="660" y1="0" x2="660" y2="1200" stroke="#ccc" stroke-width="1"/>
+
+    <!-- ── 공통 함수: 박스 그리기를 SVG로 직접 작성 ── -->
+
+    <!-- [S] 시작: 신규 입사자 채용 결정 -->
+    <ellipse cx="100" cy="70" rx="75" ry="26" fill="#1a3a5c"/>
+    <text x="100" y="66" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">START</text>
+    <text x="100" y="81" text-anchor="middle" font-size="11" fill="#ddd">신규 입사자 채용</text>
+    <line x1="100" y1="96" x2="100" y2="118" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [1] 신규직원: 인사 서류 제출 -->
+    <rect x="20" y="120" width="160" height="52" rx="6" fill="#4a90d9"/>
+    <text x="100" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">① 인사 서류 제출</text>
+    <text x="100" y="156" text-anchor="middle" font-size="11" fill="#dceeff">신분증·학력·자격증</text>
+    <line x1="180" y1="146" x2="218" y2="146" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [2] HR: 서류 검토 -->
+    <rect x="220" y="120" width="220" height="52" rx="6" fill="#27ae60"/>
+    <text x="330" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">② 서류 검토 및 직원번호 부여</text>
+    <text x="330" y="156" text-anchor="middle" font-size="11" fill="#d5f5e3">Mã nhân viên 발급</text>
+    <line x1="330" y1="172" x2="330" y2="194" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [D1] 서류 완비 여부 -->
+    <polygon points="330,196 430,224 330,252 230,224" fill="#f39c12"/>
+    <text x="330" y="220" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">서류</text>
+    <text x="330" y="236" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">완비?</text>
+    <!-- 아니오 → 왼쪽으로 -->
+    <line x1="230" y1="224" x2="100" y2="224" stroke="#c0392b" stroke-width="1.5" marker-end="url(#a2r)"/>
+    <text x="160" y="216" font-size="11" fill="#c0392b">아니오</text>
+    <line x1="100" y1="224" x2="100" y2="172" stroke="#c0392b" stroke-width="1.5" marker-end="url(#a2r)"/>
+    <text x="107" y="200" font-size="10" fill="#c0392b">재제출</text>
+    <!-- 예 → 아래 -->
+    <line x1="330" y1="252" x2="330" y2="274" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+    <text x="340" y="266" font-size="11" fill="#27ae60">예</text>
+
+    <!-- [3] HR: 기본정보 입력 (시트②) -->
+    <rect x="220" y="276" width="220" height="62" rx="6" fill="#27ae60"/>
+    <text x="330" y="295" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">③ 기본정보 입력 (시트②)</text>
+    <text x="330" y="311" text-anchor="middle" font-size="11" fill="#d5f5e3">성명·생년월일·국적</text>
+    <text x="330" y="326" text-anchor="middle" font-size="11" fill="#d5f5e3">연락처·학력·직위·발령</text>
+    <line x1="440" y1="307" x2="680" y2="307" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [SYS1] DS1 저장 -->
+    <rect x="682" y="283" width="160" height="48" rx="4" fill="#f39c12" opacity=".9"/>
+    <text x="762" y="303" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">DS1 인사카드 저장</text>
+    <text x="762" y="320" text-anchor="middle" font-size="11" fill="#fff">시트② 기록</text>
+    <line x1="330" y1="338" x2="330" y2="360" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [4] HR: 자격증 입력 (시트④) -->
+    <rect x="220" y="362" width="220" height="52" rx="6" fill="#27ae60"/>
+    <text x="330" y="381" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">④ 자격증·인증 입력 (시트④)</text>
+    <text x="330" y="397" text-anchor="middle" font-size="11" fill="#d5f5e3">취득일·유효기간 기록</text>
+    <line x1="440" y1="388" x2="680" y2="388" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [SYS2] DS3 저장 -->
+    <rect x="682" y="364" width="160" height="48" rx="4" fill="#f39c12" opacity=".9"/>
+    <text x="762" y="384" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">DS3 자격증 저장</text>
+    <text x="762" y="400" text-anchor="middle" font-size="11" fill="#fff">시트④ 기록</text>
+    <line x1="330" y1="414" x2="330" y2="436" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [5] HR 관리자: 급여등급 설정 (시트⑥) — 제한 -->
+    <rect x="480" y="436" width="160" height="62" rx="6" fill="#c0392b"/>
+    <text x="560" y="455" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">⑤ 급여등급 설정</text>
+    <text x="560" y="471" text-anchor="middle" font-size="11" fill="#fadbd8">시트⑥ — HR 전용</text>
+    <text x="560" y="486" text-anchor="middle" font-size="11" fill="#fadbd8">비밀번호 보호 필요</text>
+    <!-- HR담당자 → HR관리자 -->
+    <line x1="330" y1="436" x2="330" y2="467" stroke="#555" stroke-width="1" stroke-dasharray="4,3"/>
+    <line x1="330" y1="467" x2="480" y2="467" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+    <text x="390" y="460" font-size="11" fill="#555">급여 결정 요청</text>
+    <line x1="640" y1="467" x2="680" y2="467" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [SYS3] DS5 저장 -->
+    <rect x="682" y="443" width="160" height="48" rx="4" fill="#c0392b" opacity=".85"/>
+    <text x="762" y="463" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">DS5 급여등급 저장</text>
+    <text x="762" y="479" text-anchor="middle" font-size="11" fill="#fadbd8">시트⑥ 기록</text>
+    <line x1="560" y1="498" x2="560" y2="520" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+    <line x1="560" y1="520" x2="330" y2="520" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [6] HR: 인사카드 검토·서명 -->
+    <rect x="220" y="522" width="220" height="52" rx="6" fill="#27ae60"/>
+    <text x="330" y="542" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">⑥ 인사카드 최종 검토</text>
+    <text x="330" y="558" text-anchor="middle" font-size="11" fill="#d5f5e3">기재사항 이상유무 확인</text>
+    <line x1="330" y1="574" x2="330" y2="596" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [D2] 이상 유무 -->
+    <polygon points="330,598 430,626 330,654 230,626" fill="#f39c12"/>
+    <text x="330" y="622" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">이상</text>
+    <text x="330" y="638" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">없음?</text>
+    <!-- 아니오 → 위로 되돌아감 -->
+    <line x1="230" y1="626" x2="190" y2="626" stroke="#c0392b" stroke-width="1.5" marker-end="url(#a2r)"/>
+    <line x1="190" y1="626" x2="190" y2="543" stroke="#c0392b" stroke-width="1.5"/>
+    <line x1="190" y1="543" x2="220" y2="543" stroke="#c0392b" stroke-width="1.5" marker-end="url(#a2r)"/>
+    <text x="150" y="580" font-size="10" fill="#c0392b">수정 후</text>
+    <text x="150" y="592" font-size="10" fill="#c0392b">재검토</text>
+    <!-- 예 → 아래 -->
+    <line x1="330" y1="654" x2="330" y2="676" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+    <text x="340" y="668" font-size="11" fill="#27ae60">예</text>
+
+    <!-- [7] HR 관리자: 최종 승인 -->
+    <rect x="480" y="676" width="160" height="52" rx="6" fill="#8e44ad"/>
+    <text x="560" y="696" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">⑦ HR 관리자</text>
+    <text x="560" y="712" text-anchor="middle" font-size="11" fill="#e8daef">최종 승인</text>
+    <line x1="330" y1="676" x2="330" y2="702" stroke="#555" stroke-width="1" stroke-dasharray="4,3"/>
+    <line x1="330" y1="702" x2="480" y2="702" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+    <text x="388" y="695" font-size="11" fill="#555">승인 요청</text>
+    <line x1="560" y1="728" x2="560" y2="756" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+    <line x1="560" y1="756" x2="330" y2="756" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [8] HR: 보안 저장 안내 -->
+    <rect x="220" y="758" width="220" height="62" rx="6" fill="#27ae60"/>
+    <text x="330" y="777" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">⑧ 보안 저장 및 공유 제한</text>
+    <text x="330" y="793" text-anchor="middle" font-size="11" fill="#d5f5e3">보안 서버/암호화 클라우드</text>
+    <text x="330" y="809" text-anchor="middle" font-size="11" fill="#d5f5e3">일반 이메일 전송 금지</text>
+    <line x1="440" y1="789" x2="680" y2="789" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [SYS4] 최종 저장 확인 -->
+    <rect x="682" y="765" width="160" height="48" rx="4" fill="#1a3a5c"/>
+    <text x="762" y="785" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">전체 저장 완료</text>
+    <text x="762" y="801" text-anchor="middle" font-size="11" fill="#aed6f1">DS1~5 등록 확인</text>
+    <line x1="330" y1="820" x2="330" y2="842" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <!-- [9] 직원에게 등록 완료 통보 -->
+    <rect x="20" y="844" width="160" height="52" rx="6" fill="#4a90d9"/>
+    <text x="100" y="864" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">⑨ 등록 완료 통보</text>
+    <text x="100" y="880" text-anchor="middle" font-size="11" fill="#dceeff">직원번호·카드 발급 안내</text>
+    <line x1="220" y1="870" x2="180" y2="870" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+    <line x1="330" y1="842" x2="100" y2="842" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+    <line x1="100" y1="842" x2="100" y2="844" stroke="#444" stroke-width="1.5"/>
+
+    <!-- [END] -->
+    <line x1="100" y1="896" x2="100" y2="920" stroke="#444" stroke-width="1.5" marker-end="url(#a2)"/>
+    <ellipse cx="100" cy="946" rx="75" ry="26" fill="#1a3a5c"/>
+    <text x="100" y="942" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">END</text>
+    <text x="100" y="957" text-anchor="middle" font-size="11" fill="#ddd">등록 완료</text>
+
+    <!-- 개인정보 주의 박스 -->
+    <rect x="680" y="870" width="168" height="80" rx="6" fill="#fef9e7" stroke="#e67e22" stroke-width="1.5"/>
+    <text x="764" y="890" text-anchor="middle" font-size="12" font-weight="bold" fill="#e67e22">⚠ 개인정보 준수</text>
+    <text x="764" y="907" text-anchor="middle" font-size="11" fill="#7d6608">Decree 13/2023 (VN)</text>
+    <text x="764" y="922" text-anchor="middle" font-size="11" fill="#7d6608">개인정보보호법 (KR)</text>
+    <text x="764" y="937" text-anchor="middle" font-size="11" fill="#7d6608">실수령급여 기재 금지</text>
+  </svg>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════
+     PAGE 3 : 갱신 플로우차트
+═══════════════════════════════════════════════ -->
+<div id="update" class="page">
+  <h2>인사카드 갱신 플로우차트</h2>
+  <p class="subtitle">직위·급여·평가 등 변경 사항 발생 시 인사카드를 갱신하는 절차입니다.</p>
+
+  <div class="fc-wrap">
+  <svg viewBox="0 0 760 1000" width="760" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;border-radius:10px;background:#fafbfd;box-shadow:0 2px 12px rgba(0,0,0,.08);">
+    <defs>
+      <marker id="a3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+      </marker>
+      <marker id="a3r" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L8,3 z" fill="#c0392b"/>
+      </marker>
+    </defs>
+
+    <rect x="0" y="0" width="760" height="1000" fill="#f8f9fc"/>
+
+    <!-- START -->
+    <ellipse cx="380" cy="50" rx="120" ry="28" fill="#1a3a5c"/>
+    <text x="380" y="46" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">변경 사유 발생</text>
+    <text x="380" y="63" text-anchor="middle" font-size="11" fill="#aed6f1">직위·급여·평가·자격증</text>
+    <line x1="380" y1="78" x2="380" y2="100" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+
+    <!-- 변경 유형 분기 -->
+    <polygon points="380,102 520,140 380,178 240,140" fill="#8e44ad"/>
+    <text x="380" y="136" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">변경</text>
+    <text x="380" y="153" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">유형?</text>
+
+    <!-- 분기 화살표 4방향 -->
+    <!-- 진급/발령 → 왼쪽 -->
+    <line x1="240" y1="140" x2="120" y2="140" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+    <text x="160" y="132" font-size="11" fill="#555">진급/발령</text>
+    <rect x="20" y="160" width="180" height="52" rx="6" fill="#27ae60"/>
+    <text x="110" y="180" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">발령·이력 입력</text>
+    <text x="110" y="196" text-anchor="middle" font-size="11" fill="#d5f5e3">시트③ 갱신</text>
+    <line x1="110" y1="140" x2="110" y2="160" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+
+    <!-- 인사평가 → 아래 왼쪽 -->
+    <line x1="320" y1="178" x2="200" y2="300" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+    <text x="225" y="240" font-size="11" fill="#555">인사평가</text>
+    <rect x="110" y="302" width="180" height="52" rx="6" fill="#c0392b"/>
+    <text x="200" y="322" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">인사평가 입력</text>
+    <text x="200" y="338" text-anchor="middle" font-size="11" fill="#fadbd8">시트⑤ — HR 전용</text>
+
+    <!-- 급여등급 → 아래 오른쪽 -->
+    <line x1="440" y1="178" x2="560" y2="300" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+    <text x="530" y="240" font-size="11" fill="#555">급여 조정</text>
+    <rect x="470" y="302" width="180" height="52" rx="6" fill="#c0392b"/>
+    <text x="560" y="322" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">급여등급 변경</text>
+    <text x="560" y="338" text-anchor="middle" font-size="11" fill="#fadbd8">시트⑥ — HR 전용</text>
+
+    <!-- 자격증 → 오른쪽 -->
+    <line x1="520" y1="140" x2="640" y2="140" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+    <text x="565" y="132" font-size="11" fill="#555">자격증</text>
+    <rect x="560" y="160" width="180" height="52" rx="6" fill="#27ae60"/>
+    <text x="650" y="180" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">자격증 갱신</text>
+    <text x="650" y="196" text-anchor="middle" font-size="11" fill="#d5f5e3">시트④ 갱신</text>
+
+    <!-- 각 분기 → 공통 합류점 -->
+    <line x1="110" y1="212" x2="110" y2="450" stroke="#444" stroke-width="1.5"/>
+    <line x1="200" y1="354" x2="200" y2="450" stroke="#444" stroke-width="1.5"/>
+    <line x1="560" y1="354" x2="560" y2="450" stroke="#444" stroke-width="1.5"/>
+    <line x1="650" y1="212" x2="650" y2="450" stroke="#444" stroke-width="1.5"/>
+    <line x1="110" y1="450" x2="650" y2="450" stroke="#444" stroke-width="1.5"/>
+    <line x1="380" y1="450" x2="380" y2="472" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+
+    <!-- DS1 직위 갱신 필요 여부 -->
+    <polygon points="380,474 500,502 380,530 260,502" fill="#f39c12"/>
+    <text x="380" y="498" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">시트② 직위코드</text>
+    <text x="380" y="514" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">갱신 필요?</text>
+    <line x1="500" y1="502" x2="580" y2="502" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+    <text x="527" y="494" font-size="11" fill="#27ae60">예</text>
+    <rect x="582" y="478" width="160" height="48" rx="6" fill="#27ae60"/>
+    <text x="662" y="498" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">시트② 직위·급여코드</text>
+    <text x="662" y="514" text-anchor="middle" font-size="11" fill="#d5f5e3">최종업데이트 갱신</text>
+    <line x1="380" y1="530" x2="380" y2="552" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+    <text x="388" y="544" font-size="11" fill="#c0392b">아니오</text>
+    <line x1="662" y1="526" x2="662" y2="552" stroke="#444" stroke-width="1.5"/>
+    <line x1="380" y1="552" x2="662" y2="552" stroke="#444" stroke-width="1.5"/>
+    <line x1="521" y1="552" x2="521" y2="574" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+
+    <!-- 검토 -->
+    <rect x="381" y="576" width="280" height="52" rx="6" fill="#8e44ad"/>
+    <text x="521" y="596" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">HR 관리자 검토 및 승인</text>
+    <text x="521" y="612" text-anchor="middle" font-size="11" fill="#e8daef">갱신 내용 최종 확인</text>
+    <line x1="521" y1="628" x2="521" y2="650" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+
+    <!-- 저장 완료 -->
+    <rect x="381" y="652" width="280" height="52" rx="6" fill="#1a3a5c"/>
+    <text x="521" y="672" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">변경 이력 저장 완료</text>
+    <text x="521" y="688" text-anchor="middle" font-size="11" fill="#aed6f1">갱신 일시 자동 기록</text>
+    <line x1="521" y1="704" x2="521" y2="726" stroke="#444" stroke-width="1.5" marker-end="url(#a3)"/>
+
+    <!-- END -->
+    <ellipse cx="521" cy="752" rx="120" ry="28" fill="#1a3a5c"/>
+    <text x="521" y="748" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">갱신 완료</text>
+    <text x="521" y="765" text-anchor="middle" font-size="11" fill="#aed6f1">인사카드 최신 상태 유지</text>
+
+    <!-- 주기적 갱신 안내 -->
+    <rect x="50" y="730" width="230" height="90" rx="8" fill="#fef9e7" stroke="#f39c12" stroke-width="1.5"/>
+    <text x="165" y="752" text-anchor="middle" font-size="12" font-weight="bold" fill="#b7770d">📋 정기 갱신 트리거</text>
+    <text x="165" y="770" text-anchor="middle" font-size="11" fill="#7d6608">• 직위·부서 변경 → 즉시</text>
+    <text x="165" y="786" text-anchor="middle" font-size="11" fill="#7d6608">• 인사평가 → 반기/연 1회</text>
+    <text x="165" y="802" text-anchor="middle" font-size="11" fill="#7d6608">• 급여등급 → 변경 즉시</text>
+    <text x="165" y="818" text-anchor="middle" font-size="11" fill="#7d6608">• 자격증 갱신 → 갱신 즉시</text>
+  </svg>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════
+     PAGE 4 : 시트 구성 요약
+═══════════════════════════════════════════════ -->
+<div id="info" class="page">
+  <h2>인사카드 시트 구성 요약</h2>
+  <p class="subtitle">인사카드_양식_베트남법인.xlsx / .docx 파일의 6개 시트별 내용 정리</p>
+
+  <div class="info-grid">
+    <div class="info-card">
+      <h3>① 안내 (Hướng dẫn) <span class="badge badge-all">전체 열람</span></h3>
+      <ul>
+        <li>작성 목적 및 파일 구성 설명</li>
+        <li>작성 언어: 베트남어 우선, 성명은 한국어 병기 가능</li>
+        <li>날짜 형식: YYYY-MM-DD</li>
+        <li>핵심인원 등급 기준: A(핵심)/B(중요)/C(잠재)</li>
+        <li>개인정보 보호 근거: VN Decree 13/2023 · KR 개인정보보호법</li>
+        <li>민감정보(실수령급여·건강정보·주민번호) 기재 금지</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>② 인사카드 (Hồ sơ nhân sự) <span class="badge badge-all">전체 열람</span></h3>
+      <ul>
+        <li><strong>A. 기본정보</strong>: 직원번호, 성명(VN·KO·EN), 생년월일, 성별, 국적, 핵심인원등급</li>
+        <li><strong>B. 연락처</strong>: 업무이메일, 업무전화, 자택주소, 비상연락처</li>
+        <li><strong>C. 직위·발령</strong>: 입사일, 고용형태, 부서, 근무지, 직위, 직급, 급여등급코드</li>
+        <li><strong>D. 학력</strong>: 최종학력, 졸업연도, 학교, 전공</li>
+        <li>증명사진(3×4cm) 첨부 필요 — 서면 동의 필수</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>③ 진급·이력 (Thăng chức &amp; Lịch sử) <span class="badge badge-all">전체 열람</span></h3>
+      <ul>
+        <li><strong>A. 진급이력</strong>: 날짜, 이전직위→신규직위, 신규직급, 사유</li>
+        <li><strong>B. 발령·전보이력</strong>: 날짜, 부서, 직위, 근무지, 비고</li>
+        <li>직원번호 기준으로 연결 관리</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>④ 자격증 (Chứng chỉ &amp; Bằng cấp) <span class="badge badge-all">전체 열람</span></h3>
+      <ul>
+        <li>자격증·인증명, 발급기관, 취득일, 유효기간, 비고</li>
+        <li>복수 자격증 목록 관리</li>
+        <li>유효기간 만료 시 갱신 입력</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>⑤ 인사평가 [HR전용] <span class="badge badge-hr">⚠ HR 전용</span></h3>
+      <ul>
+        <li>정기 인사평가 이력: 평가연도, 평가시기, 등급, 평가자, 종합의견</li>
+        <li>평가등급 기준: S(탁월, ≥95) / A(우수, ≥85) / B(보통, ≥70) / C(미흡, &lt;70)</li>
+        <li>비밀번호 보호 권장</li>
+        <li>HR 관리자·임원만 열람 가능</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>⑥ 급여등급 [HR전용] <span class="badge badge-hr">⚠ HR 전용</span></h3>
+      <ul>
+        <li>급여등급 변경 이력: 발효일, 이전등급코드→신규등급코드, 조정사유, 승인자</li>
+        <li>실수령 급여 기재 금지 — 등급코드만 입력</li>
+        <li>비밀번호 보호 필수</li>
+        <li>HR 관리자·임원만 열람 가능</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style="margin-top:28px;background:#fff;border:1px solid #dde2ea;border-radius:10px;padding:20px 24px;">
+    <h3 style="font-size:14px;color:#1a3a5c;margin-bottom:12px;">🔑 접근 권한 매트릭스</h3>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead>
+        <tr style="background:#1a3a5c;color:#fff;">
+          <th style="padding:8px 12px;text-align:left;">시트</th>
+          <th style="padding:8px 12px;text-align:center;">일반 HR 담당자</th>
+          <th style="padding:8px 12px;text-align:center;">부서장</th>
+          <th style="padding:8px 12px;text-align:center;">HR 관리자</th>
+          <th style="padding:8px 12px;text-align:center;">임원</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:7px 12px;">① 안내</td>
+          <td style="text-align:center;color:#27ae60;">✔ 열람</td>
+          <td style="text-align:center;color:#27ae60;">✔ 열람</td>
+          <td style="text-align:center;color:#27ae60;">✔ 열람</td>
+          <td style="text-align:center;color:#27ae60;">✔ 열람</td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;background:#f9f9f9;">
+          <td style="padding:7px 12px;">② 인사카드 (기본)</td>
+          <td style="text-align:center;color:#27ae60;">✔ 입력·수정</td>
+          <td style="text-align:center;color:#27ae60;">✔ 열람</td>
+          <td style="text-align:center;color:#27ae60;">✔ 전체</td>
+          <td style="text-align:center;color:#27ae60;">✔ 전체</td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:7px 12px;">③ 진급·이력</td>
+          <td style="text-align:center;color:#27ae60;">✔ 입력·수정</td>
+          <td style="text-align:center;color:#27ae60;">✔ 열람</td>
+          <td style="text-align:center;color:#27ae60;">✔ 전체</td>
+          <td style="text-align:center;color:#27ae60;">✔ 전체</td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;background:#f9f9f9;">
+          <td style="padding:7px 12px;">④ 자격증</td>
+          <td style="text-align:center;color:#27ae60;">✔ 입력·수정</td>
+          <td style="text-align:center;color:#27ae60;">✔ 열람</td>
+          <td style="text-align:center;color:#27ae60;">✔ 전체</td>
+          <td style="text-align:center;color:#27ae60;">✔ 전체</td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+          <td style="padding:7px 12px;">⑤ 인사평가 <span class="badge badge-hr">HR전용</span></td>
+          <td style="text-align:center;color:#c0392b;">✗ 접근불가</td>
+          <td style="text-align:center;color:#c0392b;">✗ 접근불가</td>
+          <td style="text-align:center;color:#27ae60;">✔ 입력·수정</td>
+          <td style="text-align:center;color:#27ae60;">✔ 전체</td>
+        </tr>
+        <tr style="background:#fef9f9;">
+          <td style="padding:7px 12px;">⑥ 급여등급 <span class="badge badge-hr">HR전용</span></td>
+          <td style="text-align:center;color:#c0392b;">✗ 접근불가</td>
+          <td style="text-align:center;color:#c0392b;">✗ 접근불가</td>
+          <td style="text-align:center;color:#27ae60;">✔ 입력·수정</td>
+          <td style="text-align:center;color:#27ae60;">✔ 전체</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+function show(id, btn) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>

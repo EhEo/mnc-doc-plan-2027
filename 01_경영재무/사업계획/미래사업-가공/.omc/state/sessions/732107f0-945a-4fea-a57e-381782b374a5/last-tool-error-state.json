@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"bash _shared/adapters/call_worker.sh gemini tasks/gpu-machining-opportunity/workers/gemini/brief.md\",\"timeout\":360000,\"description\":\"gemini(agy) 독립 정량 조사 호출\"}",
+  "error": "Exit code 1\n_shared/adapters/call_worker.sh: line 104: GEMINI_API_KEY\r: invalid variable name\n{\r\n  \"status\": \"error\",\r\n  \"exit_code\": 2,\r\n  \"backend\": \"cli\",\r\n  \"model\": \"gemini-3.1-pro-high\",\r\n  \"duration_s\": 1,\r\n  \"stdout\": \"\",\r\n  \"stderr_sanitized\": \"flags provided but not defined: -p\\nUsage of agy.exe:\\n  --add-dir                       Add a directory to the workspace (repeatable) (default [])\\n  -c                              Short alias for --continue\\n  --continue                      C...",
+  "timestamp": "2026-06-10T11:57:49.361Z",
+  "retry_count": 1
+}

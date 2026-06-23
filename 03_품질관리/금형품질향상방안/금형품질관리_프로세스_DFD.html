@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>금형 품질관리 시스템 - DFD (Data Flow Diagram)</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', 'Malgun Gothic', sans-serif; background: #f0f4f8; color: #1a202c; }
+
+  .header {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d5a8e 100%);
+    color: white; padding: 24px 40px; display: flex; align-items: center; gap: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  .header h1 { font-size: 22px; font-weight: 700; }
+  .header .sub { font-size: 13px; opacity: 0.8; margin-top: 4px; }
+
+  .tabs {
+    display: flex; background: #fff; border-bottom: 2px solid #e2e8f0;
+    padding: 0 20px; gap: 4px; overflow-x: auto;
+  }
+  .tab {
+    padding: 12px 22px; cursor: pointer; font-size: 14px; font-weight: 600;
+    border-bottom: 3px solid transparent; color: #64748b; transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .tab:hover { color: #2d5a8e; background: #f1f5f9; }
+  .tab.active { color: #1e3a5f; border-bottom-color: #2d5a8e; background: #eff6ff; }
+
+  .content { padding: 30px; max-width: 1400px; margin: 0 auto; }
+
+  .diagram-container {
+    background: white; border-radius: 12px; padding: 30px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06); overflow-x: auto;
+  }
+
+  .legend {
+    display: flex; gap: 24px; margin-bottom: 24px; flex-wrap: wrap;
+    padding: 16px 20px; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;
+  }
+  .legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+  .legend-shape {
+    width: 36px; height: 24px; border-radius: 4px; display: flex;
+    align-items: center; justify-content: center; font-size: 10px; color: white; font-weight: 700;
+  }
+
+  svg { display: block; margin: 0 auto; }
+  .hidden { display: none; }
+
+  /* Tooltip */
+  .tooltip {
+    position: fixed; background: #1e293b; color: white; padding: 12px 16px;
+    border-radius: 8px; font-size: 12px; max-width: 320px; pointer-events: none;
+    z-index: 1000; box-shadow: 0 8px 24px rgba(0,0,0,0.3); line-height: 1.6;
+    display: none;
+  }
+  .tooltip .tt-title { font-weight: 700; font-size: 13px; margin-bottom: 6px; color: #93c5fd; }
+  .tooltip .tt-body { opacity: 0.9; }
+
+  /* Info panel */
+  .info-panel {
+    margin-top: 24px; padding: 20px; background: #fffbeb; border: 1px solid #fcd34d;
+    border-radius: 8px; font-size: 13px; line-height: 1.8;
+  }
+  .info-panel h3 { color: #92400e; margin-bottom: 8px; font-size: 15px; }
+
+  @media (max-width: 768px) {
+    .content { padding: 16px; }
+    .diagram-container { padding: 16px; }
+    .legend { gap: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>금형 품질관리 시스템 - Data Flow Diagram</h1>
+    <div class="sub">M&C Electronics | 금형개발팀 품질향상 방안 기반 시스템 설계</div>
+  </div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="showTab(0)">Level 0 : Context Diagram</div>
+  <div class="tab" onclick="showTab(1)">Level 1 : 주요 프로세스</div>
+  <div class="tab" onclick="showTab(2)">Level 2 : 측정/검사 상세</div>
+  <div class="tab" onclick="showTab(3)">Level 2 : 기술축적 상세</div>
+</div>
+
+<div class="content">
+  <!-- ============ Level 0 ============ -->
+  <div class="diagram-container" id="panel-0">
+    <div class="legend">
+      <div class="legend-item"><div class="legend-shape" style="background:#2d5a8e;">EE</div> 외부 엔티티 (External Entity)</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#16a34a; border-radius:50%;">P</div> 프로세스 (Process)</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#dc2626;">→</div> 데이터 흐름 (Data Flow)</div>
+    </div>
+    <svg id="svg0" width="1100" height="620" viewBox="0 0 1100 620"></svg>
+    <div class="info-panel">
+      <h3>Level 0 - Context Diagram 설명</h3>
+      금형 품질관리 시스템의 전체 경계를 보여줍니다. 5개 외부 엔티티(설계팀, 가공팀, 품질팀, 설비팀, 주조설비)가 중앙 시스템과 데이터를 주고받습니다. 각 요소 위에 마우스를 올리면 상세 정보를 확인할 수 있습니다.
+    </div>
+  </div>
+
+  <!-- ============ Level 1 ============ -->
+  <div class="diagram-container hidden" id="panel-1">
+    <div class="legend">
+      <div class="legend-item"><div class="legend-shape" style="background:#16a34a; border-radius:50%;">P</div> 프로세스</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#7c3aed;">DS</div> 데이터 저장소 (Data Store)</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#2d5a8e;">EE</div> 외부 엔티티</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#dc2626;">→</div> 데이터 흐름</div>
+    </div>
+    <svg id="svg1" width="1200" height="900" viewBox="0 0 1200 900"></svg>
+    <div class="info-panel">
+      <h3>Level 1 - 주요 프로세스 분해</h3>
+      중앙 시스템을 5개 핵심 프로세스로 분해합니다: P1.설비정도관리, P2.가공품세팅관리, P3.가공품측정/검사, P4.T/O기술축적, P5.제조공정관리. 하단의 데이터 저장소(보라색)가 각 프로세스에서 생성/조회하는 데이터를 보여줍니다.
+    </div>
+  </div>
+
+  <!-- ============ Level 2 - 측정/검사 ============ -->
+  <div class="diagram-container hidden" id="panel-2">
+    <div class="legend">
+      <div class="legend-item"><div class="legend-shape" style="background:#16a34a; border-radius:50%;">P</div> 서브 프로세스</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#7c3aed;">DS</div> 데이터 저장소</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#dc2626;">→</div> 데이터 흐름</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#ea580c;">⊘</div> 게이트 (승인/차단)</div>
+    </div>
+    <svg id="svg2" width="1100" height="700" viewBox="0 0 1100 700"></svg>
+    <div class="info-panel">
+      <h3>Level 2 - 가공품 측정/검사 상세 (P3 분해)</h3>
+      보고서의 핵심 개선 포인트인 "측정 의무화 + 검사 게이트"를 상세히 표현합니다. 미검사 전극은 EDM 투입이 금지되고, 미검사 코아는 금형 조립에 투입이 금지됩니다. 공차 초과(±0.02 기준) 시 자동으로 금형수정 프로세스로 연결됩니다.
+    </div>
+  </div>
+
+  <!-- ============ Level 2 - 기술축적 ============ -->
+  <div class="diagram-container hidden" id="panel-3">
+    <div class="legend">
+      <div class="legend-item"><div class="legend-shape" style="background:#16a34a; border-radius:50%;">P</div> 서브 프로세스</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#7c3aed;">DS</div> 데이터 저장소</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#dc2626;">→</div> 데이터 흐름</div>
+      <div class="legend-item"><div class="legend-shape" style="background:#0891b2;">⟲</div> 피드백 루프</div>
+    </div>
+    <svg id="svg3" width="1100" height="720" viewBox="0 0 1100 720"></svg>
+    <div class="info-panel">
+      <h3>Level 2 - T/O 기술축적 상세 (P4 분해)</h3>
+      보고서의 최종 목표인 "T/O 후 수정 Zero화"를 달성하기 위한 데이터 축적 및 피드백 루프를 보여줍니다. 10회 이상 T/O 데이터가 축적되면 위치/면적/형상별 수축률을 분석하여 설계 보정값을 자동으로 제안하는 구조입니다.
+    </div>
+  </div>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+// ========== Tab Control ==========
+function showTab(idx) {
+  document.querySelectorAll('.tab').forEach((t,i) => {
+    t.classList.toggle('active', i===idx);
+  });
+  for(let i=0;i<4;i++) {
+    document.getElementById('panel-'+i).classList.toggle('hidden', i!==idx);
+  }
+}
+
+// ========== Tooltip ==========
+const tip = document.getElementById('tooltip');
+function showTip(evt, title, body) {
+  tip.innerHTML = `<div class="tt-title">${title}</div><div class="tt-body">${body}</div>`;
+  tip.style.display = 'block';
+  const x = evt.clientX + 16, y = evt.clientY - 10;
+  tip.style.left = Math.min(x, window.innerWidth - 340) + 'px';
+  tip.style.top = Math.min(y, window.innerHeight - 150) + 'px';
+}
+function hideTip() { tip.style.display = 'none'; }
+
+// ========== SVG Helpers ==========
+const NS = 'http://www.w3.org/2000/svg';
+
+function el(tag, attrs, parent) {
+  const e = document.createElementNS(NS, tag);
+  for(let k in attrs) e.setAttribute(k, attrs[k]);
+  if(parent) parent.appendChild(e);
+  return e;
+}
+
+function drawRect(svg, x, y, w, h, rx, fill, stroke, sw) {
+  return el('rect', {x,y,width:w,height:h,rx:rx||0,fill:fill||'#fff',stroke:stroke||'#333','stroke-width':sw||2}, svg);
+}
+
+function drawCircle(svg, cx, cy, r, fill, stroke) {
+  return el('circle', {cx,cy,r,fill:fill||'#fff',stroke:stroke||'#333','stroke-width':2}, svg);
+}
+
+function drawText(svg, x, y, text, size, color, anchor, weight) {
+  const t = el('text', {x,y,'font-size':size||13,'fill':color||'#333','text-anchor':anchor||'middle','font-weight':weight||'normal','font-family':'Segoe UI, Malgun Gothic, sans-serif'}, svg);
+  t.textContent = text;
+  return t;
+}
+
+function drawMultiText(svg, x, y, lines, size, color, anchor, weight, lineHeight) {
+  const lh = lineHeight || 18;
+  lines.forEach((line, i) => {
+    drawText(svg, x, y + i*lh, line, size, color, anchor, weight);
+  });
+}
+
+function drawArrow(svg, x1, y1, x2, y2, color, label, labelOffset, dashed) {
+  const col = color || '#dc2626';
+  const g = el('g', {}, svg);
+
+  const dx = x2-x1, dy = y2-y1;
+  const len = Math.sqrt(dx*dx+dy*dy);
+  const ux = dx/len, uy = dy/len;
+  const ax2 = x2 - ux*8, ay2 = y2 - uy*8;
+
+  el('line', {x1,y1,x2:ax2,y2:ay2,stroke:col,'stroke-width':2,'stroke-dasharray':dashed?'6,4':'none'}, g);
+
+  const angle = Math.atan2(dy,dx)*180/Math.PI;
+  el('polygon', {
+    points: `0,-5 12,0 0,5`,
+    fill: col,
+    transform: `translate(${x2},${y2}) rotate(${angle})`
+  }, g);
+
+  if(label) {
+    const mx = (x1+x2)/2, my = (y1+y2)/2;
+    const off = labelOffset || -12;
+    const perpX = -uy * off, perpY = ux * off;
+    const bg = el('rect', {
+      x: mx+perpX-label.length*3.5-4, y: my+perpY-10,
+      width: label.length*7+8, height: 16, rx: 3,
+      fill: '#fff', stroke: col, 'stroke-width': 1, opacity: 0.95
+    }, g);
+    drawText(g, mx+perpX, my+perpY, label, 10, col, 'middle', '600');
+  }
+  return g;
+}
+
+function drawCurvedArrow(svg, x1, y1, cx1, cy1, cx2, cy2, x2, y2, color, label) {
+  const col = color || '#dc2626';
+  const g = el('g', {}, svg);
+  const path = `M${x1},${y1} C${cx1},${cy1} ${cx2},${cy2} ${x2},${y2}`;
+  el('path', {d:path, stroke:col, 'stroke-width':2, fill:'none', 'marker-end':`url(#ah-${col.replace('#','')})`}, g);
+  if(label) {
+    const mx=(x1+x2)/2, my=(y1+y2)/2-16;
+    drawText(g, mx, my, label, 10, col, 'middle', '600');
+  }
+  return g;
+}
+
+function addArrowDef(svg, color) {
+  let defs = svg.querySelector('defs');
+  if(!defs) { defs = el('defs',{},svg); }
+  const marker = el('marker', {
+    id: `ah-${color.replace('#','')}`,
+    viewBox: '0 0 12 10', refX: 12, refY: 5,
+    markerWidth: 8, markerHeight: 6, orient: 'auto-start-reverse'
+  }, defs);
+  el('polygon', {points:'0,0 12,5 0,10', fill:color}, marker);
+}
+
+// Process box (rounded rect with title)
+function drawProcess(svg, x, y, w, h, id, title, tipTitle, tipBody) {
+  const g = el('g', {cursor:'pointer'}, svg);
+  const grad = `proc-${id}`;
+  let defs = svg.querySelector('defs');
+  if(!defs) { defs = el('defs',{},svg); }
+  const lg = el('linearGradient', {id:grad, x1:'0%',y1:'0%',x2:'0%',y2:'100%'}, defs);
+  el('stop', {offset:'0%','stop-color':'#22c55e'}, lg);
+  el('stop', {offset:'100%','stop-color':'#16a34a'}, lg);
+
+  drawRect(g, x, y, w, h, 24, `url(#${grad})`, '#15803d', 2);
+  drawText(g, x+w/2, y+16, id, 11, '#bbf7d0', 'middle', '700');
+
+  const lines = title.split('\n');
+  lines.forEach((line, i) => {
+    drawText(g, x+w/2, y+32+i*16, line, 13, '#fff', 'middle', '700');
+  });
+
+  g.addEventListener('mousemove', e => showTip(e, tipTitle||title, tipBody||''));
+  g.addEventListener('mouseleave', hideTip);
+  return g;
+}
+
+// External Entity
+function drawEntity(svg, x, y, w, h, name, tipTitle, tipBody) {
+  const g = el('g', {cursor:'pointer'}, svg);
+  drawRect(g, x, y, w, h, 4, '#e0ecff', '#2d5a8e', 2);
+  const lines = name.split('\n');
+  lines.forEach((line, i) => {
+    drawText(g, x+w/2, y+h/2-((lines.length-1)*8)+i*18, line, 13, '#1e3a5f', 'middle', '700');
+  });
+  g.addEventListener('mousemove', e => showTip(e, tipTitle||name, tipBody||''));
+  g.addEventListener('mouseleave', hideTip);
+  return g;
+}
+
+// Data Store
+function drawDataStore(svg, x, y, w, h, id, name, tipTitle, tipBody) {
+  const g = el('g', {cursor:'pointer'}, svg);
+  drawRect(g, x, y, w, h, 2, '#f3e8ff', '#7c3aed', 2);
+  el('line', {x1:x+30,y1:y,x2:x+30,y2:y+h,stroke:'#7c3aed','stroke-width':1.5}, g);
+  drawText(g, x+15, y+h/2+4, id, 10, '#7c3aed', 'middle', '700');
+  const lines = name.split('\n');
+  lines.forEach((line, i) => {
+    drawText(g, x+30+(w-30)/2, y+h/2-((lines.length-1)*7)+i*15+4, line, 11, '#581c87', 'middle', '600');
+  });
+  g.addEventListener('mousemove', e => showTip(e, tipTitle||name, tipBody||''));
+  g.addEventListener('mouseleave', hideTip);
+  return g;
+}
+
+// Gate (diamond)
+function drawGate(svg, cx, cy, size, label, tipTitle, tipBody) {
+  const g = el('g', {cursor:'pointer'}, svg);
+  const s = size/2;
+  el('polygon', {
+    points: `${cx},${cy-s} ${cx+s},${cy} ${cx},${cy+s} ${cx-s},${cy}`,
+    fill: '#fff7ed', stroke: '#ea580c', 'stroke-width': 2
+  }, g);
+  drawText(g, cx, cy+4, label, 10, '#ea580c', 'middle', '700');
+  g.addEventListener('mousemove', e => showTip(e, tipTitle||label, tipBody||''));
+  g.addEventListener('mouseleave', hideTip);
+  return g;
+}
+
+
+// =====================================================
+// LEVEL 0 : Context Diagram
+// =====================================================
+(function(){
+  const svg = document.getElementById('svg0');
+  addArrowDef(svg, '#dc2626');
+  addArrowDef(svg, '#2563eb');
+
+  // Center process
+  drawProcess(svg, 380, 230, 340, 160, 'P0', '금형 품질관리\n시스템',
+    '금형 품질관리 시스템',
+    '설계~제작~측정~T/O까지 전 과정의<br>치수 데이터를 수집·분석·피드백하는<br>통합 품질관리 시스템');
+
+  // External Entities
+  drawEntity(svg, 40, 40, 140, 60, '설계팀',
+    '설계팀 (External Entity)',
+    '금형 3D설계, 치수SPEC 등록,<br>수축률 설정, 보정값 반영');
+  drawEntity(svg, 460, 20, 140, 60, '가공팀',
+    '가공팀 (External Entity)',
+    'MCT/EDM 가공, 원점세팅,<br>전극 가공, 사상작업 수행');
+  drawEntity(svg, 880, 40, 140, 60, '품질팀',
+    '품질팀 (External Entity)',
+    '코아/전극 치수측정, 합격판정,<br>검사 게이트 관리');
+  drawEntity(svg, 60, 480, 140, 60, '설비팀',
+    '설비팀 (External Entity)',
+    '설비 정도 측정, Spindle/Backlash<br>측정, Ball Screw 수리요청');
+  drawEntity(svg, 860, 480, 160, 60, '주조설비\n(T/O)',
+    '주조설비 (External Entity)',
+    'Casting 350T, T/O 실시,<br>캐스팅 제품 생산');
+
+  // Data Flows
+  drawArrow(svg, 180, 70, 380, 260, '#dc2626', '설계치수/수축률', -14);
+  drawArrow(svg, 400, 230, 160, 100, '#2563eb', '보정값 제안', 14);
+
+  drawArrow(svg, 530, 80, 530, 230, '#dc2626', '세팅값/가공데이터', -14);
+  drawArrow(svg, 560, 230, 560, 80, '#2563eb', '설비상태/기준', 14);
+
+  drawArrow(svg, 880, 70, 720, 260, '#dc2626', '측정값/판정결과', -14);
+  drawArrow(svg, 700, 230, 900, 70, '#2563eb', '검사기준/SPEC', 14);
+
+  drawArrow(svg, 180, 480, 400, 390, '#dc2626', '설비정도 측정값', -14);
+  drawArrow(svg, 420, 390, 160, 510, '#2563eb', '점검주기/경고', 14);
+
+  drawArrow(svg, 860, 510, 720, 390, '#dc2626', 'T/O 제품치수', -14);
+  drawArrow(svg, 700, 390, 880, 490, '#2563eb', '금형치수 데이터', 14);
+
+  // Legend for arrow colors
+  drawRect(svg, 340, 560, 420, 40, 8, '#f8fafc', '#e2e8f0', 1);
+  el('line', {x1:360,y1:580,x2:390,y2:580,stroke:'#dc2626','stroke-width':2}, svg);
+  drawText(svg, 440, 584, '→ 시스템으로의 입력', 11, '#dc2626', 'start', '600');
+  el('line', {x1:560,y1:580,x2:590,y2:580,stroke:'#2563eb','stroke-width':2}, svg);
+  drawText(svg, 640, 584, '→ 시스템에서의 출력', 11, '#2563eb', 'start', '600');
+})();
+
+
+// =====================================================
+// LEVEL 1 : 주요 프로세스
+// =====================================================
+(function(){
+  const svg = document.getElementById('svg1');
+  addArrowDef(svg, '#dc2626');
+  addArrowDef(svg, '#2563eb');
+  addArrowDef(svg, '#7c3aed');
+  addArrowDef(svg, '#059669');
+
+  // External Entities (top)
+  drawEntity(svg, 20, 30, 120, 50, '설계팀', '설계팀', '금형 3D설계, 치수SPEC, 수축률');
+  drawEntity(svg, 240, 30, 120, 50, '가공팀', '가공팀', 'MCT/EDM 가공, 세팅');
+  drawEntity(svg, 460, 30, 120, 50, '품질팀', '품질팀', '치수측정, 합격판정');
+  drawEntity(svg, 680, 30, 120, 50, '설비팀', '설비팀', '설비정도 측정, 수리요청');
+  drawEntity(svg, 1020, 30, 140, 50, '주조설비', '주조설비(T/O)', 'Casting T/O 실시');
+
+  // 5 Processes (middle row)
+  const py = 180;
+  drawProcess(svg, 20, py, 180, 80, 'P1', '설비 정도\n관리',
+    'P1. 설비 정도 관리',
+    'Spindle Run Out, Table Backlash X/Y축<br>주기적 측정 및 기준 초과 경고<br>Ball Screw 수리이력 관리');
+
+  drawProcess(svg, 240, py, 180, 80, 'P2', '가공품 세팅\n관리',
+    'P2. 가공품 세팅 관리',
+    'MCT/EDM PROBE 자동 원점 세팅<br>3회 반복측정 편차 관리<br>EROWA CHUCK 원점 오차 보상');
+
+  drawProcess(svg, 460, py, 180, 80, 'P3', '가공품 측정\n/검사',
+    'P3. 가공품 측정/검사 ★핵심★',
+    '코아/전극 주요치수 전수측정<br>SPEC 대비 편차 자동계산<br>검사 게이트: 미검사 투입금지');
+
+  drawProcess(svg, 700, py, 180, 80, 'P4', 'T/O 기술\n축적',
+    'P4. T/O 기술축적 ★핵심★',
+    '금형치수 vs 제품치수 비교<br>위치별 수축률 분석<br>설계 보정값 자동 산출');
+
+  drawProcess(svg, 960, py, 180, 80, 'P5', '제조공정\n관리',
+    'P5. 제조공정 관리',
+    '전극 마모량 표준화<br>코아 사상 조도 관리<br>수리부위 용접 품질 관리');
+
+  // Data Stores (bottom)
+  const dy = 400;
+  drawDataStore(svg, 20, dy, 200, 40, 'D1', '설비정도 측정DB',
+    'D1. equip_precision_log',
+    'W-No, Model, Spindle Run Out,<br>Backlash X/Y, Ball Screw 상태,<br>측정일, 판정결과');
+
+  drawDataStore(svg, 20, dy+60, 200, 40, 'D2', '세팅기록 DB',
+    'D2. setting_log',
+    '설비ID, 부품ID, 세팅유형,<br>X/Y/Z값, 반복횟수/편차,<br>EROWA Center Error 보상값');
+
+  drawDataStore(svg, 260, dy, 200, 40, 'D3', '치수SPEC DB',
+    'D3. dimension_spec',
+    '부품ID, 치수명, SPEC값,<br>+공차, -공차, 측정포인트 설명<br>공차영역: 제품공차의 30%');
+
+  drawDataStore(svg, 260, dy+60, 200, 40, 'D4', '측정/검사 DB',
+    'D4. part_measurement + detail',
+    '부품ID, Cav번호, 측정일,<br>항목별 실측값/편차/판정,<br>검사게이트 상태(합격/불합격)');
+
+  drawDataStore(svg, 520, dy, 200, 40, 'D5', 'T/O기록 DB',
+    'D5. tryout_record + dimension',
+    'T/O차수, 금형/제품 실측치수,<br>Cav별 비교, 수축률 산출,<br>수정이력/원인분석');
+
+  drawDataStore(svg, 520, dy+60, 200, 40, 'D6', '수축률/보정 DB',
+    'D6. shrinkage_data + compensation',
+    '위치/면적/형상별 수축률,<br>축적 평균편차, 보정 제안값,<br>데이터 건수, 갱신일');
+
+  drawDataStore(svg, 780, dy, 200, 40, 'D7', '전극마모/조도 DB',
+    'D7. electrode_wear + roughness',
+    '형상별(황/중/사상) 마모량,<br>가공여유량, 조도Ra값,<br>표준 가공여유량 자동산출');
+
+  drawDataStore(svg, 780, dy+60, 200, 40, 'D8', '금형마스터 DB',
+    'D8. mold_master + part_master',
+    '금형ID, 제품코드, Cav수,<br>금형/코아/전극 크기,<br>Casting톤수, 부품BOM');
+
+  // --- Arrows: EE → Process ---
+  drawArrow(svg, 740, 80, 740, 180, '#dc2626', '설비측정값');
+  drawArrow(svg, 300, 80, 300, 180, '#dc2626', '세팅데이터');
+  drawArrow(svg, 520, 80, 520, 180, '#dc2626', '측정값');
+  drawArrow(svg, 80, 80, 80, 180, '#dc2626', '설계SPEC');
+  drawArrow(svg, 1090, 80, 1090, 180, '#dc2626', 'T/O제품');
+
+  // --- Arrows: Process → Process (horizontal) ---
+  drawArrow(svg, 200, 220, 240, 220, '#059669', '', 0);
+  drawArrow(svg, 420, 200, 460, 200, '#059669', '세팅완료');
+  drawArrow(svg, 640, 200, 700, 200, '#059669', '합격품');
+  drawArrow(svg, 880, 240, 960, 240, '#059669', '마모데이터');
+
+  // P4 → P1 (설계) feedback
+  drawArrow(svg, 790, 260, 80, 340, '#2563eb', '보정값 → 설계 피드백', -10, true);
+
+  // --- Arrows: Process ↔ Data Store ---
+  drawArrow(svg, 100, 260, 100, 400, '#7c3aed', '');
+  drawArrow(svg, 140, 400, 140, 260, '#7c3aed', '');
+
+  drawArrow(svg, 310, 260, 310, 400, '#7c3aed', '');
+  drawArrow(svg, 350, 400, 350, 260, '#7c3aed', '');
+  drawArrow(svg, 330, 260, 330, 460, '#7c3aed', '');
+
+  drawArrow(svg, 530, 260, 400, 400, '#7c3aed', '');
+  drawArrow(svg, 560, 260, 560, 460, '#7c3aed', '');
+
+  drawArrow(svg, 770, 260, 620, 400, '#7c3aed', '');
+  drawArrow(svg, 800, 260, 700, 460, '#7c3aed', '');
+
+  drawArrow(svg, 1050, 260, 880, 400, '#7c3aed', '');
+  drawArrow(svg, 1050, 260, 900, 460, '#7c3aed', '');
+
+  // Phase labels
+  drawRect(svg, 20, 340, 1120, 28, 4, '#f1f5f9', '#94a3b8', 1);
+  drawText(svg, 580, 358, '▼  데이터 저장소 (Data Stores)  ▼', 12, '#475569', 'middle', '700');
+
+})();
+
+
+// =====================================================
+// LEVEL 2 : 측정/검사 상세 (P3)
+// =====================================================
+(function(){
+  const svg = document.getElementById('svg2');
+  addArrowDef(svg, '#dc2626');
+  addArrowDef(svg, '#2563eb');
+  addArrowDef(svg, '#ea580c');
+  addArrowDef(svg, '#059669');
+
+  // Title
+  drawRect(svg, 30, 15, 300, 32, 6, '#dcfce7', '#16a34a', 1.5);
+  drawText(svg, 180, 36, 'P3. 가공품 측정/검사 - 상세 분해', 13, '#166534', 'middle', '700');
+
+  // Sub-processes
+  drawProcess(svg, 60, 80, 200, 70, 'P3.1', '검사기준 치수\n도면 관리',
+    'P3.1 검사기준 치수 도면 관리',
+    'CAM Program 작성 전 완료<br>공차영역: 제품공차의 30% 적용<br>IT공차 8급 수준');
+
+  drawProcess(svg, 380, 80, 200, 70, 'P3.2', '코아 치수\n측정',
+    'P3.2 코아 치수 측정',
+    'Lower/Upper Core 주요치수 전수측정<br>SPEC ±0.02 기준<br>Cav별 실측/편차 자동계산');
+
+  drawProcess(svg, 700, 80, 200, 70, 'P3.3', '전극 치수\n측정',
+    'P3.3 전극 치수 측정',
+    '방전용 전극 주요치수 측정<br>황삭/중삭/사상 전극별 관리<br>가공여유량 포함 측정');
+
+  // Gates
+  drawGate(svg, 480, 270, 60, '합격?\n판정',
+    '코아 검사 게이트',
+    'SPEC 대비 편차가 공차 범위 내인지 판정<br>±0.02 기준, 전항목 합격 시 통과<br>1개라도 초과 시 불합격 처리');
+
+  drawGate(svg, 800, 270, 60, '합격?\n판정',
+    '전극 검사 게이트',
+    '전극 치수 공차 범위 판정<br>합격 전극만 EDM 투입 허용<br>미검사 전극 EDM 투입 금지');
+
+  // Result processes
+  drawProcess(svg, 140, 370, 180, 60, 'P3.4', '금형수정\n지시',
+    'P3.4 금형수정 지시',
+    '공차 초과 항목 금형수정 또는 재가공<br>불합격 원인분석 기록<br>수정이력 DB 축적');
+
+  drawProcess(svg, 380, 400, 200, 60, 'P3.5', '코아 조립\n투입 승인',
+    'P3.5 코아 조립 투입 승인',
+    '검사 합격 코아만 MOLD 금형 조립 허용<br>미검사/불합격 코아 투입 자동 차단<br>투입 승인 이력 기록');
+
+  drawProcess(svg, 680, 400, 220, 60, 'P3.6', 'EDM 공정\n투입 승인',
+    'P3.6 EDM 공정 투입 승인',
+    '검사 합격 전극만 EDM 공정 투입 허용<br>미검사/불합격 전극 자동 차단<br>방전가공 투입 이력 기록');
+
+  // Data Stores
+  drawDataStore(svg, 40, 540, 220, 36, 'D3', '치수 SPEC DB',
+    'D3. dimension_spec', 'SPEC값, +/-공차, 측정포인트');
+  drawDataStore(svg, 310, 540, 220, 36, 'D4', '측정/검사 DB',
+    'D4. measurement + detail', '실측값, 편차, 합격/불합격 판정');
+  drawDataStore(svg, 580, 540, 220, 36, 'D9', '검사게이트 DB',
+    'D9. inspection_gate', '검사상태, 투입승인 여부, 일시');
+  drawDataStore(svg, 840, 540, 220, 36, 'D13', '수정이력 DB',
+    'D13. mold_modification_log', 'T/O후 수정내역/원인/영향치수');
+
+  // Arrows
+  // P3.1 → P3.2, P3.3
+  drawArrow(svg, 260, 115, 380, 115, '#059669', 'SPEC/공차');
+  drawArrow(svg, 260, 130, 700, 130, '#059669', 'SPEC/공차');
+
+  // P3.2 → Gate, P3.3 → Gate
+  drawArrow(svg, 480, 150, 480, 240, '#dc2626', '실측/편차');
+  drawArrow(svg, 800, 150, 800, 240, '#dc2626', '실측/편차');
+
+  // Gate → 합격/불합격
+  drawArrow(svg, 450, 270, 320, 370, '#ea580c', '불합격');
+  drawArrow(svg, 480, 300, 480, 400, '#059669', '합격');
+  drawArrow(svg, 770, 270, 310, 390, '#ea580c', '불합격', -8, true);
+  drawArrow(svg, 800, 300, 790, 400, '#059669', '합격');
+
+  // Process → Data Stores
+  drawArrow(svg, 160, 140, 130, 540, '#2563eb', '');
+  drawArrow(svg, 480, 460, 420, 540, '#2563eb', '');
+  drawArrow(svg, 790, 460, 690, 540, '#2563eb', '');
+  drawArrow(svg, 230, 430, 950, 540, '#2563eb', '', 0, true);
+
+  // Blocked labels
+  drawRect(svg, 340, 476, 180, 24, 4, '#fef2f2', '#dc2626', 1.5);
+  drawText(svg, 430, 492, '미검사 코아 → 조립 금지', 11, '#dc2626', 'middle', '700');
+
+  drawRect(svg, 650, 476, 190, 24, 4, '#fef2f2', '#dc2626', 1.5);
+  drawText(svg, 745, 492, '미검사 전극 → EDM 금지', 11, '#dc2626', 'middle', '700');
+
+})();
+
+
+// =====================================================
+// LEVEL 2 : T/O 기술축적 상세 (P4)
+// =====================================================
+(function(){
+  const svg = document.getElementById('svg3');
+  addArrowDef(svg, '#dc2626');
+  addArrowDef(svg, '#2563eb');
+  addArrowDef(svg, '#0891b2');
+  addArrowDef(svg, '#059669');
+
+  // Title
+  drawRect(svg, 30, 15, 300, 32, 6, '#dcfce7', '#16a34a', 1.5);
+  drawText(svg, 180, 36, 'P4. T/O 기술축적 - 상세 분해', 13, '#166534', 'middle', '700');
+
+  // Sub-processes (flow left to right, top to bottom)
+  drawProcess(svg, 60, 80, 200, 70, 'P4.1', 'T/O 실시\n기록',
+    'P4.1 T/O 실시 기록',
+    'T/O 차수, 일자, 주조설비<br>금형 조립상태, 결과 요약 기록');
+
+  drawProcess(svg, 380, 80, 220, 70, 'P4.2', '제품치수 측정\n(금형 vs 제품)',
+    'P4.2 제품치수 측정',
+    '캐스팅 제품 주요치수 실측<br>금형치수와 제품치수 자동 비교<br>Cav별 차이값 산출');
+
+  drawProcess(svg, 740, 80, 200, 70, 'P4.3', '수축률\n분석',
+    'P4.3 수축률 분석',
+    '현행: 일률 0.4% 적용<br>개선: 위치/면적/형상별 실제 수축률 산출<br>통계적 수축률 맵 생성');
+
+  drawProcess(svg, 130, 260, 220, 70, 'P4.4', '금형 수정이력\n관리',
+    'P4.4 금형 수정이력 관리',
+    'T/O 후 수정내역/원인/횟수 기록<br>현재 평균 5~6회 수정<br>목표: 수정 Zero화');
+
+  drawProcess(svg, 460, 260, 220, 70, 'P4.5', '편차 통계\n분석',
+    'P4.5 편차 통계 분석',
+    '금형치수 vs 제품치수 편차 통계<br>위치/면적/형상별 분류 분석<br>10회 이상 데이터 축적 시 활성화');
+
+  drawProcess(svg, 780, 260, 220, 70, 'P4.6', '설계 보정값\n자동 제안',
+    'P4.6 설계 보정값 자동 제안',
+    '축적 평균편차 기반 보정값 산출<br>신규 금형 설계 시 자동 제안<br>설계치수에 보정값 반영');
+
+  // Data Stores
+  const dy = 430;
+  drawDataStore(svg, 30, dy, 210, 36, 'D5', 'T/O 기록 DB',
+    'D5. tryout_record', 'T/O차수, 일자, 결과요약');
+  drawDataStore(svg, 270, dy, 210, 36, 'D10', 'T/O 치수비교 DB',
+    'D10. tryout_dimension', '금형/제품 실측, Cav별, 수축률');
+  drawDataStore(svg, 510, dy, 210, 36, 'D6', '수축률 DB',
+    'D6. shrinkage_data', '위치/면적/형상별 수축률');
+  drawDataStore(svg, 750, dy, 210, 36, 'D14', '설계보정 DB',
+    'D14. design_compensation', '보정값, 데이터건수, 갱신일');
+  drawDataStore(svg, 390, dy+60, 210, 36, 'D13', '수정이력 DB',
+    'D13. mold_modification_log', '수정내역, 원인, 영향치수');
+
+  // Feedback target
+  drawEntity(svg, 380, 600, 240, 50, '신규 금형 설계\n(설계팀 피드백)',
+    '설계팀 피드백',
+    '축적된 보정값이 신규 금형 설계에 반영<br>수축률 0.4% 일률적용 → 위치별 차등적용<br>T/O 후 수정 Zero화 목표');
+
+  // Flow arrows
+  drawArrow(svg, 260, 115, 380, 115, '#059669', 'T/O 완료');
+  drawArrow(svg, 600, 115, 740, 115, '#059669', '치수 차이값');
+
+  drawArrow(svg, 490, 150, 240, 260, '#dc2626', '수정 필요 항목');
+  drawArrow(svg, 590, 150, 570, 260, '#dc2626', '편차 데이터');
+  drawArrow(svg, 840, 150, 840, 260, '#059669', '수축률 통계');
+
+  drawArrow(svg, 350, 295, 460, 295, '#059669', '원인분석');
+  drawArrow(svg, 680, 295, 780, 295, '#059669', '10회이상 축적');
+
+  // Process → Data Stores
+  drawArrow(svg, 140, 150, 120, 430, '#2563eb', '');
+  drawArrow(svg, 480, 150, 370, 430, '#2563eb', '');
+  drawArrow(svg, 840, 150, 620, 430, '#2563eb', '');
+  drawArrow(svg, 240, 330, 480, 490, '#2563eb', '');
+  drawArrow(svg, 570, 330, 610, 430, '#2563eb', '');
+  drawArrow(svg, 890, 330, 860, 430, '#2563eb', '');
+
+  // Feedback loop (보정값 → 설계)
+  drawArrow(svg, 890, 330, 890, 580, '#0891b2', '', 0, true);
+  drawArrow(svg, 890, 580, 620, 620, '#0891b2', '보정값 제안', -14);
+
+  // Goal box
+  drawRect(svg, 700, 580, 320, 50, 8, '#ecfdf5', '#059669', 2);
+  drawText(svg, 860, 600, '최종 목표', 12, '#059669', 'middle', '700');
+  drawText(svg, 860, 618, 'T/O 후 수정 Zero화 | ±0.015 공차관리', 12, '#065f46', 'middle', '700');
+
+  // Accumulation indicator
+  drawRect(svg, 60, 565, 260, 44, 8, '#eff6ff', '#2563eb', 1.5);
+  drawText(svg, 190, 582, '데이터 축적 사이클', 11, '#2563eb', 'middle', '700');
+  drawText(svg, 190, 598, '10회 T/O → 설계반영 DATA화 가능', 11, '#1e40af', 'middle', '600');
+
+})();
+
+</script>
+</body>
+</html>

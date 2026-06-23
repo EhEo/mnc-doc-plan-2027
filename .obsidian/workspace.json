@@ -1,0 +1,284 @@
+{
+  "main": {
+    "id": "764e693f9c762167",
+    "type": "split",
+    "children": [
+      {
+        "id": "35fb5eae6588e9d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6a2776e9f37694a",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "/"
+              },
+              "icon": "lucide-file",
+              "title": "ClaudeCowork"
+            }
+          },
+          {
+            "id": "553ce7754ce0aacb",
+            "type": "leaf",
+            "state": {
+              "type": "mk-uri-view",
+              "state": {
+                "path": "https://www.make.md/static/GetStarted.md"
+              },
+              "icon": "lucide-file",
+              "title": "https://www.make.md/static/GetStarted.md"
+            }
+          },
+          {
+            "id": "8ab2943d9dbae478",
+            "type": "leaf",
+            "state": {
+              "type": "planner-release-notes",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Day Planner Release 0.30.0"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef1c8aaf82309e72",
+    "type": "split",
+    "children": [
+      {
+        "id": "b207bbe2bce12087",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebdb99725a5e2644",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "d45995b3f1c78e5a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "49fdaafed607179e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          },
+          {
+            "id": "c09471fe0a170b9a",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bb643f45633ea6c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6d1a0faec082368",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10ed60d40c1a39fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "cd8012b98faf1869",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "9f766e5e60aa25b3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "7142604e081f3c6d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "3ebaf33358d3f906",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          },
+          {
+            "id": "7f52cfa2e12d0702",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "cdd27dc5197ed4bc",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "d9c1193a737af2cc",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
+          },
+          {
+            "id": "a66a231d56dfeb80",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "4ba6417c3ff95fae",
+            "type": "leaf",
+            "state": {
+              "type": "agent-client-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Agent client"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 488.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "realclaudian:Open Claudian": false,
+      "agent-client:Open agent client": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:새 보드 만들기": false,
+      "drawio:Launch draw.io editor": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
+    }
+  },
+  "active": "a66a231d56dfeb80",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "CoWork/환영합니다!.md",
+    "wiki.md",
+    "01_경영재무/IFRS/1778244921003_SAPP_ACCA_CertIFR_Slide_Eng_Print_2425ver31-355-vi-translation.pdf",
+    "01_경영재무/IFRS/1778244921003_SAPP_ACCA_CertIFR_Slide_Eng_Print_2425ver3.pdf",
+    "01_경영재무/IFRS/1778244921003_SAPP_ACCA_CertIFR_Slide_Eng_Print_2425ver3 - 복사본.pdf",
+    "Tags"
+  ]
+}

@@ -1,0 +1,46 @@
+# LibreOffice / Excel 임시 잠금 파일
+.~lock.*#
+~$*
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs / temp
+*.log
+*.tmp
+
+# Python 가상환경 및 캐시
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Node.js
+node_modules/
+
+# 대용량 파일 — GitHub 100MB 제한 초과
+*.mp4
+*.mov
+*.avi
+
+# 중첩 git 저장소 — 별도 repo로 관리
+02_AI디지털전환/AI-app-agent/
+02_AI디지털전환/AI-Data/report/
+02_AI디지털전환/AI-Data/test/
+02_AI디지털전환/AI-Data/외주관리/
+02_AI디지털전환/AI-Data/외주수량관리/
+02_AI디지털전환/AI-Data/진시황/
+02_AI디지털전환/AI관리팀/
+02_AI디지털전환/AI교사/260508math/
+02_AI디지털전환/AI법무팀/
+02_AI디지털전환/AI재무팀/
+02_AI디지털전환/AS9100D문서관리/
+03_품질관리/ISO문서번역/

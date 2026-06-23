@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KPI 데이터 스키마",
+  "type": "object",
+  "required": ["dept", "year", "half", "version", "kpis"],
+  "properties": {
+    "dept": {"type": "string", "enum": ["관리부문","생산1부문","생산2부문","품질부문","개발영업부문"]},
+    "year": {"type": "string", "pattern": "^[0-9]{4}$"},
+    "half": {"type": "string", "enum": ["H1","H2","FY"]},
+    "version": {"type": "string"},
+    "status": {"type": "string", "enum": ["draft","confirmed","active"]},
+    "kpis": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "required": ["id","category","name","target","unit","weight","measurement_method","owner","deadline"],
+        "properties": {
+          "id":                 {"type": "string"},
+          "category":          {"type": "string"},
+          "name":              {"type": "string"},
+          "target":            {"type": "number"},
+          "unit":              {"type": "string"},
+          "weight":            {"type": "number", "minimum": 5, "maximum": 40},
+          "measurement_method":{"type": "string"},
+          "owner":             {"type": "string"},
+          "deadline":          {"type": "string", "format": "date"},
+          "monthly_actuals":   {"type": "object"}
+        }
+      }
+    }
+  }
+}

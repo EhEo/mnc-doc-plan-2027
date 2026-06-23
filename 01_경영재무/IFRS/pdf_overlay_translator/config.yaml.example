@@ -1,0 +1,12 @@
+# PDF Overlay Translator 설정 파일
+# 이 파일을 config.yaml 로 복사한 뒤 사용할 API 키만 입력하세요.
+# (사용하지 않는 제공사는 빈 값으로 두어도 됩니다)
+
+# Anthropic Claude API 키 (https://console.anthropic.com/)
+claude_api_key: ""
+
+# DeepL API 키 (https://www.deepl.com/pro-api) — free 키는 끝에 ":fx" 붙음
+deepl_api_key: ""
+
+# Google Cloud Translation API 키 (https://cloud.google.com/translate)
+google_api_key: ""

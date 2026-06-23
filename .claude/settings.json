@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git rm *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "PowerShell(cmd /c rename \"C:\\\\Users\\\\MISTOP\\\\Documents\\\\04_���񱸸�\" \"04_���š�����\" 2>&1)",
+      "Bash(python3 -c \"import docx; print\\('ok'\\)\")",
+      "Bash(python -c \"import docx; print\\('ok'\\)\")",
+      "Bash(python _make_docx.py)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\MISTOP\\\\Documents\\\\05_법무계약\\\\표준계약서\" -Recurse)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(python -c ' *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\MISTOP\\\\Documents\\\\04_구매·설비\\\\설비구매계획_5차\\\\5축설비\" -Recurse)",
+      "Bash(Select-Object FullName, Length)",
+      "Bash(python \"04_구매·설비\\\\설비구매계획_5차\\\\_make_excel.py\")",
+      "Bash(dir \"C:\\\\Users\\\\MISTOP\\\\Documents\\\\04_구매·설비\\\\설비구매계획_5차\\\\\" 2>&1)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\MISTOP\\Documents",
+      "C:\\Users\\MISTOP\\Documents\\05_�������\\ǥ�ذ�༭"
+    ]
+  }
+}

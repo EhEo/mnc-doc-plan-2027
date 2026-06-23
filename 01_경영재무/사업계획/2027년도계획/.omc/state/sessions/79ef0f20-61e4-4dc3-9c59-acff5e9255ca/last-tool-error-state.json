@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"cd \\\"d:\\\\Michael\\\\OneDrive - Team Redpanda\\\\ClaudeCowork\\\\01_경영재무\\\\사업계획\\\\2027년도계획\\\"\\npython -c \\\"\\nimport sys\\nwith open('scripts/analyze_rev27_method.py','rb') as f:\\n    raw = f.read(300...",
+  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"<string>\", line 8, in <module>\r\n    print('TEXT latin1:', raw[:80].decode('latin-1'))\r\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nUnicodeEncodeError: 'cp949' codec can't encode character '\\xef' in position 0: illegal multibyte sequence\r\nBOM: efbbbf\r\nBYTES: efbbbf2320526576323720ebb984ec9aa920ec9888ecb8a120ebb0a9ebb295eba1a020ebb684ec849d20e280942031c2b734ec9b9428ec8ba4eca081292076732035ec9b9420ec9db4ed9b8428ec9888\r\n\r\nTEXT latin1...",
+  "timestamp": "2026-06-22T10:24:58.770Z",
+  "retry_count": 1
+}

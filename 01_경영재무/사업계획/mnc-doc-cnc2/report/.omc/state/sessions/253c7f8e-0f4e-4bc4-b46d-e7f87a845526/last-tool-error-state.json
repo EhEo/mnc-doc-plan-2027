@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"D:\\\\GitRepos\\\\mnc-doc-cnc2\\\\report\\\\AI-GPU-정밀가공품-시장진입-보고서.pdf\",\"pages\":\"1-3\"}",
+  "error": "pdftoppm failed: Command 'pdftoppm' not found or is in an unsafe location (current directory)",
+  "timestamp": "2026-06-11T00:37:46.987Z",
+  "retry_count": 1
+}

@@ -1,0 +1,3844 @@
+================================================================================
+PAGE 1
+================================================================================
+   1 | 1
+   2 | Ghi chú của bạn
+   3 | 1
+   4 | CHÀO MỪNG ĐẾN VỚI CHỨNG CHỈ
+   5 | BÁO CÁO TÀI CHÍNH QUỐC TẾ
+   6 | (CertIFR)
+   7 | 2
+   8 | MỤC LỤC
+   9 | CHÀO MỪNG ĐẾN VỚI CHỨNG CHỈ
+   10 | BÁO CÁO TÀI CHÍNH QUỐC TẾ
+   11 | Chương 1: Khung khái niệm
+   12 | 4
+   13 | Chương 2: Trình bày và Công bố thông tin trên Báo cáo
+   14 | Tài chính
+   15 | 46
+   16 | Chương 3: Doanh thu từ Hợp đồng với Khách hàng
+   17 | 60
+   18 | Chương 4: Chính sách Kế toán, Thay đổi Ước tính
+   19 | Kế toán và Sai sót
+   20 | 102
+   21 | Chương 5: Tài sản cố định hữu hình &
+   22 | Chi phí Vay vốn
+   23 | 116
+   24 | Chương 6: Tài sản vô hình
+   25 | 152
+   26 | Chương 7: Tổn thất Tài sản
+   27 | 179
+   28 | Chương 8: Bất động sản Đầu tư và Tài sản dài hạn
+   29 | Giữ để Bán & Hoạt động Ngừng hoạt động
+   30 | 207
+   31 | Chương 9: Trợ cấp Chính phủ
+   32 | 234
+   33 | Chương 10: Hàng tồn kho và Nông nghiệp
+   34 | 247
+   35 | Chương 11: Thuê
+   36 | 271
+   37 | Chương 12: Đo lường Giá trị hợp lý
+   38 | 299
+   39 | Chương 13: Công cụ Tài chính
+   40 | 315
+   41 | Chương 14: Dự phòng và Tài sản Có thể có
+   42 | và Nợ phải trả Có thể có
+   43 | 353
+   44 | Chương 15: Sự kiện sau Kỳ báo cáo
+   45 | 373
+   46 | Chương 16: Quyền lợi Người lao động
+   47 | 392
+   48 | Chương 17: Thuế Thu nhập
+   49 | 410
+   50 | Chương 18: Thanh toán bằng Cổ phiếu
+   51 | 427
+   52 | Chương 19: Khám phá và Đánh giá Khoáng sản
+   53 | (đọc thêm)
+   54 | 445
+   55 | Chương 20A: Nguyên tắc Khái niệm về Kế toán Tập đoàn
+   56 | 451
+   57 | Chương 20B: Lợi thế Thương mại
+   58 | 469
+   59 | Chương 21: Công ty Liên kết và Thỏa thuận Chung
+   60 | 486
+   61 | Chương 22: Giao dịch Ngoại tệ
+   62 | 514
+   63 | Chương 23: Báo cáo Tài chính trong nền kinh tế
+   64 | Lạm phát siêu tốc (đọc thêm)
+   65 | 535
+   66 | Chương 24: Báo cáo Lưu chuyển Tiền tệ
+   67 | 543
+   68 | Chương 25: Bộ phận Hoạt động
+   69 | 568
+   70 | Chương 26: Công bố Thông tin về Các Bên Liên quan
+   71 | 591
+   72 | Chương 27: Thu nhập trên Cổ phiếu
+   73 | 614
+   74 | Chương 28: Báo cáo Tài chính Giữa niên độ
+   75 | 655
+   76 | Chương 29: IFRS 1 Áp dụng Lần đầu Chuẩn mực
+   77 | Báo cáo Tài chính Quốc tế (đọc thêm)
+   78 | 665
+   79 | Chương 30: Hợp đồng Bảo hiểm
+   80 | 672
+
+================================================================================
+PAGE 2
+================================================================================
+   1 | 3
+   2 | Ghi chú của bạn
+   3 | 3
+   4 | MODULE 1: BẢN CHẤT VÀ
+   5 | HOẠT ĐỘNG CỦA
+   6 | HỘI ĐỒNG CHUẨN MỰC
+   7 | KẾ TOÁN QUỐC TẾ
+   8 | 4
+   9 | Ghi chú của bạn
+  10 | 4
+  11 | CHƯƠNG 1:
+  12 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 3
+================================================================================
+   1 | 5
+   2 | Ghi chú của bạn
+   3 | KHUNG KHÁI NIỆM
+   4 | Giới thiệu
+   5 | Tầm quan trọng của khung khái niệm
+   6 | • Khung khái niệm là một tập hợp các nguyên tắc lý thuyết và khái niệm làm
+   7 | cơ sở cho việc lập và trình bày báo cáo tài chính.
+   8 | • Nếu không có khung khái niệm, các chuẩn mực kế toán sẽ được
+   9 | ban hành một cách tùy tiện khi các vấn đề và tình huống cụ thể
+  10 | phát sinh. Các chuẩn mực kế toán này có thể không nhất quán với nhau,
+  11 | hoặc thậm chí mâu thuẫn.
+  12 | • Một khung khái niệm mạnh có nghĩa là có các nguyên tắc sẵn có
+  13 | để tất cả các chuẩn mực kế toán trong tương lai tham chiếu. Nó cũng đóng vai trò là
+  14 | điểm tham chiếu cho người lập báo cáo tài chính nếu không có chuẩn mực kế toán
+  15 | nào điều chỉnh một giao dịch cụ thể (mặc dù điều này rất hiếm khi xảy ra).
+  16 | KHUNG KHÁI NIỆM
+  17 | 6
+  18 | Ghi chú của bạn
+  19 | KHUNG KHÁI NIỆM
+  20 | Giới thiệu
+  21 | Mục đích
+  22 | Hỗ trợ IASB phát triển Chuẩn mực Báo cáo Tài chính Quốc tế dựa trên
+  23 | các khái niệm nhất quán
+  24 | Hỗ trợ người lập phát triển chính sách kế toán nhất quán
+  25 | khi không có Chuẩn mực nào áp dụng hoặc Chuẩn mực cho phép lựa chọn
+  26 | Hỗ trợ tất cả các bên hiểu và giải thích các Chuẩn mực
+  27 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 4
+================================================================================
+   1 | 7
+   2 | Ghi chú của bạn
+   3 | TỔNG QUAN
+   4 | Bạn sẽ học được gì?
+   5 | Khung Khái niệm
+   6 | I. Mục tiêu của báo cáo tài chính mục đích chung
+   7 | II. Các đặc điểm định tính của thông tin tài chính hữu ích
+   8 | III. Báo cáo tài chính và đơn vị báo cáo
+   9 | IV. Các yếu tố của báo cáo tài chính
+  10 | V. Ghi nhận và hủy ghi nhận
+  11 | VI. Đo lường
+  12 | VII. Trình bày và công bố thông tin
+  13 | VIII. Khái niệm về vốn và duy trì vốn
+  14 | KHUNG KHÁI NIỆM
+  15 | 8
+  16 | Ghi chú của bạn
+  17 | 1. Mục tiêu của báo cáo tài chính mục đích chung
+  18 | Khung Khái niệm nêu rằng mục đích của báo cáo tài chính là
+  19 | cung cấp thông tin cho các nhà đầu tư hiện tại và tiềm năng, người cho vay và các
+  20 | chủ nợ khác để giúp họ đưa ra quyết định về việc cung cấp
+  21 | nguồn lực kinh tế cho một đơn vị.
+  22 | Dòng tiền tương lai tiềm năng của đơn vị, và
+  23 | Trách nhiệm quản lý nguồn lực kinh tế của đơn vị
+  24 | Nếu các nhà đầu tư, người cho vay và chủ nợ đưa ra các quyết định này thì
+  25 | họ cần thông tin giúp đánh giá:
+  26 | Nguồn lực kinh tế của đơn vị, ví dụ: tài sản
+  27 | Các quyền yêu cầu kinh tế đối với đơn vị, ví dụ: nợ phải trả và vốn chủ sở hữu
+  28 | Để đánh giá dòng tiền tương lai của đơn vị, người dùng cần thông tin về:
+  29 | Các thay đổi trong nguồn lực kinh tế và quyền yêu cầu, ví dụ: thu nhập và chi phí
+  30 | 1
+  31 | 2
+  32 | I. MỤC TIÊU CỦA BÁO CÁO TÀI CHÍNH
+  33 | MỤC ĐÍCH CHUNG
+  34 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 5
+================================================================================
+   1 | 9
+   2 | Ghi chú của bạn
+   3 | 2. Giả định Hoạt động liên tục
+   4 | I. MỤC TIÊU CỦA BÁO CÁO TÀI CHÍNH
+   5 | MỤC ĐÍCH CHUNG
+   6 | KHUNG KHÁI NIỆM
+   7 | ĐIỂM CHÍNH
+   8 | Giả định hoạt động liên tục là cơ sở cho việc lập báo cáo tài chính
+   9 | Lưu ý:
+  10 | Khung Khái niệm 2010: Hoạt động Liên tục và Cơ sở Dồn tích
+  11 | Tuy nhiên, Khung Khái niệm 2018 chỉ có Hoạt động Liên tục
+  12 | Hoạt động liên tục giả định rằng đơn vị sẽ tiếp tục
+  13 | hoạt động trong tương lai có thể dự đoán được. Cơ sở này được giả định
+  14 | áp dụng trừ khi người dùng báo cáo tài chính được thông báo khác
+  15 | (trong thuyết minh báo cáo tài chính).
+  16 | Do đó, không có ý định cũng không cần thiết phải tiến hành
+  17 | thanh lý hoặc ngừng kinh doanh.
+  18 | Nếu hoạt động liên tục bị nghi ngờ, có thể cần
+  19 | tái cơ cấu vốn.
+  20 | 01
+  21 | 02
+  22 | 03
+  23 | 10
+  24 | Ghi chú của bạn
+  25 | II. CÁC ĐẶC ĐIỂM ĐỊNH TÍNH CỦA
+  26 | THÔNG TIN TÀI CHÍNH HỮU ÍCH
+  27 | 1. Các đặc điểm định tính cơ bản
+  28 | KHUNG KHÁI NIỆM
+  29 | Tính liên quan
+  30 | Thông tin liên quan có khả năng tạo ra sự khác biệt trong
+  31 | các quyết định của người dùng. Thông tin tài chính có khả năng
+  32 | tạo ra sự khác biệt trong quyết định nếu nó có giá trị dự đoán,
+  33 | giá trị xác nhận hoặc cả hai.
+  34 | Thông tin là trọng yếu nếu việc bỏ sót, sai lệch hoặc che khuất
+  35 | có thể được kỳ vọng hợp lý là ảnh hưởng đến các quyết định mà
+  36 | người dùng chính của báo cáo tài chính mục đích chung đưa ra
+  37 | trên cơ sở các báo cáo tài chính đó.
+  38 | Tính trọng yếu
+  39 | Tính trung thực
+  40 | Trình bày
+  41 | Trình bày trung thực phản ánh bản chất kinh tế thay vì hình thức
+  42 | pháp lý và có các đặc điểm:
+  43 | • Đầy đủ – tất cả thông tin cần thiết để hiểu.
+  44 | • Trung lập – không thiên vị, hỗ trợ bởi việc thực hiện
+  45 | sự thận trọng.
+  46 | • Không có sai sót – các quy trình và mô tả không có
+  47 | lỗi. Điều này không có nghĩa là hoàn toàn chính xác ở mọi khía cạnh.
+
+================================================================================
+PAGE 6
+================================================================================
+   1 | 11
+   2 | Ghi chú của bạn
+   3 | 2. Các đặc điểm định tính nâng cao
+   4 | Ngoài hai đặc điểm định tính cơ bản, có bốn
+   5 | đặc điểm định tính nâng cao của thông tin tài chính hữu ích:
+   6 | Tính có thể so sánh: Nhà đầu tư có thể so sánh thông tin tài chính
+   7 | của một đơn vị theo năm và so sánh thông tin tài chính
+   8 | của đơn vị này với đơn vị khác
+   9 | Tính kịp thời: Thông tin cũ ít hữu ích hơn
+  10 | Tính dễ hiểu: Thông tin nên được trình bày rõ ràng
+  11 | và ngắn gọn nhất có thể
+  12 | Tính có thể kiểm chứng: Người dùng có hiểu biết có thể đồng ý rằng
+  13 | một mô tả cụ thể về giao dịch cung cấp trình bày trung thực
+  14 | II. CÁC ĐẶC ĐIỂM ĐỊNH TÍNH CỦA
+  15 | THÔNG TIN TÀI CHÍNH HỮU ÍCH
+  16 | KHUNG KHÁI NIỆM
+  17 | 12
+  18 | Ghi chú của bạn
+  19 | III. BÁO CÁO TÀI CHÍNH VÀ
+  20 | ĐƠN VỊ BÁO CÁO
+  21 | 1. Báo cáo tài chính
+  22 | Khung Khái niệm lưu ý rằng báo cáo tài chính là một loại hình cụ thể của
+  23 | báo cáo tài chính. Mục đích của báo cáo tài chính là cung cấp thông tin cho
+  24 | người dùng về các khoản sau của một đơn vị:
+  25 | Tài sản
+  26 | Nợ phải trả
+  27 | Vốn chủ sở hữu
+  28 | Thu nhập
+  29 | Chi phí
+  30 | Báo cáo tình hình tài chính
+  31 | Báo cáo kết quả hoạt động tài chính
+  32 | Thông tin này được cung cấp trong:
+  33 | Các báo cáo khác, như báo cáo lưu chuyển tiền tệ và thuyết minh
+  34 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 7
+================================================================================
+   1 | 13
+   2 | Ghi chú của bạn
+   3 | 01
+   4 | Đơn vị báo cáo là đơn vị lập báo cáo tài chính (có thể
+   5 | tự nguyện hoặc theo yêu cầu pháp lý)
+   6 | Báo cáo
+   7 | tài chính
+   8 | được lập
+   9 | cho
+  10 | hai
+  11 | hoặc
+  12 | nhiều đơn vị
+  13 | mà
+  14 | không
+  15 | phải
+  16 | công ty mẹ/công ty con được gọi là 'báo cáo tài chính hợp nhất'. Có thể
+  17 | khó xác định ranh giới của
+  18 | đơn vị báo cáo trong trường hợp này
+  19 | 02
+  20 | •
+  21 | Báo cáo tài chính được lập cho đơn vị báo cáo bao gồm
+  22 | công ty mẹ và các công ty con được gọi là 'báo cáo tài chính
+  23 | hợp nhất'. Các báo cáo tài chính này thể hiện công ty mẹ
+  24 | và các công ty con như một thực thể kinh tế duy nhất.
+  25 | •
+  26 | Thông tin này quan trọng đối với nhà đầu tư trong công ty mẹ vì
+  27 | lợi tức kinh tế của họ phụ thuộc vào phân phối từ
+  28 | công ty con cho công ty mẹ.
+  29 | 03
+  30 | 2. Đơn vị báo cáo
+  31 | III. BÁO CÁO TÀI CHÍNH VÀ
+  32 | ĐƠN VỊ BÁO CÁO
+  33 | KHUNG KHÁI NIỆM
+  34 | 14
+  35 | Các yếu tố là khối xây dựng của báo cáo tài chính:
+  36 | •
+  37 | Báo cáo tình hình tài chính báo cáo tài sản, nợ phải trả và vốn chủ sở hữu
+  38 | •
+  39 | Báo cáo kết quả hoạt động tài chính báo cáo thu nhập và chi phí
+  40 | IV. CÁC YẾU TỐ CỦA BÁO CÁO TÀI CHÍNH
+  41 | 1. Các yếu tố của báo cáo tài chính
+  42 | Nguồn lực kinh tế
+  43 | Tài sản
+  44 | Nguồn lực kinh tế hiện tại do đơn vị kiểm soát do
+  45 | sự kiện trong quá khứ
+  46 | Quyền yêu cầu kinh tế
+  47 | Nợ phải trả
+  48 | Nghĩa vụ hiện tại của đơn vị phải chuyển giao nguồn lực kinh tế do
+  49 | sự kiện trong quá khứ
+  50 | Vốn chủ sở hữu
+  51 | Quyền lợi còn lại trong tài sản thuần của đơn vị
+  52 | Các thay đổi trong
+  53 | nguồn lực kinh tế và
+  54 | quyền yêu cầu do
+  55 | kết quả hoạt động
+  56 | tài chính
+  57 | Thu nhập
+  58 | Tăng tài sản hoặc giảm nợ phải trả làm tăng
+  59 | vốn chủ sở hữu (không bao gồm đóng góp từ chủ sở hữu)
+  60 | Chi phí
+  61 | Giảm tài sản hoặc tăng nợ phải trả làm giảm
+  62 | vốn chủ sở hữu (không bao gồm phân phối cho chủ sở hữu)
+  63 | Các thay đổi khác trong
+  64 | nguồn lực kinh tế và quyền yêu cầu
+  65 | Đóng góp từ và phân phối cho chủ sở hữu.
+  66 | Trao đổi tài sản và nợ phải trả không làm tăng hoặc giảm
+  67 | vốn chủ sở hữu.
+  68 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 8
+================================================================================
+   1 | 15
+   2 | Ghi chú của bạn
+   3 | V. GHI NHẬN VÀ HỦY GHI NHẬN
+   4 | 1. Ghi nhận
+   5 | Ghi nhận – quá trình thu thập để đưa vào báo cáo tình hình
+   6 | tài chính hoặc báo cáo kết quả hoạt động tài chính một khoản mục
+   7 | đáp ứng định nghĩa về một yếu tố
+   8 | Ghi nhận
+   9 | bao gồm
+  10 | Mô tả khoản mục bằng từ ngữ
+  11 | và bằng một số tiền
+  12 | Đưa số tiền đó vào một hoặc
+  13 | nhiều tổng số trong báo cáo đó
+  14 | Chỉ các khoản mục đáp ứng định nghĩa về một yếu tố mới được ghi nhận. Tuy nhiên, không phải
+  15 | tất cả các khoản mục đáp ứng các định nghĩa này đều được ghi nhận
+  16 | ĐIỂM CHÍNH
+  17 | Việc ghi nhận không phù hợp không bao giờ được khắc phục bằng cách công bố
+  18 | các chính sách kế toán được sử dụng hoặc bằng thuyết minh hoặc tài liệu giải thích.
+  19 | KHUNG KHÁI NIỆM
+  20 | 16
+  21 | Ghi chú của bạn
+  22 | 2. Tiêu chuẩn Ghi nhận
+  23 | Các khoản mục chỉ được ghi nhận trong báo cáo tài chính nếu chúng đáp ứng định nghĩa
+  24 | về một trong các yếu tố. Tuy nhiên, không phải tất cả các khoản mục đáp ứng
+  25 | các định nghĩa này đều được ghi nhận.
+  26 | Các yếu tố được ghi nhận nếu việc ghi nhận cung cấp cho người dùng thông tin tài chính.
+  27 | Thông tin liên quan.
+  28 | Trình bày trung thực về
+  29 | tài sản
+  30 | hoặc
+  31 | nợ phải trả, và các khoản thu nhập, chi phí hoặc
+  32 | biến động vốn chủ sở hữu phát sinh.
+  33 | Được ghi nhận
+  34 | phải cung cấp
+  35 | 01
+  36 | Việc ghi nhận có thể không cung cấp thông tin liên quan nếu có sự không chắc chắn
+  37 | về sự tồn tại của yếu tố hoặc nếu xác suất dòng chảy vào hoặc
+  38 | ra của nguồn lực kinh tế thấp.
+  39 | 02
+  40 | Việc ghi nhận một yếu tố có thể không cung cấp trình bày trung thực nếu
+  41 | có mức độ không chắc chắn về đo lường rất cao.
+  42 | 03
+  43 | Nếu một tài sản hoặc nợ phải trả không được ghi nhận, có thể yêu cầu công bố
+  44 | để đảm bảo người dùng hiểu đầy đủ về các giao dịch kinh tế của đơn vị báo cáo
+  45 | và các hệ lụy mà các giao dịch này có thể đối với thu nhập tương lai và
+  46 | dòng tiền tương lai.
+  47 | V. GHI NHẬN VÀ HỦY GHI NHẬN
+  48 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 9
+================================================================================
+   1 | 17
+   2 | Ghi chú của bạn
+   3 | 2. Tiêu chuẩn Ghi nhận
+   4 | Ví dụ 1 (Câu hỏi)
+   5 | Bottle hoạt động trong ngành xuất bản. Thương hiệu Bottle được rất tôn trọng
+   6 | và kết quả là, các sách do Bottle xuất bản nhận được sự chú ý rộng rãi cả
+   7 | trực tuyến và trên báo chí quốc gia và quốc tế. Thương hiệu được tạo ra nội bộ
+   8 | và theo IAS 38 Tài sản Vô hình, không được ghi nhận trong báo cáo tài chính
+   9 | của Bottle.
+  10 | Yêu cầu:
+  11 | Thảo luận về mức độ xử lý kế toán thương hiệu Bottle phù hợp
+  12 | với Khung Khái niệm
+  13 | V. GHI NHẬN VÀ HỦY GHI NHẬN
+  14 | KHUNG KHÁI NIỆM
+  15 | 18
+  16 | Ghi chú của bạn
+  17 | 2. Tiêu chuẩn Ghi nhận
+  18 | Ví dụ 1 (Trả lời)
+  19 | •
+  20 | Thương hiệu là nguồn lực kinh tế do Bottle kiểm soát. Nó có tiềm năng
+  21 | mang lại lợi ích kinh tế nhờ sự chú ý mà các sách mang thương hiệu
+  22 | Bottle nhận được.
+  23 | •
+  24 | Mặc dù đáp ứng định nghĩa về một yếu tố, thương hiệu không được ghi nhận trong
+  25 | báo cáo tài chính. Tuy nhiên, Khung Khái niệm nêu rằng
+  26 | các yếu tố chỉ nên được ghi nhận nếu chúng cung cấp thông tin liên quan hoặc
+  27 | trình bày trung thực về tài sản hoặc nợ phải trả. Nếu có mức độ
+  28 | không chắc chắn về đo lường cao thì việc ghi nhận có thể không cung cấp
+  29 | trình bày trung thực.
+  30 | •
+  31 | Chi phí của thương hiệu tạo ra nội bộ không thể đo lường đáng tin cậy. Điều này
+  32 | là vì chi phí thiết lập và phát triển thương hiệu không thể
+  33 | tách biệt khỏi chi phí hoạt động của doanh nghiệp. Giá trị hợp lý của
+  34 | thương hiệu cũng rất khó xác định vì các thương hiệu là duy nhất.
+  35 | •
+  36 | Do đó, có vẻ như xử lý kế toán của thương hiệu theo IAS 38
+  37 | Tài sản Vô hình phù hợp với Khung Khái niệm
+  38 | V. GHI NHẬN VÀ HỦY GHI NHẬN
+  39 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 10
+================================================================================
+   1 | 19
+   2 | Ghi chú của bạn
+   3 | 3. Hủy ghi nhận
+   4 | Hủy ghi nhận là việc loại bỏ một phần hoặc toàn bộ tài sản hoặc nợ phải trả khỏi
+   5 | báo cáo tình hình tài chính. Điều này thường xảy ra khi đơn vị:
+   6 | Mất quyền kiểm soát tài sản, hoặc
+   7 | 1
+   8 | Không còn nghĩa vụ hiện tại đối với nợ phải trả
+   9 | 2
+  10 | Kế toán hủy ghi nhận nên trung thực phản ánh các thay đổi trong tài sản
+  11 | thuần của đơn vị, cũng như bất kỳ tài sản hoặc nợ phải trả được giữ lại.
+  12 | Điều này được thực hiện bằng cách:
+  13 | Hủy ghi nhận
+  14 | bất kỳ
+  15 | thành phần được chuyển giao,
+  16 | hết hạn hoặc tiêu hao
+  17 | Ghi nhận lãi hoặc lỗ trên
+  18 | các khoản trên
+  19 | Ghi nhận bất kỳ thành phần được giữ lại
+  20 | V. GHI NHẬN VÀ HỦY GHI NHẬN
+  21 | KHUNG KHÁI NIỆM
+  22 | 20
+  23 | Ghi chú của bạn
+  24 | 3. Hủy ghi nhận
+  25 | Ví dụ
+  26 | Một đơn vị bán tòa nhà với giá $2 triệu và giữ quyền mua lại với giá $3
+  27 | triệu trong năm năm. Tại ngày bán, tòa nhà có giá trị hợp lý $7
+  28 | triệu. Giá bất động sản được dự kiến tăng.
+  29 | Đơn vị không hủy ghi nhận tòa nhà khỏi báo cáo tình hình
+  30 | tài chính. Đơn vị chưa mất quyền kiểm soát tòa nhà vì khả năng
+  31 | mua lại tòa nhà với giá thấp hơn đáng kể so với giá trị hợp lý cho phép
+  32 | đơn vị hưởng lợi từ sự tăng giá trong tương lai.
+  33 | Tiền mặt nhận được sẽ được ghi nhận là nợ phải trả khoản vay.
+  34 | V. GHI NHẬN VÀ HỦY GHI NHẬN
+  35 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 11
+================================================================================
+   1 | 21
+   2 | Ghi chú của bạn
+   3 | VI. ĐO LƯỜNG
+   4 | 1. Nguyên giá và Giá trị hiện tại
+   5 | Nguyên
+   6 | giá
+   7 | Giá trị
+   8 | hiện tại
+   9 | Phản ánh các thay đổi về giá trị. Khung khái niệm
+  10 | đề cập đến ba thước đo giá trị hiện tại:
+  11 | Khung Khái niệm đề cập đến hai cơ sở đo lường chính: nguyên giá
+  12 | và giá trị hiện tại
+  13 | Dựa trên giá giao dịch khi tài sản được
+  14 | mua/tạo ra hoặc nợ phải trả phát sinh. Cơ sở
+  15 | đo lường
+  16 | này
+  17 | nói chung
+  18 | không
+  19 | phản ánh
+  20 | các thay đổi về giá trị
+  21 | Giá trị hợp lý
+  22 | Giá nhận được khi bán tài sản
+  23 | hoặc phải trả khi chuyển giao nợ phải trả
+  24 | Giá trị sử dụng/
+  25 | Giá trị
+  26 | thanh lý
+  27 | Giá trị sử dụng là giá trị hiện tại của
+  28 | dòng tiền dự kiến thu được
+  29 | từ việc sử dụng tài sản và
+  30 | thanh lý cuối cùng.
+  31 | Giá trị
+  32 | thanh lý
+  33 | là
+  34 | giá trị
+  35 | hiện tại
+  36 | của các nguồn lực chuyển giao để
+  37 | thanh toán nợ phải trả.
+  38 | Chi phí hiện tại
+  39 | Chi
+  40 | phí
+  41 | của
+  42 | một tài sản tương đương/khoản đền bù sẽ
+  43 | nhận được cho nợ phải trả tương đương,
+  44 | tại ngày đo lường.
+  45 | KHUNG KHÁI NIỆM
+  46 | 22
+  47 | Ghi chú của bạn
+  48 | 2. Lựa chọn Cơ sở Đo lường
+  49 | Ban quản lý nên tham khảo các đặc điểm định tính cơ bản về
+  50 | tính liên quan và trình bày trung thực khi chọn cơ sở đo lường.
+  51 | Các đặc điểm nâng cao cũng nên được xem xét
+  52 | Cách tài sản/nợ phải trả đóng góp vào dòng tiền tương lai
+  53 | Nguyên giá hoặc chi phí hiện tại có thể cung cấp thông tin
+  54 | liên quan cho tài sản (ví dụ: TSCĐ) đóng góp gián tiếp vào
+  55 | dòng tiền tương lai khi sử dụng kết hợp với tài sản khác
+  56 | Đặc
+  57 | điểm
+  58 | của
+  59 | tài sản
+  60 | hoặc
+  61 | nợ phải trả
+  62 | (và
+  63 | thu nhập/chi phí
+  64 | liên quan), ví dụ: nếu giá trị tài sản chịu biến động
+  65 | thị trường thì giá trị hợp lý có thể liên quan hơn
+  66 | nguyên giá
+  67 | 2
+  68 | 1
+  69 | Tính liên quan của thông tin bị ảnh hưởng bởi:
+  70 | VI. ĐO LƯỜNG
+  71 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 12
+================================================================================
+   1 | 23
+   2 | Ghi chú của bạn
+   3 | 2. Lựa chọn Cơ sở Đo lường
+   4 | Sự không nhất quán về đo lường
+   5 | Sử dụng các cơ sở đo lường khác nhau cho tài sản và
+   6 | nợ phải trả liên quan có thể dẫn đến sự không nhất quán về đo lường (không
+   7 | khớp kế toán).
+   8 | Thông tin
+   9 | hữu ích
+   10 | hơn
+   11 | có thể
+   12 | được
+   13 | cung cấp
+   14 | bằng cách chọn cùng cơ sở đo lường cho tài sản và
+   15 | nợ phải trả liên quan.
+   16 | Sự không chắc chắn về đo lường phát sinh khi giá trị phải được
+  17 | ước tính và không thể xác định bằng quan sát giá trên thị trường
+  18 | hoạt động, mức độ không chắc chắn cao có thể dẫn đến thông tin
+  19 | không trung thực.
+  20 | Trình bày trung thực bị ảnh hưởng bởi:
+  21 | 1
+  22 | 2
+  23 | VI. ĐO LƯỜNG
+  24 | KHUNG KHÁI NIỆM
+  25 | 24
+  26 | Ghi chú của bạn
+  27 | 2. Lựa chọn Cơ sở Đo lường
+  28 | Ví dụ 2 (Câu hỏi)
+  29 | Africant sắp tổ chức đại hội đồng cổ đông thường niên và
+  30 | các giám đốc muốn chuẩn bị cho các câu hỏi tiềm năng có thể được đặt ra
+  31 | tại cuộc họp. Đã có các cuộc thảo luận trên truyền thông về việc
+  32 | phương pháp đo lường phù hợp nhất nên được chọn cho từng loại tài sản
+  33 | và nợ phải trả. 'Phương pháp đo lường hỗn hợp' này được nhiều đơn vị sử dụng
+  34 | khi lập báo cáo tài chính. Cũng có các bình luận trên
+  35 | truyền thông về tác động mà sự không chắc chắn đo lường và biến động giá
+  36 | có thể ảnh hưởng đến chất lượng thông tin tài chính.
+  37 | Yêu cầu:
+  38 | Thảo luận về tác động mà các vấn đề trên có thể đối với việc phân tích
+  39 | báo cáo tài chính của các nhà đầu tư trong Africant
+  40 | VI. ĐO LƯỜNG
+  41 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 13
+================================================================================
+   1 | 25
+   2 | Ghi chú của bạn
+   3 | 2. Lựa chọn Cơ sở Đo lường
+   4 | Ví dụ 2 (Trả lời)
+   5 | •
+   6 | Một số nhà đầu tư có thể lập luận ủng hộ một cơ sở đo lường duy nhất cho tất cả
+   7 | tài sản và nợ phải trả được ghi nhận vì các tổng và tổng phụ
+   8 | có thể ít ý nghĩa nếu sử dụng các phương pháp đo lường khác nhau.
+   9 | •
+  10 | Tương tự, lãi hoặc lỗ có thể thiếu tính liên quan nếu nó phản ánh sự kết hợp
+  11 | giữa các dòng dựa trên nguyên giá và thay đổi giá trị cho các khoản mục
+  12 | được đo lường theo cơ sở giá trị hiện tại
+  13 | •
+  14 | Tuy nhiên, phần lớn nhà đầu tư có xu hướng ủng hộ phương pháp
+  15 | đo lường hỗn hợp, trong đó phương pháp đo lường phù hợp nhất
+  16 | được chọn cho từng loại tài sản và nợ phải trả. Phương pháp này
+  17 | phù hợp với cách nhà đầu tư phân tích báo cáo tài chính
+  18 | •
+  19 | Các vấn đề của đo lường hỗn hợp được bù đắp bởi tính
+  20 | liên quan cao hơn đạt được nếu cơ sở đo lường phù hợp nhất được sử dụng cho
+  21 | từng tài sản và nợ phải trả.
+  22 | •
+  23 | Hầu hết các giá trị đo lường kế toán của tài sản và nợ phải trả đều không chắc chắn và
+  24 | cần
+  25 | ước tính.
+  26 | Mặc dù
+  27 | một số
+  28 | giá trị
+  29 | đo lường
+  30 | nguyên
+  31 | giá
+  32 | khá
+  33 | đơn giản vì đó là số tiền đã trả hoặc nhận, có nhiều
+  34 | trường hợp đo lường chi phí có thể không chắc chắn – đặc biệt là
+  35 | chi phí có thể thu hồi, cần ước tính tổn thất và khấu hao.
+  36 | VI. ĐO LƯỜNG
+  37 | KHUNG KHÁI NIỆM
+  38 | 26
+  39 | Ghi chú của bạn
+  40 | 2. Lựa chọn Cơ sở Đo lường
+  41 | Ví dụ 2 (Trả lời)
+  42 | •
+  43 | Sự không chắc chắn về đo lường cao có thể làm giảm chất lượng thông tin
+  44 | sẵn có cho nhà đầu tư. Biến động giá cao có thể khiến việc phân tích
+  45 | đầu tư vào đơn vị đó khó khăn hơn. Nếu một giá trị đo lường liên quan của
+  46 | tài sản hoặc nợ phải trả biến động, điều này không nên bị che giấu khỏi nhà đầu tư
+  47 | •
+  48 | Việc che giấu biến động sẽ làm giảm tính hữu ích của báo cáo
+  49 | tài chính. Tất nhiên, các khoản lãi và lỗ biến động này cần được trình bày
+  50 | và công bố rõ ràng, vì giá trị dự đoán của chúng có thể khác với
+  51 | các thành phần kết quả hoạt động khác.
+  52 | VI. ĐO LƯỜNG
+  53 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 14
+================================================================================
+   1 | 27
+   2 | Ghi chú của bạn
+   3 | VII. TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN
+   4 | 1. Là Công cụ Truyền thông
+   5 | Trình bày và công bố hiệu quả đòi hỏi:
+   6 | Tập
+   7 | trung
+   8 | vào
+   9 | mục tiêu
+  10 | trình bày
+  11 | và
+  12 | công bố: đạt sự cân bằng giữa tính linh hoạt
+  13 | để cung cấp thông tin liên quan
+  14 | trung thực phản ánh giao dịch và
+  15 | đạt tính có thể so sánh
+  16 | Truyền thông hiệu quả trong báo cáo tài chính làm cho thông tin liên quan hơn,
+  17 | góp phần trình bày trung thực tình hình tài chính và kết quả hoạt động, và
+  18 | nâng cao tính dễ hiểu và có thể so sánh của thông tin
+  19 | Phân loại
+  20 | dựa
+  21 | trên
+  22 | đặc điểm
+  23 | chung: nhóm các khoản mục tương tự,
+  24 | tách biệt
+  25 | các khoản mục
+  26 | khác nhau
+  27 | và,
+  28 | nói chung,
+  29 | không
+  30 | bù trừ
+  31 | tài sản
+  32 | và
+  33 | nợ phải trả
+  34 | Tổng hợp các khoản mục được
+  35 | bao gồm
+  36 | trong
+  37 | cùng
+  38 | phân loại:
+  39 | đạt
+  40 | sự
+  41 | cân bằng giữa tóm tắt
+  42 | một lượng lớn chi tiết và
+  43 | che giấu chi tiết
+  44 | KHUNG KHÁI NIỆM
+  45 | 28
+  46 | Ghi chú của bạn
+  47 | 2. Lãi hoặc lỗ và thu nhập bao gồm khác
+  48 | Báo cáo lãi hoặc lỗ là nguồn thông tin chính về
+  49 | kết quả hoạt động của đơn vị. Do đó, thu nhập và chi phí
+  50 | nói chung nên
+  51 | được ghi nhận trong báo cáo này
+  52 | Lãi hoặc lỗ cung cấp thông tin
+  53 | liên quan hơn
+  54 | Trình bày trung thực hơn
+  55 | được cung cấp
+  56 | về
+  57 | kết quả
+  58 | hoạt động
+  59 | của đơn vị
+  60 | Khi phát triển hoặc sửa đổi chuẩn mực, Hội đồng lưu ý có thể yêu cầu
+  61 | một khoản thu nhập hoặc chi phí được trình bày trong thu nhập bao gồm khác nếu
+  62 | nó phát sinh từ đo lường lại một khoản mục theo giá trị hiện tại và nếu điều này
+  63 | có nghĩa là:
+  64 | Tuy nhiên,
+  65 | Hội đồng
+  66 | có thể
+  67 | quyết định việc phân loại lại không phù hợp nếu không có
+  68 | cơ sở rõ ràng để xác định số tiền
+  69 | hoặc
+  70 | thời điểm
+  71 | của
+  72 | việc
+  73 | phân loại lại.
+  74 | Thu nhập
+  75 | và
+  76 | chi phí
+  77 | được bao gồm trong thu nhập bao gồm khác
+  78 | nên được phân loại lại vào
+  79 | lãi hoặc lỗ khi việc这样做
+  80 | giúp lãi hoặc lỗ cung cấp thông tin liên quan hơn.
+  81 | VII. TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN
+  82 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 15
+================================================================================
+   1 | 29
+   2 | Ghi chú của bạn
+   3 | 2. Lãi hoặc lỗ và thu nhập bao gồm khác
+   4 | Ví dụ 3 (Câu hỏi)
+   5 | Tiền điện tử là tiền tệ kỹ thuật số hoạt động độc lập với ngân hàng
+   6 | trung ương. Một số doanh nghiệp hiện chấp nhận tiền điện tử thay cho tiền tệ
+   7 | truyền thống.
+   8 | Giá thị trường của tiền điện tử rất biến động. Nhà đầu tư có thể kiếm được lợi nhuận
+   9 | lớn bằng cách mua tiền điện tử trên sàn giao dịch khi giá báo giá thấp
+  10 | và bán trên sàn giao dịch khi giá báo giá tăng.
+  11 | Tiền điện tử đã gây khó khăn trong báo cáo tài chính
+  12 | vì chúng dường như không thuộc phạm vi của chuẩn mực IFRS hoặc IAS
+  13 | nào. Do đó, người lập báo cáo tài chính phải sử dụng Khung Khái niệm
+  14 | để xây dựng phương pháp kế toán cung cấp thông tin hữu ích
+  15 | cho người dùng báo cáo tài chính.
+  16 | Yêu cầu:
+  17 | Sử dụng Khung Khái niệm, thảo luận về cách một đơn vị có thể hạch toán
+  18 | khoản đầu tư vào tiền điện tử mà đơn vị nắm giữ để giao dịch.
+  19 | VII. TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN
+  20 | KHUNG KHÁI NIỆM
+  21 | 30
+  22 | Ghi chú của bạn
+  23 | 2. Lãi hoặc lỗ và thu nhập bao gồm khác
+  24 | Ví dụ 3 (Trả lời)
+  25 | •
+  26 | Định nghĩa tài sản trong Khung Khái niệm là nguồn lực kinh tế
+  27 | do đơn vị kiểm soát từ sự kiện trong quá khứ. Tiền điện tử đáp ứng
+  28 | định nghĩa này vì nó có thể được giao dịch hoặc sử dụng để mua hàng hóa và do đó
+  29 | có tiềm năng tạo ra lợi ích kinh tế.
+  30 | •
+  31 | Các khoản mục nên được ghi nhận trong báo cáo tài chính nếu chúng đáp ứng
+  32 | định nghĩa về một yếu tố và nếu việc ghi nhận cung cấp thông tin liên quan
+  33 | và trình bày trung thực về khoản mục cơ bản. Nếu tiền điện tử
+  34 | được giao dịch thì thông tin về các khoản đầu tư này sẽ giúp người dùng khi
+  35 | đánh giá dòng tiền tương lai của đơn vị. Do đó, việc ghi nhận là phù hợp.
+  36 | •
+  37 | Nguyên giá của tiền điện tử có thể khác biệt đáng kể so với
+  38 | giá trị hiện tại. Do đó, cổ đông có thể quan tâm đến
+  39 | giá trị hiện tại của khoản đầu tư vì việc bán cuối cùng sẽ có
+  40 | tác động đáng kể đến dòng tiền thuần tương lai.
+  41 | •
+  42 | Hơn nữa, theo nguyên giá, thông tin về thay đổi giá trị thường
+  43 | không
+  44 | được báo cáo
+  45 | cho đến khi
+  46 | thanh lý.
+  47 | Do đó,
+  48 | có vẻ
+  49 | rằng
+  50 | việc
+  51 | đo lường dựa trên giá trị hiện tại – như giá trị hợp lý – sẽ cung cấp
+  52 | thông tin liên quan và kịp thời cho cổ đông
+  53 | VII. TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN
+  54 | KHUNG KHÁI NIỆM
+
+================================================================================
+PAGE 16
+================================================================================
+   1 | 31
+   2 | Ghi chú của bạn
+   3 | 2. Lãi hoặc lỗ và thu nhập bao gồm khác
+   4 | Ví dụ 3 (Trả lời)
+   5 | •
+   6 | Mặc dù giá trị của tiền điện tử rất biến động, giá trị đó có thể được
+   7 | thu nhận từ bán trong ngắn hạn. Do đó, có vẻ rằng báo cáo
+   8 | lãi và lỗ trong lãi hoặc lỗ sẽ cung cấp thông tin liên quan nhất
+   9 | về kết quả hoạt động kinh tế trong kỳ.
+  10 | •
+  11 | Kết luận, bằng cách áp dụng Khung Khái niệm, phương pháp kế toán phù hợp
+  12 | cho khoản đầu tư vào tiền điện tử sẽ là đo lường lại khoản đầu tư
+  13 | theo giá trị hợp lý tại ngày báo cáo và trình bày
+  14 | khoản thu nhập hoặc chi phí phát sinh trong báo cáo lãi hoặc lỗ.
+  15 | VII. TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN
+  16 | KHUNG KHÁI NIỆM
+  17 | 32
+  18 | VIII. KHÁI NIỆM VỀ VỐN VÀ DUY TRÌ VỐN
+  19 | 1. Khái niệm về vốn và duy trì vốn
+  20 | Khái niệm tài chính về vốn được hầu hết các đơn vị áp dụng.
+  21 | Có hai khái niệm duy trì vốn:
+  22 | Lợi nhuận được ghi nhận nếu giá trị tài chính (tiền tệ) của tài sản thuần tại cuối kỳ
+  23 | vượt quá tài sản thuần tại đầu kỳ, không bao gồm phân phối cho/đóng góp từ chủ sở hữu trong kỳ.
+  24 | Duy trì vốn tài chính
+  25 | 01
+  26 | Lợi nhuận được ghi nhận nếu năng lực sản xuất vật chất (hoặc năng lực hoạt động) của đơn vị tại cuối kỳ
+  27 | vượt quá năng lực sản xuất vật chất tại đầu kỳ (không bao gồm phân phối cho/đóng góp từ chủ sở hữu trong kỳ).
+  28 | Duy trì vốn vật chất
+  29 | 02
+  30 | KHUNG KHÁI NIỆM
+  31 | Có hai khái niệm liên quan đến vốn:
+  32 | • Khái niệm tài chính về vốn, trong đó vốn đề cập đến tài sản thuần hoặc vốn chủ sở hữu của đơn vị
+  33 | • Khái niệm vật chất về vốn, trong đó vốn được coi là năng lực sản xuất
+  34 | của đơn vị, ví dụ, đơn vị sản lượng mỗi ngày
+
+================================================================================
+PAGE 17
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 33
+   3 | KHUNG KHÁI NIỆM
+   4 | Câu hỏi 1:
+   5 | Khung Khái niệm định nghĩa tài sản như thế nào?
+   6 | A.
+   7 | Nguồn lực kinh tế hiện tại, là quyền có tiềm năng
+   8 | tạo ra lợi ích kinh tế, thuộc sở hữu của đơn vị do sự kiện
+   9 | trong quá khứ.
+  10 | B.
+  11 | Nguồn lực kinh tế hiện tại mà đơn vị có quyền pháp lý. Nguồn
+  12 | lực kinh tế là quyền có tiềm năng tạo ra lợi ích kinh tế.
+  13 | C.
+  14 | Nguồn lực kinh tế hiện tại do đơn vị kiểm soát do sự kiện trong
+  15 | quá khứ. Nguồn lực kinh tế là quyền có tiềm năng tạo ra lợi ích kinh tế.
+  16 | D.
+  17 | Nguồn lực kinh tế hiện tại mà đơn vị có cam kết tương lai
+  18 | do sự kiện trong quá khứ. Nguồn lực kinh tế là quyền có tiềm năng
+  19 | tạo ra lợi ích kinh tế.
+  20 | Câu hỏi trắc nghiệm Chương 1
+  21 | Ghi chú của bạn
+  22 | 34
+  23 | KHUNG KHÁI NIỆM
+  24 | Câu hỏi trắc nghiệm Chương 1
+  25 | Câu hỏi 2:
+  26 | Khung Khái niệm
+  27 | xác định
+  28 | bốn
+  29 | đặc điểm
+  30 | định tính
+  31 | nâng cao
+  32 | của thông tin tài chính.
+  33 | Đâu KHÔNG phải là đặc điểm định tính nâng cao?
+  34 | A.
+  35 | Tính có thể kiểm chứng
+  36 | B.
+  37 | Tính kịp thời
+  38 | C.
+  39 | Tính nhất quán
+  40 | D.
+  41 | Tính dễ hiểu
+  42 | Câu hỏi 3:
+  43 | Định nghĩa tài sản bao gồm thuật ngữ nào sau đây:
+  44 | 1.
+  45 | Kiểm soát
+  46 | 2.
+  47 | Lợi ích kinh tế tương lai
+  48 | 3.
+  49 | Quyền sở hữu
+  50 | 4.
+  51 | Giao dịch trong quá khứ
+  52 | A.
+  53 | Tất cả các phương án trên
+  54 | B.
+  55 | 1, 2 và 4
+  56 | C.
+  57 | 2, 3 và 4
+  58 | D.
+  59 | 1, 2 và 3
+
+================================================================================
+PAGE 18
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 35
+   3 | KHUNG KHÁI NIỆM
+   4 | Câu hỏi trắc nghiệm Chương 1
+   5 | Câu hỏi 4:
+   6 | Trình bày trung thực có nghĩa là thông tin tài chính phản ánh
+   7 | bản chất của giao dịch thay vì hình thức pháp lý.
+   8 | Đâu là tình huống thể hiện việc xử lý kế toán
+   9 | khác với hình thức pháp lý của giao dịch để đảm bảo trình bày
+  10 | trung thực
+  11 | A.
+  12 | Tài sản được khấu hao theo phương pháp đường thẳng
+  13 | B.
+  14 | Chi phí bằng sáng chế được vốn hóa
+  15 | C.
+  16 | Tài sản được thuê và vốn hóa bởi đơn vị sử dụng tài sản
+  17 | D.
+  18 | Trích lập dự phòng cho nợ phải thu khó đòi
+  19 | Ghi chú của bạn
+  20 | 36
+  21 | KHUNG KHÁI NIỆM
+  22 | Câu hỏi trắc nghiệm Chương 1
+  23 | Đáp án
+  24 | Câu hỏi 1:
+  25 | Đáp án đúng là C.
+  26 | Nguồn lực kinh tế hiện tại do đơn vị kiểm soát do sự kiện trong
+  27 | quá khứ. Nguồn lực kinh tế là quyền có tiềm năng tạo ra lợi ích
+  28 | kinh tế.
+  29 | Câu hỏi 2:
+  30 | Đáp án đúng là C.
+  31 | Tính nhất quán
+  32 | là
+  33 | một phần
+  34 | quan trọng
+  35 | của
+  36 | đặc điểm
+  37 | định tính
+  38 | có thể so sánh, nhưng không phải là cùng một thứ. Tính có thể so sánh của báo cáo tài chính
+  39 | được hỗ trợ bởi sự nhất quán về chính sách và phương pháp sử dụng, hoặc
+  40 | giữa các công ty trong cùng ngành hoặc cùng một công ty,
+  41 | giữa các năm khác nhau.
+
+================================================================================
+PAGE 19
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 37
+   3 | KHUNG KHÁI NIỆM
+   4 | Câu hỏi trắc nghiệm Chương 1
+   5 | Câu hỏi 3:
+   6 | Đáp án đúng là B: 1, 2 và 4
+   7 | Theo
+   8 | | Khung
+   9 | Chuẩn mực
+   10 | Báo cáo
+   11 | Tài chính
+   12 | Quốc tế
+   13 | (IFRS),
+   14 | tài sản là nguồn lực do đơn vị kiểm soát do sự kiện trong quá khứ
+   15 | và từ đó lợi ích kinh tế tương lai được kỳ vọng sẽ chảy vào
+   16 | đơn vị. Dưới đây là cách các thuật ngữ liên quan đến định nghĩa này:
+  17 | •
+  18 | Kiểm soát: Đơn vị phải có quyền kiểm soát nguồn lực, nghĩa là có thể
+  19 | định hướng việc sử dụng và thu nhận lợi ích.
+  20 | •
+  21 | Lợi ích kinh tế tương lai: Tài sản phải được kỳ vọng cung cấp
+  22 | lợi ích kinh tế tương lai cho đơn vị.
+  23 | •
+  24 | Giao dịch trong quá khứ: Tài sản phát sinh từ sự kiện hoặc giao dịch trong quá khứ.
+  25 | Câu hỏi 4:
+  26 | Đáp án đúng là C
+  27 | Về mặt pháp lý, đơn vị có thể không sở hữu tài sản thuê, nhưng về mặt kế toán,
+  28 | nếu thuê chuyển giao phần lớn rủi ro và lợi ích của
+  29 | quyền sở hữu cho bên thuê, tài sản được xử lý như thể bên thuê sở hữu nó. Điều này
+  30 | đảm bảo báo cáo tài chính phản ánh bản chất kinh tế thực sự của
+  31 | giao dịch, cung cấp trình bày trung thực về tình hình tài chính
+  32 | của đơn vị.
+  33 | Đáp án
+  34 | 38
+  35 | Ghi chú của bạn
+  36 | 38
+  37 | MODULE 2: TÌNH TRẠNG VÀ
+  38 | SỬ DỤNG CHUẨN MỰC IFRS
+  39 | TRÊN TOÀN CẦU
+  40 | (ĐỌC THÊM)
+
+================================================================================
+PAGE 20
+================================================================================
+   1 | 39
+   2 | TÌNH TRẠNG VÀ SỬ DỤNG CHUẨN MỰC
+   3 | IFRS TRÊN TOÀN CẦU
+   4 | I. CHUẨN MỰC IFRS ĐÃ ĐƯỢC ÁP DỤNG Ở ĐÂU?
+   5 | Module này bao gồm việc áp dụng Chuẩn mực IFRS trên toàn thế giới, sự phát triển của Hội đồng và Chuẩn mực IFRS
+   6 | và Chuẩn mực IFRS cho các doanh nghiệp vừa và nhỏ.
+   7 | Các khu vực pháp lý riêng lẻ có thể cho phép hoặc yêu cầu một số công ty áp dụng Chuẩn mực IFRS:
+   8 | Châu Âu
+   9 | Tất cả công ty niêm yết phải áp dụng
+  10 | Chuẩn mực IFRS
+  11 | Châu Úc
+  12 | Công ty niêm yết tại Úc
+  13 | và
+  14 | New
+  15 | Zealand
+  16 | phải
+  17 | sử dụng
+  18 | chuẩn mực quốc gia tương đương với Chuẩn mực
+  19 | IFRS
+  20 | Châu Phi
+  21 | •
+  22 | Một số quốc gia, ví dụ Nigeria, yêu cầu công ty niêm yết áp dụng
+  23 | Chuẩn mực IFRS
+  24 | •
+  25 | Một số cho phép sử dụng
+  26 | •
+  27 | Một số cấm sử dụng
+  28 | Châu Á
+  29 | •
+  30 | Một số quốc gia, ví dụ Malaysia, có chuẩn mực quốc gia
+  31 | tương đương với Chuẩn mực IFRS
+  32 | •
+  33 | Chuẩn mực quốc gia tại Ấn Độ và Trung Quốc
+  34 | tương tự với Chuẩn mực IFRS
+  35 | •
+  36 | Chuẩn mực IFRS là một trong 4 GAAP
+  37 | được phép tại Nhật Bản.
+  38 | Châu Mỹ
+  39 | •
+  40 | Canada, Brazil, Chile, Mexico, Peru, Uruguay,
+  41 | Chile,
+  42 | Ecuador
+  43 | và
+  44 | Argentina
+  45 | yêu cầu
+  46 | hoặc
+  47 | cho phép
+  48 | sử dụng
+  49 | Chuẩn mực
+  50 | IFRS bởi
+  51 | công ty
+  52 | niêm yết
+  53 | •
+  54 | Công ty niêm yết tại Mỹ không thể áp dụng Chuẩn mực
+  55 | IFRS.
+  56 | 40
+  57 | TÌNH TRẠNG VÀ SỬ DỤNG CHUẨN MỰC
+  58 | IFRS TRÊN TOÀN CẦU
+  59 | II. SỰ PHÁT TRIỂN CỦA HỘI ĐỒNG VÀ CHUẨN MỰC IFRS
+  60 | Việc áp dụng Chuẩn mực IFRS ngày càng tăng trên toàn cầu
+  61 | 1973
+  62 | 1989
+  63 | 2001
+  64 | 2005
+  65 | 2006
+  66 | 2007
+  67 | IASC được thành lập
+  68 | Khung Khái niệm
+  69 | đầu tiên
+  70 | Hội đồng
+  71 | thay thế IASC
+  72 | EU áp dụng Chuẩn mực
+  73 | IFRS cho
+  74 | công ty niêm yết
+  75 | Hội đồng và FASB
+  76 | thống nhất lộ trình
+  77 | hội tụ
+  78 | với GAAP
+  79 | Mỹ nay
+  80 | ít khả năng
+  81 | III. CHUẨN MỰC NÀO CÓ THỂ ĐƯỢC ÁP DỤNG CHO DOANH NGHIỆP VỪA VÀ NHỎ?
+  82 | Đơn vị
+  83 | không có
+  84 | trách nhiệm
+  85 | giải trình
+  86 | công cộng
+  87 | (với một số ngoại lệ), không giới hạn quy mô
+  88 | IFRS cho Doanh nghiệp
+  89 | Vừa và Nhỏ
+  90 | (đơn giản hóa, giảm
+  91 | so với IFRS đầy đủ)
+  92 | Xem xét định kỳ để
+  93 | phản ánh thay đổi
+  94 | so với IFRS đầy đủ
+   95 | Các khu vực pháp lý có thể áp dụng Chuẩn mực IFRS cho DNVVN bất kể đã áp dụng IFRS đầy đủ hay chưa
+
+================================================================================
+PAGE 21
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 41
+   3 | Câu hỏi 1:
+   4 | Quốc gia nào sau đây cấm sử dụng IFRS đối với công ty niêm yết
+   5 | trong nước?
+   6 | A.
+   7 | Brazil
+   8 | B.
+   9 | Nga
+  10 | C.
+  11 | Úc
+  12 | D.
+  13 | Trung Quốc
+  14 | Câu hỏi trắc nghiệm Module 2
+  15 | Loại hình đơn vị nào sau đây đủ điều kiện sử dụng IFRS
+  16 | cho DNVVN?
+  17 | 1.
+  18 | Ngân hàng chưa niêm yết
+  19 | 2.
+  20 | Công ty niêm yết đáp ứng ngưỡng quy mô của doanh nghiệp nhỏ
+  21 | 3.
+  22 | Công ty chưa niêm yết bất kỳ quy mô nào
+  23 | A.
+  24 | Chỉ 2
+  25 | B.
+  26 | Chỉ 3
+  27 | C.
+  28 | 1 và 3
+  29 | D.
+  30 | 2 và 3
+  31 | Câu hỏi 2:
+  32 | TÌNH TRẠNG VÀ SỬ DỤNG CHUẨN MỰC
+  33 | IFRS TRÊN TOÀN CẦU
+  34 | Ghi chú của bạn
+  35 | 42
+  36 | Câu hỏi 3:
+  37 | Câu nào sau đây là đúng?
+  38 | A.
+  39 | IFRS cho DNVVN chỉ có thể được áp dụng bởi các khu vực pháp lý không có
+  40 | chuẩn mực quốc gia
+  41 | B.
+  42 | IFRS cho DNVVN được IASB phát triển dựa trên một số
+  43 | chuẩn mực quốc gia hiện hành cho DNVVN
+  44 | C.
+  45 | IFRS cho DNVVN có thể được áp dụng bởi bất kỳ khu vực pháp lý nào, bất kể
+  46 | đã áp dụng IFRS đầy đủ hay chưa
+  47 | D.
+  48 | IFRS cho DNVVN cho phép các tùy chọn kế toán giống như IFRS đầy đủ
+  49 | nhưng giảm đáng kể mức độ công bố yêu cầu
+  50 | Câu hỏi trắc nghiệm Module 2
+  51 | TÌNH TRẠNG VÀ SỬ DỤNG CHUẨN MỰC
+  52 | IFRS TRÊN TOÀN CẦU
+
+================================================================================
+PAGE 22
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 43
+   3 | Câu hỏi trắc nghiệm Module 2
+   4 | Đáp án
+   5 | Câu hỏi 1:
+   6 | Đáp án đúng là D.
+   7 | Trung Quốc cấm sử dụng IFRS đối với công ty niêm yết trong nước vì nước này có
+   8 | bộ chuẩn mực kế toán riêng, được gọi là Chuẩn mực Kế toán cho
+   9 | Doanh nghiệp (ASBE), bắt buộc đối với tất cả công ty niêm yết
+  10 | tại Trung Quốc. Mặc dù Trung Quốc đang hướng tới hội tụ với IFRS,
+  11 | nước này chưa áp dụng IFRS cho công ty niêm yết trong nước.
+  12 | Câu hỏi 2:
+  13 | Đáp án đúng là B.
+  14 | IFRS cho DNVVN là phiên bản đơn giản hóa của IFRS được thiết kế cho doanh nghiệp
+  15 | vừa và nhỏ (DNVVN). Nó không phù hợp với công ty niêm yết hoặc
+  16 | ngân hàng, bất kể quy mô.
+  17 | Do đó, phương án 1 (ngân hàng chưa niêm yết) và phương án 2 (công ty niêm yết
+  18 | đáp ứng ngưỡng quy mô doanh nghiệp nhỏ) không đủ điều kiện sử dụng IFRS
+  19 | cho DNVVN.
+  20 | TÌNH TRẠNG VÀ SỬ DỤNG CHUẨN MỰC
+  21 | IFRS TRÊN TOÀN CẦU
+  22 | Ghi chú của bạn
+  23 | 44
+  24 | Câu hỏi trắc nghiệm Module 2
+  25 | Đáp án
+  26 | Câu hỏi 3:
+  27 | Đáp án đúng là C.
+  28 | IFRS cho DNVVN là chuẩn mực tự chứa có thể được áp dụng bởi bất kỳ
+  29 | khu vực pháp lý nào, bất kể đã áp dụng IFRS đầy đủ hay chưa. Nó được
+  30 | Hội đồng Chuẩn mực Kế toán Quốc tế (IASB) phát triển dựa trên
+  31 | IFRS đầy đủ, nhưng không phải là tập con của IFRS đầy đủ.
+  32 | IFRS cho DNVVN được thiết kế để dễ dàng và ít chi phí triển khai hơn
+  33 | so với IFRS đầy đủ, phù hợp hơn với doanh nghiệp vừa và nhỏ
+  34 | (DNVVN).
+  35 | Phương án A không đúng vì IFRS cho DNVVN có thể được áp dụng bởi các khu vực pháp lý
+  36 | có chuẩn mực quốc gia riêng.
+  37 | Phương án B không đúng vì IFRS cho DNVVN không được phát triển dựa trên
+  38 | một số chuẩn mực quốc gia hiện hành cho DNVVN.
+  39 | Phương án D không đúng vì IFRS cho DNVVN không cho phép các tùy chọn kế toán
+  40 | giống như IFRS đầy đủ. Nó có bộ tùy chọn kế toán giảm
+  41 | và yêu cầu công bố giảm so với IFRS đầy đủ.
+  42 | TÌNH TRẠNG VÀ SỬ DỤNG CHUẨN MỰC
+  43 | IFRS TRÊN TOÀN CẦU
+
+================================================================================
+PAGE 23
+================================================================================
+   1 | 45
+   2 | Ghi chú của bạn
+   3 | 45
+   4 | MODULE 3: TRÌNH BÀY,
+   5 | DOANH THU VÀ LỢI NHUẬN
+   6 | 46
+   7 | Ghi chú của bạn
+   8 | 46
+   9 | CHƯƠNG 2: TRÌNH BÀY VÀ
+  10 | CÔNG BỐ THÔNG TIN TRÊN BÁO CÁO
+  11 | TÀI CHÍNH
+
+================================================================================
+PAGE 24
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 47
+   3 | TỔNG QUAN
+   4 | Bạn sẽ học được gì?
+   5 | IFRS 18 TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN BÁO CÁO TÀI CHÍNH
+   6 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+   7 | BÁO CÁO TÀI CHÍNH
+   8 | Lập báo cáo tài chính
+   9 | cho công ty
+  10 | Tổng hợp và phân tách
+  11 | Báo cáo tình hình tài chính
+  12 | Báo cáo thay đổi vốn chủ sở hữu
+  13 | (SOCIE)
+  14 | Báo cáo lãi hoặc lỗ và thu nhập
+  15 | bao gồm khác
+  16 | Giới thiệu về Báo cáo Tài chính
+  17 | Đã Công bố
+  18 | Ghi chú của bạn
+  19 | 48
+  20 | IFRS 18 Trình bày và Công bố thông tin trên Báo cáo Tài chính quy định rằng
+  21 | một bộ báo cáo tài chính hoàn chỉnh bao gồm:
+  22 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+  23 | BÁO CÁO TÀI CHÍNH
+  24 | 1. IFRS 18 Trình bày và Công bố thông tin trên Báo cáo Tài chính
+  25 | I. LẬP BÁO CÁO TÀI CHÍNH CHO
+  26 | CÔNG TY
+  27 | 1
+  28 | Báo cáo tình hình tài chính
+  29 | 2
+  30 | Hoặc
+  31 | • Báo cáo lãi hoặc lỗ và thu nhập bao gồm khác, hoặc
+  32 | • Báo cáo lãi hoặc lỗ cộng với báo cáo riêng thể hiện
+  33 | thu nhập bao gồm khác
+  34 | 3
+  35 | Báo cáo thay đổi vốn chủ sở hữu
+  36 | 4
+  37 | Báo cáo lưu chuyển tiền tệ
+  38 | 5
+  39 | Chính sách kế toán và thuyết minh giải thích.
+  40 | IFRS 18 KHÔNG yêu cầu công ty sử dụng các tiêu đề trên. Công ty
+  41 | có thể tiếp tục sử dụng thuật ngữ bảng cân đối kế toán thay vì báo cáo
+  42 | tình hình tài chính, báo cáo kết quả hoạt động kinh doanh thay vì báo cáo lãi hoặc lỗ, và
+  43 | báo cáo lưu chuyển tiền tệ thay vì báo cáo lưu chuyển tiền tệ.
+
+================================================================================
+PAGE 25
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 49
+   3 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+   4 | BÁO CÁO TÀI CHÍNH
+   5 | Đối với mục đích trình bày, tài sản, nợ phải trả, vốn chủ sở hữu, thu nhập và chi phí nên
+   6 | được kết hợp (hoặc tổng hợp) khi các khoản mục có đặc điểm chung.
+   7 | Khi các khoản mục không có đặc điểm chung, các khoản mục này nên được trình bày riêng biệt
+   8 | (hoặc phân tách).
+   9 | Trong một số trường hợp, việc trình bày riêng biệt các khoản mục trên mặt
+  10 | báo cáo lãi hoặc lỗ hoặc báo cáo tình hình tài chính có thể cung cấp thông tin rõ ràng hơn.
+  11 | Ví dụ có thể bao gồm:
+  12 | 2. Tổng hợp và Phân tách
+  13 | I. LẬP BÁO CÁO TÀI CHÍNH CHO
+  14 | CÔNG TY
+  15 | Tổn thất tài sản cố định
+  16 | hữu hình
+  17 | 1
+  18 | 2
+  19 | 3
+  20 | 4
+  21 | 5
+  22 | Chi phí tái cơ cấu
+  23 | Bồi thường kiện tụng
+  24 | Hoàn nhập dự phòng
+  25 | Nợ phải trả thuê
+  26 | Lợi thế thương mại
+  27 | 5
+  28 | 50
+  29 | Một mẫu được khuyến nghị như sau:
+  30 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+  31 | BÁO CÁO TÀI CHÍNH
+  32 | 3. Báo cáo tình hình tài chính
+  33 | I. LẬP BÁO CÁO TÀI CHÍNH CHO CÔNG TY
+  34 | XYZ: Báo cáo tình hình tài chính tại ngày 31 tháng 12 năm 20X8
+  35 | Tài sản
+  36 | $
+  37 | $
+  38 | Tài sản dài hạn:
+  39 | Tài sản cố định hữu hình
+  40 | X
+  41 | Đầu tư
+  42 | X
+  43 | Tài sản vô hình
+  44 | X
+  45 | X
+  46 | Tài sản ngắn hạn:
+  47 | Hàng tồn kho
+  48 | X
+  49 | Phải thu khách hàng
+  50 | X
+  51 | Tiền và tương đương tiền
+  52 | X
+  53 | X
+  54 | Tổng tài sản
+  55 | X
+  56 | Vốn chủ sở hữu và Nợ phải trả
+  57 | $
+  58 | $
+  59 | Vốn và quỹ dự trữ:
+  60 | Vốn cổ phần
+  61 | X
+  62 | Lợi nhuận giữ lại
+  63 | X
+  64 | Thành phần khác của vốn chủ sở hữu
+  65 | X
+  66 | X
+  67 | Tổng vốn chủ sở hữu
+  68 | X
+  69 | Nợ dài hạn:
+  70 | Khoản vay
+  71 | X
+  72 | Thuế hoãn lại
+  73 | X
+  74 | X
+  75 | Nợ ngắn hạn:
+  76 | Phải trả người bán và khoản phải trả khác
+  77 | X
+  78 | Thuế thu nhập phải nộp
+  79 | X
+  80 | Dự phòng
+  81 | X
+  82 | X
+  83 | Tổng vốn chủ sở hữu và nợ phải trả
+  84 | X
+
+================================================================================
+PAGE 26
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 51
+   3 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+   4 | BÁO CÁO TÀI CHÍNH
+   5 | 3. Báo cáo tình hình tài chính
+   6 | I. LẬP BÁO CÁO TÀI CHÍNH CHO
+   7 | CÔNG TY
+   8 | Lưu ý rằng IFRS 18 yêu cầu tài sản hoặc nợ phải trả được phân loại là ngắn hạn nếu:
+   9 | •
+  10 | Được thanh toán trong vòng 12 tháng kể từ ngày báo cáo, hoặc
+  11 | •
+  12 | Là một phần của chu kỳ hoạt động bình thường của đơn vị.
+  13 | Trong phần vốn chủ sở hữu của báo cáo tình hình tài chính, các
+  14 | thành phần khác của vốn chủ sở hữu có thể bao gồm:
+  15 | •
+  16 | Thặng dư đánh giá lại
+  17 | •
+  18 | Thặng dư cổ phiếu
+  19 | •
+  20 | Quỹ dự trữ đầu tư
+  21 | 52
+  22 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+  23 | BÁO CÁO TÀI CHÍNH
+  24 | 4. Báo cáo thay đổi vốn chủ sở hữu (SOCIE)
+  25 | I. LẬP BÁO CÁO TÀI CHÍNH CHO CÔNG TY
+  26 | Báo cáo thay đổi vốn chủ sở hữu cung cấp tóm tắt tất cả thay đổi trong vốn chủ sở hữu phát sinh
+  27 | từ giao dịch với chủ sở hữu với tư cách là chủ sở hữu.
+  28 | Điều này bao gồm hiệu ứng của phát hành cổ phiếu và cổ tức.
+  29 | Các thay đổi khác không từ chủ sở hữu trong vốn chủ sở hữu, như thu nhập bao gồm khác, được công bố tổng hợp.
+  30 | XYZ Group Báo cáo thay đổi vốn chủ sở hữu cho năm kết thúc ngày 31 tháng 12 năm 20X8
+  31 | Vốn cổ phần
+  32 | Thặng dư cổ phiếu
+  33 | Thặng dư đánh giá lại
+  34 | Lợi nhuận
+  35 | giữ lại
+  36 | Tổng vốn chủ sở hữu
+  37 | $
+  38 | $
+  39 | $
+  40 | $
+  41 | $
+  42 | Số dư tại 31 tháng 12 năm 20X7
+  43 | X
+  44 | X
+  45 | X
+  46 | X
+  47 | X
+  48 | Điều chỉnh năm trước (IAS 8)
+  49 | (X)
+  50 | (X)
+  51 | Số dư điều chỉnh lại
+  52 | X
+  53 | X
+  54 | X
+  55 | X
+  56 | X
+  57 | Cổ tức
+  58 | (X)
+  59 | (X)
+  60 | Phát hành vốn cổ phần
+  61 | X
+  62 | X
+  63 | X
+  64 | Tổng thu nhập bao gồm khác
+  65 | X
+  66 | X
+  67 | X
+  68 | Chuyển vào lợi nhuận giữ lại
+  69 | (X)
+  70 | X
+  71 | _
+  72 | Số dư tại 31 tháng 12 năm 20X8
+  73 | X
+  74 | X
+  75 | X
+  76 | X
+  77 | X
+
+================================================================================
+PAGE 27
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 53
+   3 | Tổng thu nhập bao gồm khác là lợi nhuận hoặc lỗ đã thực hiện trong kỳ,
+   4 | cộng với thu nhập bao gồm khác.
+   5 | 1
+   6 | Thu nhập bao gồm khác (OCI) là thu nhập và chi phí không
+   7 | được ghi nhận trong lãi hoặc lỗ (tức là được ghi vào quỹ dự trữ thay vì
+   8 | là một yếu tố của lợi nhuận đã thực hiện trong kỳ).
+   9 | 2
+  10 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+  11 | BÁO CÁO TÀI CHÍNH
+  12 | 5. Báo cáo lãi hoặc lỗ và thu nhập bao gồm khác
+  13 | I. LẬP BÁO CÁO TÀI CHÍNH CHO
+  14 | CÔNG TY
+  15 | 01
+  16 | 02
+  17 | Báo cáo lãi hoặc lỗ và thu nhập bao gồm khác
+  18 | thể hiện tổng thu nhập bao gồm khác, hoặc
+  19 | IFRS 18 Trình bày và Công bố thông tin trên Báo cáo Tài chính yêu cầu lập
+  20 | một trong các báo cáo sau:
+  21 | Báo cáo lãi hoặc lỗ thể hiện lợi nhuận hoặc lỗ
+  22 | đã thực hiện trong kỳ và một báo cáo riêng thể hiện
+  23 | thu nhập bao gồm khác.
+  24 | 54
+  25 | XYZ Group – Báo cáo lãi hoặc lỗ và thu nhập bao gồm khác cho năm
+  26 | kết thúc ngày 31 tháng 12 năm 20X8
+  27 | $
+  28 | Doanh thu
+  29 | X
+  30 | Giá vốn hàng bán
+  31 | (X)
+  32 | Lợi nhuận gộp
+  33 | X
+  34 | Thu nhập hoạt động khác
+  35 | X
+  36 | Chi phí phân phối
+  37 | (X)
+  38 | Chi phí quản lý doanh nghiệp
+  39 | (X)
+  40 | Chi phí hoạt động khác
+  41 | (X)
+  42 | Lợi nhuận từ hoạt động kinh doanh
+  43 | X
+  44 | Cổ phần lợi nhuận của công ty liên kết
+  45 | X
+  46 | Thu nhập từ đầu tư khác
+  47 | X
+  48 | Lợi nhuận trước chi phí tài chính và thuế thu nhập
+  49 | X
+  50 | Chi phí lãi vay
+  51 | (X)
+  52 | Lợi nhuận trước thuế thu nhập
+  53 | X
+  54 | Chi phí thuế thu nhập
+  55 | (X)
+  56 | Lợi nhuận trong năm
+  57 | X
+  58 | Thu nhập bao gồm khác
+  59 | Lãi/lỗ đánh giá lại
+  60 | X
+  61 | Lãi/lỗ từ tài sản tài chính theo giá trị hợp lý qua thu nhập bao gồm khác
+  62 | X
+  63 | Tổng thu nhập bao gồm khác trong năm
+  64 | X
+  65 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+  66 | BÁO CÁO TÀI CHÍNH
+  67 | 5. Báo cáo lãi hoặc lỗ và thu nhập bao gồm khác
+  68 | I. LẬP BÁO CÁO TÀI CHÍNH CHO CÔNG TY
+  69 | Một mẫu khuyến nghị điển hình như sau:
+  70 | Lưu ý:
+  71 | Mô tả in đậm là bắt buộc theo IFRS
+  72 | 18. Các khoản mục không in đậm có thể được trình bày
+  73 | khác với hình trên, khi
+  74 | điều đó cung cấp mô tả hữu ích hơn.
+
+================================================================================
+PAGE 28
+================================================================================
+   1 | 55
+   2 | Báo cáo lãi hoặc lỗ cộng báo cáo thu nhập bao gồm khác
+   3 | Một mẫu khuyến nghị cho báo cáo lãi hoặc lỗ như sau:
+   4 | XYZ Báo cáo lãi hoặc lỗ cho năm kết thúc ngày 31 tháng 12 năm 20X8
+   5 | $
+   6 | Doanh thu
+   7 | X
+   8 | Giá vốn hàng bán
+   9 | (X)
+  10 | Lợi nhuận gộp
+  11 | X
+  12 | Chi phí phân phối
+  13 | (X)
+  14 | Chi phí quản lý doanh nghiệp
+  15 | (X)
+  16 | Lợi nhuận từ hoạt động kinh doanh
+  17 | X
+  18 | Thu nhập từ đầu tư
+  19 | X
+  20 | Lợi nhuận trước chi phí tài chính và thuế thu nhập
+  21 | X
+  22 | Chi phí lãi vay
+  23 | (X)
+  24 | Lợi nhuận trước thuế thu nhập
+  25 | X
+  26 | Chi phí thuế thu nhập
+  27 | (X)
+  28 | Lợi nhuận trong năm
+  29 | X
+  30 | Một mẫu khuyến nghị cho trình bày báo cáo thu nhập bao gồm khác là:
+  31 | XYZ Báo cáo thu nhập bao gồm khác cho năm kết thúc ngày 31 tháng 12 năm 20X8
+  32 | Lợi nhuận trong năm
+  33 | X
+  34 | Thu nhập bao gồm khác
+  35 | Lãi/lỗ đánh giá lại
+  36 | X
+  37 | Lãi/lỗ từ tài sản tài chính theo giá trị hợp lý qua thu nhập bao gồm khác
+  38 | X
+  39 | Tổng thu nhập bao gồm khác trong năm
+  40 | X
+  41 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+  42 | BÁO CÁO TÀI CHÍNH
+  43 | 5. Báo cáo lãi hoặc lỗ và thu nhập bao gồm khác (đọc thêm)
+  44 | I. LẬP BÁO CÁO TÀI CHÍNH CHO CÔNG TY
+  45 | Trình bày thay thế
+  46 | Ghi chú của bạn
+  47 | 56
+  48 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+  49 | BÁO CÁO TÀI CHÍNH
+  50 | II. GIỚI THIỆU VỀ BÁO CÁO TÀI CHÍNH
+  51 | ĐÃ CÔNG BỐ
+  52 | Ví dụ 1:
+  53 | Pau Báo cáo lãi hoặc lỗ và thu nhập bao gồm khác
+  54 | cho năm kết thúc ngày 31 tháng 3 năm 20X1
+  55 | $000
+  56 | Doanh thu
+  57 | 5,300
+  58 | Giá vốn hàng bán
+  59 | (1,350)
+  60 | Lợi nhuận gộp
+  61 | 3,950
+  62 | Chi phí phân phối
+  63 | (370)
+  64 | Chi phí quản lý doanh nghiệp
+  65 | (490)
+  66 | Lợi nhuận từ hoạt động kinh doanh
+  67 | 3,090
+  68 | Thu nhập từ đầu tư
+  69 | 210
+  70 | Lợi nhuận trước chi phí tài chính và thuế thu nhập
+  71 | 3,300
+  72 | Chi phí lãi vay
+  73 | (190)
+  74 | Lợi nhuận trước thuế thu nhập
+  75 | 3,110
+  76 | Chi phí thuế thu nhập
+  77 | (470)
+  78 | Lợi nhuận trong năm
+  79 | 2,640
+  80 | Pau Báo cáo thay đổi vốn chủ sở hữu cho năm kết thúc ngày 31 tháng 12 năm 20X1
+  81 | Vốn
+  82 | cổ phần
+  83 | Thặng dư
+  84 | cổ phiếu
+  85 | Lợi nhuận
+  86 | giữ lại
+  87 | Tổng
+  88 | $000
+  89 | $000
+  90 | $000
+  91 | $000
+  92 | Số dư tại 1 tháng 4 năm 20X0
+  93 | 1,500
+  94 | 800
+  95 | 1,163
+  96 | 3,463
+  97 | Tổng thu nhập
+  98 | bao gồm khác
+  99 | 2,640
+ 100 | 2,640
+ 101 | Cổ tức
+ 102 | (390)
+ 103 | (390)
+ 104 | Số dư tại 31 tháng 3
+ 105 | năm 20X1
+ 106 | 1,500
+ 107 | 800
+ 108 | 3,413
+ 109 | 5,713
+ 110 | Lưu ý: Cổ tức được công bố sau năm tài chính sẽ không được điều chỉnh.
+
+================================================================================
+PAGE 29
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 57
+   3 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+   4 | BÁO CÁO TÀI CHÍNH
+   5 | II. GIỚI THIỆU VỀ BÁO CÁO TÀI CHÍNH
+   6 | ĐÃ CÔNG BỐ
+   7 | Ví dụ 1:
+   8 | Pau Báo cáo tình hình tài chính cho năm kết thúc ngày 31 tháng 3 năm 20X1
+   9 | $000
+  10 | $000
+  11 | Tài sản dài hạn
+  12 | Tài sản cố định hữu hình
+  13 | 4,250
+  14 | Tài sản ngắn hạn
+  15 | Hàng tồn kho
+  16 | 114
+  17 | Phải thu khách hàng
+  18 | 418
+  19 | Trả trước
+  20 | 25
+  21 | Đầu tư
+  22 | 2,700
+  23 | Tiền và tương đương tiền
+  24 | 12
+  25 | 3,269
+  26 | Tổng tài sản
+  27 | 7,519
+  28 | Vốn chủ sở hữu
+  29 | Vốn cổ phần
+  30 | 1,500
+  31 | Thặng dư cổ phiếu
+  32 | 800
+  33 | Lợi nhuận giữ lại
+  34 | 3,413
+  35 | 5,713
+  36 | Nợ dài hạn
+  37 | Khoản vay
+  38 | 1,200
+  39 | Nợ ngắn hạn
+  40 | Phải trả người bán
+  41 | 136
+  42 | Thuế thu nhập phải nộp
+  43 | 470
+  44 | 606
+  45 | Tổng vốn chủ sở hữu và nợ phải trả
+  46 | 7,519
+  47 | Ghi chú của bạn
+  48 | 58
+  49 | Câu hỏi 1:
+  50 | Có nên bỏ giả định hoạt động liên tục khi một phần
+  51 | đơn vị báo cáo đang gặp khó khăn tài chính?
+  52 | Bạn nên tham khảo văn bản chuẩn mực khi trả lời tất cả bài tập.
+  53 | Câu trả lời của bạn:
+  54 | Câu hỏi trắc nghiệm Chương 2
+  55 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+  56 | BÁO CÁO TÀI CHÍNH
+
+================================================================================
+PAGE 30
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 59
+   3 | Câu hỏi trắc nghiệm Chương 2
+   4 | Đáp án
+   5 | Câu hỏi 1:
+   6 | Theo văn bản chuẩn mực, giả định hoạt động liên tục không nên
+   7 | bị bỏ khi một phần đơn vị báo cáo đang gặp khó khăn tài chính.
+   8 | Giả định hoạt động liên tục giả định rằng công ty sẽ tiếp tục
+   9 | hoạt động kinh doanh bình thường trong tương lai. Khi thanh lý sắp xảy ra,
+  10 | cơ sở kế toán thanh lý được sử dụng thay thế.
+  11 | Chuẩn mực yêu cầu ban quản lý quyết định liệu có điều kiện
+  12 | hoặc sự kiện nào gây nghi ngờ đáng kể về khả năng của công ty
+  13 | tiếp tục là đơn vị hoạt động liên tục trong vòng một năm sau ngày phát hành
+  14 | báo cáo tài chính. Nghi ngờ đáng kể tồn tại khi các điều kiện
+  15 | và sự kiện liên quan, được xem xét tổng hợp, chỉ ra rằng công ty
+  16 | có thể không đáp ứng được nghĩa vụ hiện tại khi đến hạn.
+  17 | Trong trường hợp đơn vị báo cáo gặp khó khăn tài chính, ban quản lý
+  18 | nên đánh giá xem có điều kiện hoặc sự kiện nào gây nghi ngờ đáng kể
+  19 | về khả năng của công ty tiếp tục là đơn vị hoạt động liên tục hay không. Nếu
+  20 | nghi ngờ
+  21 | đáng kể
+  22 | tồn tại,
+  23 | ban quản lý
+  24 | nên
+  25 | xem xét
+  26 | liệu
+  27 | bất kỳ
+  28 | kế hoạch giảm nhẹ nào sẽ làm giảm bớt nghi ngờ đáng kể.
+  29 | Do đó, giả định hoạt động liên tục không nên bị bỏ chỉ
+  30 | vì một phần đơn vị báo cáo gặp khó khăn tài chính. Thay vào đó,
+  31 | ban quản lý
+  32 | nên
+  33 | đánh giá
+  34 | tình hình
+  35 | và
+  36 | cung cấp
+  37 | công bố
+  38 | phù hợp trong báo cáo tài chính.
+  39 | TRÌNH BÀY VÀ CÔNG BỐ THÔNG TIN TRÊN
+  40 | BÁO CÁO TÀI CHÍNH
+  41 | 60
+  42 | Ghi chú của bạn
+  43 | 60
+  44 | CHƯƠNG 3: DOANH THU TỪ
+  45 | HỢP ĐỒNG VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 31
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 61
+   3 | DOANH THU TỪ HỢP ĐỒNG
+   4 | VỚI KHÁCH HÀNG
+   5 | TỔNG QUAN
+   6 | Bạn sẽ học được gì?
+   7 | IFRS 15 DOANH THU TỪ HỢP ĐỒNG VỚI KHÁCH HÀNG
+   8 | Ghi nhận và Đo lường
+   9 | Các loại giao dịch phổ biến
+  10 | Tiêu chuẩn
+  11 | Mô hình 5 bước ghi nhận
+  12 | doanh thu
+  13 | 6 loại giao dịch phổ biến
+  14 | Ghi chú của bạn
+  15 | 62
+  16 | I. GHI NHẬN VÀ ĐO LƯỜNG
+  17 | DOANH THU
+  18 | 1. Tiêu chuẩn ghi nhận doanh thu
+  19 | 2. Mô hình 5 bước ghi nhận doanh thu
+  20 | BƯỚC 1
+  21 | BƯỚC 2
+  22 | BƯỚC 3
+  23 | BƯỚC 4
+  24 | BƯỚC 5
+  25 | Xác định nghĩa vụ
+  26 | thực hiện
+  27 | riêng biệt
+  28 | Xác định hợp đồng
+  29 | với
+  30 | khách hàng
+  31 | Xác định
+  32 | giá giao dịch
+  33 | Ghi nhận doanh thu khi (hoặc khi)
+  34 | nghĩa vụ thực hiện
+  35 | được hoàn thành
+  36 | Phân bổ giá giao dịch
+  37 | cho các nghĩa vụ
+  38 | thực hiện
+  39 | Doanh thu được ghi nhận để thể hiện việc chuyển giao hàng hóa hoặc dịch vụ cho
+  40 | khách hàng với số tiền phản ánh khoản đối ứng mà đơn vị kỳ vọng
+  41 | được quyền nhận đổi lấy hàng hóa hoặc dịch vụ đó.
+  42 | Việc chuyển giao hàng hóa và dịch vụ được chứng minh bằng việc chuyển giao quyền kiểm soát.
+  43 | DOANH THU TỪ HỢP ĐỒNG
+  44 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 32
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 63
+   3 | I. GHI NHẬN VÀ ĐO LƯỜNG
+   4 | DOANH THU
+   5 | 2. Mô hình 5 bước ghi nhận doanh thu
+   6 | Xác định hợp đồng với khách hàng
+   7 | 2.1
+   8 | Hợp đồng với khách hàng phải đáp ứng 5 tiêu chuẩn sau:
+   9 | Tất cả các bên đã phê duyệt hợp đồng và
+  10 | cam kết thực hiện nghĩa vụ tương ứng
+  11 | Đơn vị có thể xác định quyền và nghĩa vụ
+  12 | của mỗi bên đối với hàng hóa hoặc dịch vụ
+  13 | sẽ được chuyển giao
+  14 | Điều khoản thanh toán cho hàng hóa hoặc dịch vụ
+  15 | có thể được xác định
+  16 | Hợp đồng có bản chất thương mại
+  17 | Có khả năng thu hồi khoản đối ứng
+  18 | 5 tiêu chuẩn
+  19 | DOANH THU TỪ HỢP ĐỒNG
+  20 | VỚI KHÁCH HÀNG
+  21 | Ghi chú của bạn
+  22 | 64
+  23 | I. GHI NHẬN VÀ ĐO LƯỜNG
+  24 | DOANH THU
+  25 | 2. Mô hình 5 bước ghi nhận doanh thu
+  26 | Xác định hợp đồng với khách hàng
+  27 | 2.1
+  28 | Ví dụ 1:
+  29 | Xác định hợp đồng:
+  30 | Hawkeye có năm tài chính kết thúc ngày 31 tháng 12 năm 20X8. Ngày 30 tháng 9 năm 20X8,
+  31 | Hawkeye ký hợp đồng với khách hàng để cung cấp tài sản vào
+  32 | ngày 31 tháng 12 năm 20X8. Quyền kiểm soát tài sản được chuyển cho khách hàng vào
+  33 | ngày 31 tháng 12 năm 20X8. Khách hàng sẽ thanh toán $10 triệu vào ngày 30 tháng 6 năm 20X9. Tính đến
+  34 | ngày 31 tháng 12 năm 20X8, Hawkeye không tin rằng có khả năng thu hồi
+  35 | khoản đối ứng mà họ được quyền nhận.
+  36 | Yêu cầu: Xác định xem đây có phải là hợp đồng hay không.
+  37 | DOANH THU TỪ HỢP ĐỒNG
+  38 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 33
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 65
+   3 | I. GHI NHẬN VÀ ĐO LƯỜNG
+   4 | DOANH THU
+   5 | 2. Mô hình 5 bước ghi nhận doanh thu
+   6 | Xác định hợp đồng với khách hàng
+   7 | 2.1
+   8 | Ví dụ 1: Trả lời
+   9 | Hướng dẫn: Áp dụng 5 tiêu chuẩn trên để xem xét
+  10 | •
+  11 | Hawkeye ký hợp đồng với khách hàng → Được tất cả các bên phê duyệt.
+  12 | •
+  13 | Hawkeye cung cấp cho khách hàng tài sản vào ngày 31 tháng 12 năm 20X8 và
+  14 | Khách hàng: Thanh toán $10 triệu vào ngày 30 tháng 6 năm 20X9 → Có thể xác định quyền và nghĩa vụ.
+  15 | •
+  16 | Thanh toán $10 triệu vào ngày 30 tháng 6 năm 20X9 → Có thể xác định điều khoản thanh toán.
+  17 | •
+  18 | Đây là hợp đồng mua tài sản → Có bản chất thương mại.
+  19 | •
+  20 | Hawkeye không tin rằng có khả năng thu hồi khoản đối ứng → Không đáp ứng tiêu chuẩn
+  21 | khả năng thu hồi khoản đối ứng của hợp đồng
+  22 | ⇒ Đây KHÔNG phải là hợp đồng.
+  23 | DOANH THU TỪ HỢP ĐỒNG
+  24 | VỚI KHÁCH HÀNG
+  25 | Ghi chú của bạn
+  26 | 66
+  27 | I. GHI NHẬN VÀ ĐO LƯỜNG
+  28 | DOANH THU
+  29 | 2. Mô hình 5 bước ghi nhận doanh thu
+  30 | Xác định nghĩa vụ thực hiện riêng biệt
+  31 | 2.2
+  32 | Có hai trường hợp khi xác định nghĩa vụ thực hiện đơn lẻ:
+  33 | Chuỗi hàng hóa hoặc dịch vụ
+  34 | riêng biệt
+  35 | • Một phương pháp duy nhất để
+  36 | đo lường
+  37 | • Một nghĩa vụ thực hiện
+  38 | được hoàn thành theo thời gian
+  39 | 02
+  40 | Hàng hóa/dịch vụ riêng biệt
+  41 | • Khách hàng có thể hưởng lợi
+  42 | từ hàng hóa hoặc
+  43 | dịch vụ
+  44 | • Lời hứa của đơn vị
+  45 | chuyển giao hàng hóa hoặc
+  46 | dịch vụ có thể xác định
+  47 | riêng biệt
+  48 | 01
+  49 | DOANH THU TỪ HỢP ĐỒNG
+  50 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 34
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 67
+   3 | I. GHI NHẬN VÀ ĐO LƯỜNG
+   4 | DOANH THU
+   5 | 2. Mô hình 5 bước ghi nhận doanh thu
+   6 | Xác định nghĩa vụ thực hiện riêng biệt
+   7 | 2.2
+   8 | Ví dụ 2:
+   9 | Yêu cầu: Xác định các trường hợp sau là hàng hóa/dịch vụ riêng biệt hay chuỗi
+  10 | hàng hóa/dịch vụ riêng biệt:
+  11 | 1.
+  12 | Stark plc được ký hợp đồng xây dựng khu nghỉ dưỡng cho khách hàng. Công ty sẽ thiết kế
+  13 | tòa nhà, mua vật liệu, chuẩn bị mặt bằng, xây dựng tài sản,
+  14 | lắp đặt dây điện và điều hòa và hoàn thiện tài sản.
+  15 | 2.
+  16 | Stark plc được ký hợp đồng cung cấp thiết bị văn phòng cũng như hỗ trợ
+  17 | kỹ thuật cho khách hàng. Khách hàng đồng ý trả thêm tiền cho
+  18 | hỗ trợ kỹ thuật.
+  19 | DOANH THU TỪ HỢP ĐỒNG
+  20 | VỚI KHÁCH HÀNG
+  21 | Ghi chú của bạn
+  22 | 68
+  23 | I. GHI NHẬN VÀ ĐO LƯỜNG
+  24 | DOANH THU
+  25 | 2. Mô hình 5 bước ghi nhận doanh thu
+  26 | Xác định nghĩa vụ thực hiện riêng biệt
+  27 | 2.2
+  28 | Ví dụ 2: Trả lời
+  29 | 1. Mặc dù mỗi yếu tố của quá trình xây dựng có thể
+  30 | riêng biệt. Tuy nhiên, công ty cung cấp dịch vụ quan trọng trong việc tích hợp
+  31 | các đầu vào quy trình để tạo ra tài sản (nghĩa vụ thực hiện
+  32 | được hoàn thành theo thời gian) → Chuỗi hàng hóa/dịch vụ riêng biệt
+  33 | Có một nghĩa vụ thực hiện duy nhất là xây dựng tài sản.
+  34 | 2. Stark có thể hưởng lợi từ thiết bị văn phòng hoặc hỗ trợ kỹ thuật
+  35 | Khách hàng đồng ý thanh toán thiết bị văn phòng và hỗ trợ kỹ thuật riêng biệt
+  36 | → Hàng hóa hoặc dịch vụ có thể xác định riêng biệt → Hàng hóa/dịch vụ riêng biệt.
+  37 | Có 2 nghĩa vụ thực hiện đơn lẻ trong trường hợp này.
+  38 | DOANH THU TỪ HỢP ĐỒNG
+  39 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 35
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 69
+   3 | I. GHI NHẬN VÀ ĐO LƯỜNG
+   4 | DOANH THU
+   5 | 2. Mô hình 5 bước ghi nhận doanh thu
+   6 | Xác định giá giao dịch
+   7 | 2.3
+   8 | Khi xác định giá giao dịch của hợp đồng, đơn vị nên xem xét
+   9 | tác động của các yếu tố sau:
+  10 | 4 yếu tố
+  11 | Khoản đối ứng có thể
+  12 | biến đổi
+  13 | vì
+  14 | chiết khấu,
+  15 | hoàn tiền hoặc các khoản tương tự khác
+  16 | Giá trị
+  17 | của
+  18 | khoản đối ứng
+  19 | phi tiền mặt có thể biến đổi vì
+  20 | hình thức đối ứng
+  21 | • Khoản đối ứng phải trả như
+  22 | việc trao đổi hàng hóa/dịch vụ
+  23 | • Khoản đối ứng phải trả KHÔNG phải
+  24 | là trao đổi hàng hóa/dịch vụ
+  25 | Khác biệt giữa:
+  26 | • số tiền đối ứng
+  27 | đã hứa và giá bán
+  28 | tiền mặt.
+  29 | • chuyển giao hàng hóa hoặc dịch vụ
+  30 | và ngày thanh toán
+  31 | Thành phần tài chính
+  32 | đáng kể
+  33 | Khoản đối ứng biến đổi
+  34 | Khoản đối ứng phải trả
+  35 | cho khách hàng
+  36 | Khoản đối ứng phi tiền mặt
+  37 | DOANH THU TỪ HỢP ĐỒNG
+  38 | VỚI KHÁCH HÀNG
+  39 | Ghi chú của bạn
+  40 | 70
+  41 | I. GHI NHẬN VÀ ĐO LƯỜNG
+  42 | DOANH THU
+  43 | 2. Mô hình 5 bước ghi nhận doanh thu
+  44 | Xác định giá giao dịch
+  45 | 2.3
+  46 | Ví dụ 3:
+  47 | Ngày 1 tháng 1 năm 2021, công ty A chuyển giao hàng hóa cho công ty B và công ty B
+  48 | chấp nhận các hàng hóa đó. Điều khoản hợp đồng quy định rằng công ty A sẽ
+  49 | nhận thanh toán từ công ty B số tiền $10 triệu vào ngày 1 tháng 1 năm 2023. Tỷ suất
+  50 | chiết khấu phù hợp trong trường hợp này là 6%.
+  51 | Yêu cầu: Khi nào công ty A nên ghi nhận doanh thu hợp đồng và
+  52 | tính số tiền doanh thu.
+   53 | DOANH THU TỪ HỢP ĐỒNG
+   54 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 36
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 71
+   3 | I. GHI NHẬN VÀ ĐO LƯỜNG
+   4 | DOANH THU
+   5 | 2. Mô hình 5 bước ghi nhận doanh thu
+   6 | Xác định giá giao dịch
+   7 | 2.3
+   8 | Ví dụ 3: Trả lời
+   9 | Hàng hóa được chuyển giao cho công ty B vào ngày 1 tháng 1 năm 2021, do đó,
+  10 | công ty A nên ghi nhận doanh thu vào ngày 1 tháng 1 năm 2021.
+  11 | Doanh thu hợp đồng = Giá trị hiện tại của khoản thanh toán
+  12 | = $10 triệu x
+  13 | 1
+  14 | (1+6%)^2 ≈ $8,9 triệu
+  15 | 1/1/2021:
+  16 | 1/1/2023:
+  17 | Nợ Phải thu
+  18 | Có Doanh thu
+  19 | Nợ Tiền mặt
+  20 | Có Phải thu
+  21 | Có Thu nhập tài chính
+  22 | DOANH THU TỪ HỢP ĐỒNG
+  23 | VỚI KHÁCH HÀNG
+  24 | Ghi chú của bạn
+  25 | 72
+  26 | I. GHI NHẬN VÀ ĐO LƯỜNG
+  27 | DOANH THU
+  28 | 2. Mô hình 5 bước ghi nhận doanh thu
+  29 | Xác định giá giao dịch
+  30 | 2.3
+  31 | Ví dụ 4:
+  32 | Taplop Co cung cấp máy tính xách tay cho doanh nghiệp lớn. Ngày 1 tháng 7 năm 20X5,
+  33 | Taplop Co ký hợp đồng với TrillCo, theo đó TrillCo sẽ
+  34 | mua máy tính xách tay với giá $500 mỗi chiếc. Hợp đồng quy định nếu TrillCo mua
+  35 | hơn 500 máy tính trong một năm, giá mỗi chiếc sẽ giảm hồi tố xuống
+  36 | $450 mỗi chiếc. Năm tài chính của Taplop kết thúc ngày 30 tháng 6.
+  37 | a) Tính đến ngày 30 tháng 9 năm 20X5, TrillCo đã mua 70 máy tính từ Taplop. Taplop
+  38 | Co do đó ước tính rằng số lượng mua của TrillCo sẽ không vượt quá 500 trong
+  39 | năm kết thúc ngày 30 tháng 6 năm 20X6, và TrillCo sẽ không được hưởng
+  40 | chiết khấu số lượng.
+  41 | b) Trong quý kết thúc ngày 31 tháng 12 năm 20X5, TrillCo mở rộng nhanh chóng do
+  42 | một thương vụ mua lại lớn, và mua thêm 250 máy tính
+  43 | từ Taplop Co. Taplop Co lúc này ước tính rằng số lượng mua của TrillCo sẽ
+  44 | vượt ngưỡng chiết khấu số lượng trong năm kết thúc ngày 30 tháng 6 năm 20X6.
+  45 | Yêu cầu: Tính doanh thu Taplop Co sẽ ghi nhận trong:
+  46 | a) Quý kết thúc ngày 30 tháng 9 năm 20X5
+  47 | b) Quý kết thúc ngày 31 tháng 12 năm 20X5
+  48 | DOANH THU TỪ HỢP ĐỒNG
+  49 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 37
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 73
+   3 | I. GHI NHẬN VÀ ĐO LƯỜNG
+   4 | DOANH THU
+   5 | 2. Mô hình 5 bước ghi nhận doanh thu
+   6 | Xác định giá giao dịch
+   7 | 2.3
+   8 | Ví dụ 4: Trả lời
+   9 | a) Rất có thể không xảy ra đảo ngược đáng kể trong tổng số doanh thu
+  10 | đã ghi nhận ($500 mỗi máy tính) khi bất định được giải quyết,
+  11 | tức là khi tổng số lượng mua được biết. →
+  12 | Taplop Co nên ghi nhận doanh thu $35,000 (= 70 x $500) cho quý đầu tiên
+  13 | kết thúc ngày 30 tháng 9 năm 20X5.
+  14 | b) Có thể kết luận hợp lý rằng số lượng mua của TrillCo sẽ vượt
+  15 | ngưỡng chiết khấu số lượng trong năm kết thúc ngày 30 tháng 6 năm 20X6, và do đó
+  16 | phù hợp để giảm hồi tố giá xuống $450 mỗi máy tính.
+  17 | Ngược lại, doanh thu sẽ được điều chỉnh trong quý 2 (không điều chỉnh hồi tố trong
+  18 | quý 1)
+  19 | Taplop Co do đó nên ghi nhận doanh thu $109,000 đến từ:
+  20 | •
+  21 | Doanh thu của 320 máy tính thêm = 320 máy tính x $450 = $144,000
+  22 | •
+  23 | Trừ doanh thu của 70 máy tính đã ghi nhận trong quý kết thúc ngày 30
+  24 | tháng 9 năm 20X5 = $35,000 (70 máy tính x $500)
+  25 | DOANH THU TỪ HỢP ĐỒNG
+  26 | VỚI KHÁCH HÀNG
+  27 | Ghi chú của bạn
+  28 | 74
+  29 | I. GHI NHẬN VÀ ĐO LƯỜNG
+  30 | DOANH THU
+  31 | 2. Mô hình 5 bước ghi nhận doanh thu
+  32 | Phân bổ giá giao dịch cho nghĩa vụ thực hiện
+  33 | 2.4
+  34 | Giá giao dịch phải được phân bổ dựa trên giá độc lập của mỗi nghĩa vụ
+  35 | thực hiện
+  36 | Ghi nhận doanh thu khi (hoặc khi) nghĩa vụ thực hiện được hoàn thành
+  37 | 2.5
+  38 | Đơn vị hoàn thành nghĩa vụ thực hiện bằng cách chuyển giao quyền kiểm soát hàng hóa
+  39 | hoặc dịch vụ đã hứa cho khách hàng (IFRS 15: đoạn 31).
+  40 | Ghi nhận tại một thời điểm
+  41 | Nếu KHÔNG đáp ứng TẤT CẢ ba
+  42 | tiêu chuẩn trên
+  43 | Ghi nhận doanh thu theo thời gian
+  44 | Nếu đáp応 ÍT NHẤT MỘT
+  45 | tiêu chuẩn trên
+  46 | Khách hàng đồng thời nhận và tiêu thụ
+  47 | lợi ích do thực hiện của đơn vị cung cấp
+  48 | Thực hiện của đơn vị tạo ra hoặc tăng cường tài sản mà
+  49 | khách hàng kiểm soát khi tài sản được tạo ra hoặc tăng cường
+  50 | Thực hiện của đơn vị KHÔNG tạo ra tài sản có
+  51 | mục đích sử dụng thay thế cho đơn vị và đơn vị có
+  52 | quyền
+  53 | có thể
+  54 | thực thi
+  55 | đối với
+  56 | khoản thanh toán
+  57 | (cho phần
+  58 | thực hiện
+  59 | đến nay)
+  60 | DOANH THU TỪ HỢP ĐỒNG
+  61 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 38
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 75
+   3 | I. GHI NHẬN VÀ ĐO LƯỜNG
+   4 | DOANH THU
+   5 | 2. Mô hình 5 bước ghi nhận doanh thu
+   6 | Ví dụ 5:
+   7 | Áp dụng mô hình 5 bước
+   8 | Wayne Co bán hệ thống truyền hình cáp cho Reus theo các điều khoản sau vào ngày
+   9 | 1 tháng 1 năm 20X8.
+  10 | Reus phải trả phí hàng tháng $160 trong 12 tháng. Reus nhận một bộ giải mã
+  11 | truyền hình cáp và quyền truy cập tất cả các kênh truyền hình.
+  12 | Hợp đồng không chứa điều kiện nào khác và sau khi ký, việc
+  13 | thu nhận khoản đối ứng là không điều kiện.
+  14 | Wayne Co bán bộ giải mã riêng với giá $500 và tính phí truy cập hàng tháng
+  15 | dịch vụ truyền hình không có bộ giải mã là $130 mỗi tháng.
+  16 | Yêu cầu: Số tiền doanh thu Wayne Co nên ghi nhận trong năm
+  17 | kết thúc ngày 31 tháng 3 năm 20X8 là bao nhiêu?
+  18 | Ghi nhận doanh thu khi (hoặc khi) nghĩa vụ thực hiện được hoàn thành
+  19 | 2.5
+  20 | DOANH THU TỪ HỢP ĐỒNG
+  21 | VỚI KHÁCH HÀNG
+  22 | Ghi chú của bạn
+  23 | 76
+  24 | I. GHI NHẬN VÀ ĐO LƯỜNG
+  25 | DOANH THU
+  26 | 2. Mô hình 5 bước ghi nhận doanh thu
+  27 | Ghi nhận doanh thu khi (hoặc khi) nghĩa vụ thực hiện được hoàn thành
+  28 | 2.5
+  29 | Ví dụ 5: Trả lời
+  30 | Bước 1: Xác định hợp đồng
+  31 | Đây là thỏa thuận giữa Wayne và Reus cho việc cung cấp trong 12 tháng.
+  32 | Bước 2: Xác định nghĩa vụ thực hiện riêng biệt trong hợp đồng
+  33 | Có hai nghĩa vụ thực hiện trong hợp đồng:
+  34 | •
+  35 | Giao một bộ giải mã
+  36 | •
+  37 | Cung cấp quyền truy cập truyền hình cáp trong 12 tháng
+  38 | Bước 3: Xác định giá giao dịch
+  39 | Tổng giá giao dịch là $1,920 ($160 × 12 tháng).
+  40 | Bước 4: Phân bổ giá giao dịch cho nghĩa vụ thực hiện trong hợp đồng
+  41 | Giá độc lập
+  42 | % Tổng
+  43 | Doanh thu
+  44 | Bộ giải mã
+  45 | $500
+  46 | 24.3%
+  47 | $466 ($1,920 × 24.3%)
+  48 | Truy cập truyền hình cáp
+  49 | $1,560 ($130 × 12)
+  50 | 75.7%
+  51 | $1,454 ($1,920 × 75.7%)
+  52 | Tổng
+  53 | $2,060
+  54 | $1,920
+  55 | DOANH THU TỪ HỢP ĐỒNG
+  56 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 39
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 77
+   3 | I. GHI NHẬN VÀ ĐO LƯỜNG
+   4 | DOANH THU
+   5 | 2. Mô hình 5 bước ghi nhận doanh thu
+   6 | Ghi nhận doanh thu khi (hoặc khi) nghĩa vụ thực hiện được hoàn thành
+   7 | 2.5
+   8 | Ví dụ 5: Trả lời
+   9 | Bước 5: Ghi nhận doanh thu khi (hoặc khi) nghĩa vụ thực hiện được hoàn thành
+  10 | •
+  11 | Bộ giải mã đã được chuyển cho Reus nên toàn bộ doanh thu hàng hóa $466 nên
+  12 | được ghi nhận vào ngày 31 tháng 3 năm 20X8.
+  13 | •
+  14 | Quyền truy cập được cung cấp theo thời gian (12 tháng), nên doanh thu từ khoản này nên
+  15 | được ghi nhận theo thời gian. Trong năm kết thúc ngày 31 tháng 12 năm 20X8, doanh thu
+  16 | $362 (3/12 x $1,454) nên được ghi nhận.
+  17 | Nợ Tiền mặt
+  18 | Nợ Phải thu khách hàng
+  19 | $480 ($160 × 3)
+  20 | $348
+  21 | Có Doanh thu
+  22 | $828
+  23 | ($466 + $362)
+  24 | IFRS 15
+  25 | IAS 18
+  26 | Ghi nhận toàn bộ số tiền Bộ giải mã ($466) dẫn đến
+  27 | số tiền doanh thu trong năm đầu tiên (20X8) là
+  28 | $828 – cao hơn theo IAS 18
+  29 | Ghi nhận doanh thu $480 ($1,920 x
+  30 | 3/12) trong năm đầu tiên (20X8) – thấp hơn
+  31 | theo IFRS 15
+  32 | DOANH THU TỪ HỢP ĐỒNG
+  33 | VỚI KHÁCH HÀNG
+  34 | Ghi chú của bạn
+  35 | 78
+  36 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+  37 | Các loại giao dịch phổ biến
+  38 | Quyền hoàn trả
+  39 | Bảo hành
+  40 | Người ủy thác và Đại lý
+  41 | Thỏa thuận ký gửi
+  42 | Thỏa thuận mua lại
+  43 | Thỏa thuận hóa đơn-giữ hàng
+  44 | DOANH THU TỪ HỢP ĐỒNG
+  45 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 40
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 79
+   3 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+   4 | 1. Bán hàng hóa có quyền hoàn trả
+   5 | Đơn vị chuyển giao quyền kiểm soát sản phẩm cho khách hàng và cũng cấp cho
+   6 | khách hàng quyền hoàn trả sản phẩm vì nhiều lý do và nhận bất kỳ
+   7 | sự kết hợp nào.
+   8 | Áp dụng cho
+   9 | KHÔNG áp dụng cho
+  10 | Hoàn trả toàn bộ hoặc một phần
+  11 | bất kỳ khoản đối ứng
+  12 | đã thanh toán.
+  13 | Khách hàng trao đổi
+  14 | một sản phẩm lấy
+  15 | sản phẩm khác cùng loại,
+  16 | chất lượng, tình trạng và
+  17 | giá.
+  18 | Hoàn trả sản phẩm lỗi
+  19 | đổi lấy sản phẩm
+  20 | hoạt động bình thường
+  21 | (Bảo hành).
+  22 | Tín dụng có thể được
+  23 | sử dụng để trừ vào
+  24 | số tiền nợ cho
+  25 | đơn vị.
+  26 | Một sản phẩm khác
+  27 | để trao đổi.
+  28 | DOANH THU TỪ HỢP ĐỒNG
+  29 | VỚI KHÁCH HÀNG
+  30 | Ghi chú của bạn
+  31 | 80
+  32 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+  33 | 1. Bán hàng hóa có quyền hoàn trả
+  34 | Ghi nhận cho Hoàn trả toàn bộ hoặc một phần khoản đối ứng đã thanh toán
+  35 | Ban đầu
+  36 | Ghi nhận việc chuyển giao
+  37 | sản phẩm có quyền hoàn trả
+  38 | Tổng khoản đối ứng trừ khoản hoàn trả dự kiến
+  39 | Doanh thu
+  40 | Nợ phải trả hoàn trả
+  41 | Giá trị ghi nhận của sản phẩm đã chuyển giao
+  42 | Hàng tồn kho
+  43 | Số tiền
+  44 | Khoản mục
+  45 | Tài sản – quyền thu hồi hàng hóa
+  46 | Giá vốn hàng bán (COGS)
+  47 | Giá trị ghi nhận của sản phẩm hoàn trả trừ
+  48 | chi phí thu hồi dự kiến
+  49 | Giá trị ghi nhận của sản phẩm đã bán trừ quyền
+  50 | thu hồi hàng hóa
+  51 | Khoản hoàn trả dự kiến
+  52 | DOANH THU TỪ HỢP ĐỒNG
+  53 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 41
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 81
+   3 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+   4 | 1. Bán hàng hóa có quyền hoàn trả
+   5 | Ghi nhận cho Hoàn trả toàn bộ hoặc một phần khoản đối ứng đã thanh toán
+   6 | Doanh thu hoàn trả dự kiến
+   7 | Nợ phải trả hoàn trả
+   8 | Chi phí thu hồi
+   9 | Số tiền
+  10 | Khoản mục
+  11 | Tài sản – quyền thu hồi hàng hóa
+  12 | Sau đó
+  13 | Ghi nhận thay đổi trong kỳ vọng
+  14 | về đo lường hoàn trả
+  15 | DOANH THU TỪ HỢP ĐỒNG
+  16 | VỚI KHÁCH HÀNG
+  17 | Ghi chú của bạn
+  18 | 82
+  19 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+  20 | 1. Bán hàng hóa có quyền hoàn trả
+  21 | Ví dụ 6:
+  22 | Nhà bán lẻ B bán 100 sản phẩm với giá $50 mỗi chiếc. Hợp đồng bán hàng cho phép
+  23 | khách hàng hoàn trả bất kỳ sản phẩm nào chưa bị hư hỏng trong vòng 30 ngày và nhận
+  24 | hoàn tiền đầy đủ bằng tiền mặt. Mỗi sản phẩm có giá thành $10. B ước tính rằng ba sản phẩm
+  25 | sẽ bị hoàn trả và thay đổi tiếp theo trong ước tính sẽ không dẫn đến
+  26 | đảo ngược doanh thu đáng kể.
+  27 | Chi phí thu hồi sản phẩm sẽ không đáng kể và sản phẩm
+  28 | có thể được bán lại với lợi nhuận.
+  29 | Yêu cầu: Cách hạch toán giao dịch này khi:
+  30 | a) Chuyển giao sản phẩm cho khách hàng phản ánh kỳ vọng của công ty
+  31 | rằng ba sản phẩm sẽ bị hoàn trả;
+  32 | b) Hai sản phẩm bị hoàn trả;
+  33 | c) Một sản phẩm không bị hoàn trả (hết hạn quyền hoàn trả sản phẩm)
+  34 | DOANH THU TỪ HỢP ĐỒNG
+  35 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 42
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 83
+   3 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+   4 | 1. Bán hàng hóa có quyền hoàn trả
+   5 | Ví dụ 6: Trả lời
+   6 | a) Ban đầu, đối với chuyển giao sản phẩm có quyền hoàn trả, đơn vị sẽ
+   7 | ghi nhận như sau:
+   8 | Ghi nhận doanh thu
+   9 | Ghi nhận nợ phải trả hoàn trả
+  10 | Nợ Tiền mặt
+  11 | $4,850 (97 x $50)
+  12 | Nợ Tiền mặt
+  13 | $150 (3 x $50)
+  14 | Có Doanh thu
+  15 | $4,850
+  16 | Có Nợ phải trả hoàn trả
+  17 | $150
+  18 | Ghi nhận COGS
+  19 | Ghi nhận Tài sản – quyền thu hồi hàng hóa
+  20 | Nợ COGS
+  21 | $970 (97 x $10)
+  22 | Nợ Tài sản – quyền thu hồi
+  23 | hàng hóa
+  24 | $30 (3 x $10)
+  25 | Có Hàng tồn kho
+  26 | $970
+  27 | Có Hàng tồn kho
+  28 | $30
+  29 | DOANH THU TỪ HỢP ĐỒNG
+  30 | VỚI KHÁCH HÀNG
+  31 | Ghi chú của bạn
+  32 | 84
+  33 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+  34 | 1. Bán hàng hóa có quyền hoàn trả
+  35 | Ví dụ 6: Trả lời
+  36 | b) Sau đó, hai sản phẩm bị hoàn trả
+  37 | Điều chỉnh nợ phải trả hoàn trả
+  38 | Giảm tiền mặt
+  39 | $100
+  40 | $100
+  41 | Nợ Nợ phải trả hoàn trả (2 x $50)
+  42 | Có Tiền mặt
+  43 | Tăng hàng tồn kho
+  44 | $20
+  45 | $20
+  46 | Nợ Hàng tồn kho (2 x $10)
+  47 | Có Tài sản – quyền
+  48 | thu hồi hàng hóa
+  49 | c) Sau đó, một sản phẩm không bị hoàn trả
+  50 | Điều chỉnh nợ phải trả hoàn trả
+  51 | Tăng Doanh thu
+  52 | Nợ Nợ phải trả hoàn trả (1 x $50)
+  53 | Có Doanh thu
+  54 | $50
+  55 | $50
+  56 | Tăng COGS
+  57 | Nợ COGS (1 x $10)
+  58 | Có Tài sản – quyền thu hồi
+  59 | hàng hóa
+  60 | $10
+  61 | $10
+  62 | Điều chỉnh tài sản – quyền thu hồi hàng hóa
+  63 | DOANH THU TỪ HỢP ĐỒNG
+  64 | VỚI KHÁCH HÀNG
+  65 | Điều chỉnh tài sản – quyền thu hồi hàng hóa
+
+================================================================================
+PAGE 43
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 85
+   3 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+   4 | 2. Bảo hành
+   5 | Trong trường hợp bảo hành, đơn vị nên xác định xem bảo hành có được ghi nhận
+   6 | là dự phòng theo IAS 37 hay không.
+   7 | Khách hàng có tùy chọn mua bảo hành riêng biệt
+   8 | với sản phẩm?
+   9 | Được hạch toán theo
+  10 | IFRS 15 (ghi nhận theo mô hình
+  11 | 5 bước)
+  12 | Có
+  13 | Không
+  14 | Ví dụ 7:
+  15 | Mobile Co bán điện thoại cho khách hàng với giá $400. Mobile Co
+  16 | có chính sách bảo hành 1 năm, được nhúng trong việc mua
+  17 | điện thoại.
+  18 | Mobile Co cũng cung cấp cho người dùng gói bảo hành gọi là Gói
+  19 | bảo hành mở rộng có thể mua riêng biệt với điện thoại với
+  20 | giá $50 mỗi năm.
+  21 | Yêu cầu: Mobile Co nên ghi nhận doanh thu từ hợp đồng như thế nào?
+  22 | Được hạch toán theo
+  23 | IAS 37 (sẽ được đề cập trong bài học
+  24 | về IAS 37)
+  25 | DOANH THU TỪ HỢP ĐỒNG
+  26 | VỚI KHÁCH HÀNG
+  27 | Ghi chú của bạn
+  28 | 86
+  29 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+  30 | 2. Bảo hành
+  31 | Ví dụ 7: Trả lời
+  32 | Gói bảo hành mở rộng
+  33 | Bảo hành 1 năm
+  34 | KHÔNG thể mua riêng biệt
+  35 | với điện thoại
+  36 | Có thể mua riêng biệt
+  37 | với điện thoại với giá
+  38 | $50 mỗi năm.
+  39 | Được hạch toán theo
+  40 | IAS 37 (sẽ được đề cập trong bài học
+  41 | về IAS 37)
+  42 | Được hạch toán theo
+  43 | IFRS 15 (ghi nhận theo mô hình
+  44 | 5 bước)
+  45 | DOANH THU TỪ HỢP ĐỒNG
+  46 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 44
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 87
+   3 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+   4 | 3. Người ủy thác và Đại lý
+   5 | Xử lý cho thỏa thuận mua lại dựa trên sơ đồ sau:
+   6 | Người ủy thác và Đại lý
+   7 | Người ủy thác
+   8 | Đại lý
+   9 | Doanh thu = Tổng số tiền
+  10 | khoản đối ứng
+  11 | Doanh thu = Hoa hồng
+  12 | Bên chủ yếu chịu trách nhiệm thực hiện hợp đồng.
+  13 | Đơn vị có rủi ro hàng tồn kho trước hoặc sau khi hàng được đặt
+  14 | bởi khách hàng, trong vận chuyển hoặc khi hoàn trả.
+  15 | Đơn vị có quyền tự quyết định giá cho hàng hóa hoặc dịch vụ
+  16 | của bên kia.
+  17 | Đơn vị chịu rủi ro tín dụng cho khoản phải thu từ
+  18 | khách hàng đổi lấy hàng hóa hoặc dịch vụ của bên kia
+  19 | Có một số chỉ số để xác định đơn vị là người ủy thác hay không
+  20 | DOANH THU TỪ HỢP ĐỒNG
+  21 | VỚI KHÁCH HÀNG
+  22 | Ghi chú của bạn
+  23 | 88
+  24 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+  25 | 3. Người ủy thác và Đại lý
+  26 | Ví dụ 8:
+  27 | RUS Co, một đại lý bán vé, bán vé cho buổi biểu diễn nhà hát với giá $100. RUS Co
+  28 | được hưởng hoa hồng 5% giá vé và chuyển phần còn lại cho
+  29 | nhà hát. Vé không hoàn lại và không có thuế bán hàng.
+  30 | Yêu cầu: Tính doanh thu được ghi nhận cho kỳ tài chính hiện tại.
+  31 | Trả lời
+  32 | Người ủy thác
+  33 | Nợ Tiền mặt nhận được ($100 x 95%)
+  34 | Nợ Chi phí bán hàng
+  35 | Có Doanh thu
+  36 | $95
+  37 | $5
+  38 | $100
+  39 | Đại lý
+  40 | Nợ Tiền mặt nhận được ($100 x 5%)
+  41 | Có Doanh thu (Hoa hồng)
+  42 | $5
+  43 | $5
+  44 | DOANH THU TỪ HỢP ĐỒNG
+  45 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 45
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 89
+   3 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+   4 | 4. Thỏa thuận ký gửi
+   5 | Người bán
+   6 | Người mua
+   7 | Vẫn có quyền kiểm soát
+   8 | Được giữ bởi
+   9 | Đại lý
+  10 | Có thể yêu cầu hoàn trả
+  11 | hàng hóa
+  12 | KHÔNG ghi nhận
+  13 | doanh thu
+  14 | Ghi nhận
+  15 | doanh thu
+  16 | Ký gửi
+  17 | hàng hóa
+  18 | Chuyển giao
+  19 | hàng hóa
+  20 | Thỏa thuận ký gửi xảy ra khi đơn vị giao sản phẩm cho một bên khác,
+  21 | sản phẩm có thể được giữ theo thỏa thuận ký gửi nếu bên kia
+  22 | chưa có quyền kiểm soát sản phẩm.
+  23 | DOANH THU TỪ HỢP ĐỒNG
+  24 | VỚI KHÁCH HÀNG
+  25 | Ghi chú của bạn
+  26 | 90
+  27 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+  28 | 4. Thỏa thuận ký gửi
+  29 | Ví dụ 9:
+  30 | Một nhà bán buôn bán hàng cho nhà bán lẻ với giá $42,000 bằng tín dụng vào ngày 31 tháng 8 năm 20X1
+  31 | và hạch toán ngay lập tức là doanh thu bán hàng. Nhà bán buôn bán với
+  32 | tỷ lệ cộng thêm 20% trên chi phí.
+  33 | Nhà bán lẻ sẽ bán hàng cho khách hàng cuối nhưng có thể hoàn trả bất kỳ hàng nào
+  34 | chưa bán để được hoàn tiền. Không có hàng nào được bán cho khách hàng cuối vào ngày 30 tháng 9
+  35 | năm 20X1.
+  36 | Sau đó, 40% hàng được bán cho khách hàng cuối vào ngày 31 tháng 12
+  37 | năm 20X1.
+  38 | Yêu cầu: Điều chỉnh nào cần thiết để sửa báo cáo tài chính của nhà bán buôn
+  39 | cho năm kết thúc ngày 31 tháng 12 năm 20X1?
+  40 | DOANH THU TỪ HỢP ĐỒNG
+  41 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 46
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 91
+   3 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+   4 | 4. Thỏa thuận ký gửi
+   5 | Ví dụ 9: Trả lời
+   6 | Tại năm kết thúc ngày 31 tháng 12 năm 20X1, chỉ 40% hàng được bán cho
+   7 | khách hàng cuối, nên chỉ 40% doanh số ($42,000) nên được ghi nhận là
+   8 | doanh thu.
+   9 | Nhà bán buôn đã ghi nhận $42,000 là doanh thu bán hàng ngay lập tức tại ngày
+  10 | 31 tháng 8 năm 20X1 là sai.
+  11 | Nhà bán buôn bán với tỷ lệ cộng thêm 20% trên chi phí:
+  12 | Doanh thu
+  13 | $42,000
+  14 | 120%
+  15 | COGS
+  16 | ($42,000 x 100/120)
+  17 | $35,000
+  18 | 100%
+  19 | Lợi nhuận
+  20 | ($42,000 x 20/120)
+  21 | $7,000
+  22 | 20%
+  23 | Điều chỉnh cần thiết để sửa báo cáo tài chính của nhà bán buôn
+  24 | cho năm kết thúc ngày 31 tháng 12 năm 20X1 như sau:
+  25 | Nợ Doanh thu
+  26 | ($42,000 – $42,000 x 40%)
+  27 | $25,200
+  28 | Có Phải thu khách hàng
+  29 | $25,200
+  30 | Nợ Hàng tồn kho
+  31 | ($35,000 – $35,000 x 40%)
+  32 | $21,000
+  33 | Có COGS
+  34 | $21,000
+  35 | DOANH THU TỪ HỢP ĐỒNG
+  36 | VỚI KHÁCH HÀNG
+  37 | Ghi chú của bạn
+  38 | 92
+  39 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+  40 | 5. Thỏa thuận hóa đơn-giữ hàng
+  41 | Bán hàng hóa (chỉ lập hóa đơn)
+  42 | Ghi nhận doanh thu (điều kiện kèm theo*)
+  43 | Người bán
+  44 | Người mua
+  45 | Kho của người bán
+  46 | Chịu mọi rủi ro của hàng hóa
+  47 | Giữ hàng hóa
+  48 | (*) Để khách hàng có quyền kiểm soát sản phẩm trong thỏa thuận hóa đơn-giữ hàng,
+  49 | tất cả các tiêu chuẩn sau phải được đáp ứng:
+  50 | •
+  51 | Lý do hóa đơn-giữ hàng phải có căn cứ thực chất.
+  52 | •
+  53 | Sản phẩm phải được xác định riêng biệt là thuộc về khách hàng.
+  54 | •
+  55 | Sản phẩm phải sẵn sàng để chuyển giao vật lý cho khách hàng.
+  56 | •
+  57 | Đơn vị không có khả năng sử dụng sản phẩm hoặc chuyển giao cho
+  58 | khách hàng khác.
+  59 | Thỏa thuận hóa đơn-giữ hàng là hợp đồng theo đó đơn vị lập hóa đơn cho khách hàng
+  60 | về sản phẩm nhưng đơn vị giữ quyền sở hữu vật lý của sản phẩm cho đến khi
+  61 | được chuyển giao cho khách hàng tại một thời điểm trong tương lai.
+  62 | DOANH THU TỪ HỢP ĐỒNG
+  63 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 47
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 93
+   3 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+   4 | 5. Thỏa thuận hóa đơn-giữ hàng
+   5 | Ví dụ 10:
+   6 | Đơn vị ký hợp đồng với khách hàng vào ngày 1 tháng 1 năm 20X8 để bán
+   7 | máy móc và phụ tùng. Thời gian sản xuất máy móc và
+   8 | phụ tùng là hai năm.
+   9 | Vào ngày 31 tháng 12 năm 20X9, khách hàng thanh toán cho máy móc và phụ tùng, nhưng
+  10 | chỉ nhận quyền sở hữu vật lý của máy móc. Mặc dù khách hàng kiểm tra
+  11 | và chấp nhận phụ tùng, khách hàng yêu cầu phụ tùng được
+  12 | lưu trữ tại kho của đơn vị vì gần với nhà máy
+  13 | của khách hàng.
+  14 | Khách hàng có quyền sở hữu pháp lý đối với phụ tùng và các phụ tùng có thể được xác định
+  15 | là thuộc về khách hàng. Hơn nữa, đơn vị lưu trữ phụ tùng trong
+  16 | khu vực riêng biệt của kho và các phụ tùng sẵn sàng để xuất hàng
+  17 | ngay lập tức theo yêu cầu của khách hàng. Đơn vị dự kiến giữ phụ tùng
+  18 | trong hai đến bốn năm và đơn vị không có khả năng sử dụng phụ tùng
+  19 | hoặc chuyển cho khách hàng khác.
+  20 | Yêu cầu: Xác định đơn vị có nên ghi nhận doanh thu cho hợp đồng
+  21 | vào ngày 31 tháng 12 năm 20X9 hay không?
+  22 | DOANH THU TỪ HỢP ĐỒNG
+  23 | VỚI KHÁCH HÀNG
+  24 | Ghi chú của bạn
+  25 | 94
+  26 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+  27 | 5. Thỏa thuận hóa đơn-giữ hàng
+  28 | Ví dụ 10: Trả lời
+  29 | Đơn vị có thể ghi nhận doanh thu vào ngày 31 tháng 12 năm 20X9 vì các tiêu chuẩn
+  30 | được đáp ứng:
+  31 | •
+  32 | Khách hàng yêu cầu phụ tùng được lưu trữ tại kho của đơn vị →
+  33 | "Lý do hóa đơn-giữ hàng phải có căn cứ thực chất" được
+  34 | đáp ứng
+  35 | •
+  36 | Khách hàng có quyền sở hữu pháp lý đối với phụ tùng và các phụ tùng có thể
+  37 | được xác định là thuộc về khách hàng → "Sản phẩm phải được
+  38 | xác định riêng biệt là thuộc về khách hàng" được đáp ứng
+  39 | •
+  40 | Các phụ tùng sẵn sàng xuất hàng ngay lập tức theo yêu cầu của khách hàng →
+  41 | "Sản phẩm phải sẵn sàng để chuyển giao vật lý cho khách hàng" được
+  42 | đáp ứng
+  43 | •
+  44 | Đơn vị không có khả năng sử dụng phụ tùng hoặc chuyển cho
+  45 | khách hàng khác → "Đơn vị không có khả năng sử dụng sản phẩm
+  46 | hoặc chuyển giao cho khách hàng khác" được đáp ứng
+  47 | DOANH THU TỪ HỢP ĐỒNG
+  48 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 48
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 95
+   3 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+   4 | 6. Thỏa thuận mua lại
+   5 | Thỏa thuận mua lại là hợp đồng trong đó đơn vị bán tài sản và cũng
+   6 | hứa hoặc có tùy chọn (trong cùng hợp đồng hoặc hợp đồng khác) để
+   7 | mua lại tài sản.
+   8 | Hợp đồng
+   9 | kỳ hạn
+  10 | Đơn vị có
+  11 | nghĩa vụ
+  12 | mua lại
+  13 | tài sản
+  14 | Quyền chọn mua
+  15 | Đơn vị có
+  16 | quyền
+  17 | mua lại
+  18 | tài sản
+  19 | Quyền chọn bán
+  20 | Đơn vị phải
+  21 | mua lại
+  22 | tài sản nếu
+  23 | được yêu cầu bởi
+  24 | khách hàng
+  25 | 3 loại
+  26 | thỏa thuận
+  27 | mua lại
+  28 | DOANH THU TỪ HỢP ĐỒNG
+  29 | VỚI KHÁCH HÀNG
+  30 | Ghi chú của bạn
+  31 | 96
+  32 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+  33 | 6. Thỏa thuận mua lại
+  34 | Xử lý kế toán (Hợp đồng kỳ hạn + Quyền chọn mua)
+  35 | Ví dụ 11: Hợp đồng kỳ hạn
+  36 | Tính đến ngày 1 tháng 1 năm 20X1, A ký hợp đồng với B để bán ô tô với giá $10,000.
+  37 | Hợp đồng là hợp đồng kỳ hạn khiến A có nghĩa vụ
+  38 | mua lại cùng ô tô vào ngày 31 tháng 12 năm 20X1 theo giá mua lại.
+  39 | Yêu cầu: A sẽ hạch toán hợp đồng kỳ hạn như thế nào, nếu:
+  40 | a) Giá mua lại là $8,500
+  41 | b) Giá mua lại là $12,000
+  42 | Xử lý theo thuê theo
+  43 | IFRS 16
+  44 | Giá mua lại < Giá bán gốc
+  45 | Giá mua lại ≥ Giá bán gốc
+  46 | Xử lý theo thỏa thuận tài chính
+  47 | (khoản vay có đảm bảo) theo IFRS 9
+  48 | DOANH THU TỪ HỢP ĐỒNG
+  49 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 49
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 97
+   3 | II. CÁC LOẠI GIAO DỊCH PHỔ BIẾN
+   4 | 6. Thỏa thuận mua lại
+   5 | Ví dụ 11: Trả lời
+   6 | Giá mua lại ($8,500) < Giá bán
+   7 | gốc ($10,000)
+   8 | Giá mua lại ($12,000) > Giá bán
+   9 | gốc ($10,000)
+  10 | Xử lý theo thuê theo
+  11 | IFRS 16 (xem thêm trong bài học về
+  12 | IFRS 16)
+  13 | • Xử lý theo thỏa thuận tài chính
+  14 | theo IFRS 9
+  15 | • Chênh lệch $2,000 được hạch toán
+  16 | là chi phí lãi vay (xem thêm trong
+  17 | bài học về IFRS 9)
+  18 | DOANH THU TỪ HỢP ĐỒNG
+  19 | VỚI KHÁCH HÀNG
+  20 | Ghi chú của bạn
+  21 | 98
+  22 | Câu hỏi trắc nghiệm Chương 3
+  23 | Câu hỏi 1:
+  24 | Hàng tồn kho ký gửi là thỏa thuận trong đó hàng tồn kho được giữ bởi
+  25 | một bên nhưng thuộc sở hữu của bên khác. Điều này phổ biến trong ngành ô tô.
+  26 | HAI phát biểu nào sau đây cho thấy hàng tồn kho đang xem xét là
+  27 | hàng tồn kho ký gửi?
+  28 | A.
+  29 | Nhà sản xuất có thể yêu cầu đại lý hoàn trả hàng tồn kho
+  30 | B.
+  31 | Đại lý không có quyền hoàn trả hàng tồn kho
+  32 | C.
+  33 | Nhà sản xuất chịu rủi ro lỗi thời
+  34 | D.
+  35 | Đại lý chịu rủi ro hàng chuyển động chậm
+  36 | DOANH THU TỪ HỢP ĐỒNG
+  37 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 50
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 99
+   3 | Câu hỏi trắc nghiệm Chương 3
+   4 | Câu hỏi 2:
+   5 | Doanh thu của Newmarket Co theo dự thảo báo cáo lãi hoặc lỗ
+   6 | cho năm kết thúc ngày 31 tháng 12 năm 20X9 là $27 triệu. Trong đó bao gồm $8 triệu
+   7 | cho hàng hóa bán ngày 31 tháng 12 năm 20X9 mà Newmarket Co sẽ
+   8 | cung cấp dịch vụ hỗ trợ liên tục trong hai năm sau khi bán.
+   9 | Việc cung cấp hàng hóa và dịch vụ là nghĩa vụ thực hiện
+  10 | riêng biệt theo IFRS 15 Doanh thu từ Hợp đồng
+  11 | với Khách hàng.
+  12 | Chi phí cung cấp dịch vụ hỗ trợ được ước tính $800,000 mỗi
+  13 | năm. Newmarket Co áp dụng tỷ lệ cộng thêm 30% cho tất cả chi phí dịch vụ.
+  14 | Số tiền doanh thu nên được ghi nhận trong báo cáo lãi hoặc lỗ
+  15 | của Newmarket Co cho năm kết thúc ngày 31 tháng 12 năm 20X9 là bao nhiêu?
+  16 | (Bỏ qua tác động của giá trị thời gian của tiền và nhập câu trả lời
+  17 | làm tròn đến $.)
+  18 | $
+  19 | DOANH THU TỪ HỢP ĐỒNG
+  20 | VỚI KHÁCH HÀNG
+  21 | Ghi chú của bạn
+  22 | 100
+  23 | Câu hỏi trắc nghiệm Chương 3
+  24 | Đáp án
+  25 | Câu hỏi 1:
+  26 | Đáp án đúng là A và C
+  27 | Theo IFRS 15, khi sản phẩm được giao cho khách hàng theo
+  28 | thỏa thuận ký gửi, khách hàng (đại lý) không có quyền kiểm soát
+  29 | sản phẩm tại thời điểm đó.
+  30 | • Phát biểu
+  31 | (1)
+  32 | và
+  33 | (3)
+  34 | đúng
+  35 | vì
+  36 | chúng
+  37 | cho thấy
+  38 | nhà sản xuất giữ quyền sở hữu hàng tồn kho.
+  39 | • Phát biểu (2) và (4) sai vì chúng cho thấy rủi ro
+  40 | và lợi ích đã được chuyển cho đại lý.
+   41 | DOANH THU TỪ HỢP ĐỒNG
+   42 | VỚI KHÁCH HÀNG
+
+================================================================================
+PAGE 51
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 101
+   3 | Câu hỏi trắc nghiệm Chương 3
+   4 | Đáp án
+   5 | Câu hỏi 2:
+   6 | Đáp án đúng là $24,920,000
+   7 | • Chi phí cung cấp dịch vụ hỗ trợ được ước tính $800,000 mỗi
+   8 | năm với tỷ lệ cộng thêm 30%, nên doanh thu dịch vụ mỗi năm: $800,000 x
+   9 | 130% = $1,040,000
+  10 | • Newmarket Co sẽ cung cấp dịch vụ hỗ trợ liên tục trong hai năm sau
+  11 | khi bán. Do đó, theo IFRS 15, doanh thu dịch vụ hai năm
+  12 | nên được trừ khỏi doanh thu theo dự thảo lãi hoặc lỗ vì chưa
+  13 | được thực hiện vào cuối năm 20X9
+  14 | ⇒ Doanh thu được ghi nhận trong báo cáo lãi hoặc lỗ của Newmarket
+  15 | Co cho năm kết thúc ngày 31 tháng 12 năm 20X9:
+  16 | $27,000,000 - $1,040,000 x 2 = $24,920,000
+  17 | DOANH THU TỪ HỢP ĐỒNG
+  18 | VỚI KHÁCH HÀNG
+  19 | 102
+  20 | Ghi chú của bạn
+  21 | 10
+  22 | 2
+  23 | CHƯƠNG 4:
+  24 | CHÍNH SÁCH KẾ TOÁN,
+  25 | THAY ĐỔI ƯỚC TÍNH
+  26 | KẾ TOÁN VÀ SAI SÓT
+
+================================================================================
+PAGE 52
+================================================================================
+   1 | 103
+   2 | Ghi chú của bạn
+   3 | CHÍNH SÁCH KẾ TOÁN, THAY ĐỔI
+   4 | ƯỚC TÍNH KẾ TOÁN VÀ SAI SÓT
+   5 | TỔNG QUAN
+   6 | Bạn sẽ học được gì?
+   7 | Chính sách kế toán
+   8 | Sai sót
+   9 | Định nghĩa
+  10 | Công bố
+  11 | Định nghĩa
+  12 | Nguyên tắc
+  13 | Khác biệt giữa thay đổi chính sách kế toán
+  14 | và ước tính kế toán
+  15 | Thay đổi chính sách
+  16 | kế toán
+  17 | Lựa chọn chính sách
+  18 | kế toán
+  19 | Nguyên tắc ước tính
+  20 | kế toán
+  21 | Thay đổi ước tính
+  22 | kế toán
+  23 | IAS 8 CHÍNH SÁCH KẾ TOÁN, THAY ĐỔI ƯỚC TÍNH KẾ TOÁN VÀ
+  24 | SAI SÓT
+  25 | 104
+  26 | Ghi chú của bạn
+  27 | CHÍNH SÁCH KẾ TOÁN, THAY ĐỔI
+  28 | ƯỚC TÍNH KẾ TOÁN VÀ SAI SÓT
+  29 | I. CHÍNH SÁCH KẾ TOÁN
+  30 | Chính sách kế toán là các nguyên tắc cụ thể, cơ sở, thông lệ, quy tắc và
+  31 | phương pháp được đơn vị áp dụng trong việc lập và trình bày báo cáo tài chính.
+  32 | Định nghĩa một số thuật ngữ liên quan:
+  33 | Hồi tố
+  34 | Áp dụng chính sách kế toán mới cho giao dịch, sự kiện khác và
+  35 | điều kiện như thể chính sách đó luôn được áp dụng
+  36 | Trình bày lại hồi tố
+  37 | Điều chỉnh ghi nhận, đo lường và công bố số tiền
+  38 | của các yếu tố báo cáo tài chính như thể sai sót kỳ trước
+  39 | chưa từng xảy ra.
+  40 | Nguyên tắc
+  41 | • Áp dụng chính sách kế toán mới cho giao dịch, sự kiện khác
+  42 | và điều kiện phát sinh sau ngày thay đổi chính sách.
+  43 | • Ghi nhận hiệu ứng của thay đổi ước tính kế toán
+  44 | trong kỳ hiện tại và tương lai bị ảnh hưởng bởi thay đổi.
+  45 | Không thực hiện được
+  46 | Việc áp dụng yêu cầu không thực hiện được khi đơn vị không thể
+  47 | áp dụng sau khi đã nỗ lực hợp lý
+  48 | Thực hiện được
+  49 | Việc áp dụng yêu cầu thực hiện được khi đơn vị có thể áp dụng
+  50 | sau khi đã nỗ lực hợp lý
+
+================================================================================
+PAGE 53
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 105
+   3 | I. CHÍNH SÁCH KẾ TOÁN
+   4 | 1. Lựa chọn chính sách kế toán
+   5 | Lựa chọn chính sách kế toán
+   6 | Có chuẩn mực IFRS liên quan
+   7 | hoặc Giải thích
+   8 | Không có chuẩn mực IFRS liên quan
+   9 | hoặc Giải thích
+  10 | Sử dụng chuẩn mực hoặc giải thích đó
+  11 | Sử dụng đánh giá của ban quản lý
+  12 | Khi ban quản lý sử dụng đánh giá của mình, họ nên tham khảo
+  13 | •
+  14 | Yêu cầu và hướng dẫn trong IFRS xử lý các vấn đề tương tự và liên quan.
+  15 | •
+  16 | Định nghĩa, tiêu chuẩn ghi nhận và khái niệm đo lường cho tài sản,
+  17 | nợ phải trả, thu nhập và chi phí trong Khung Khái niệm.
+  18 | CHÍNH SÁCH KẾ TOÁN, THAY ĐỔI
+  19 | ƯỚC TÍNH KẾ TOÁN VÀ SAI SÓT
+  20 | Ghi chú của bạn
+  21 | 106
+  22 | CHÍNH SÁCH KẾ TOÁN, THAY ĐỔI
+  23 | ƯỚC TÍNH KẾ TOÁN VÀ SAI SÓT
+  24 | I. CHÍNH SÁCH KẾ TOÁN
+  25 | 2. Thay đổi chính sách kế toán
+  26 | Chính sách
+  27 | kế toán
+  28 | phải được áp dụng
+  29 | nhất quán
+  30 | cho các giao dịch tương tự,
+  31 | phân loại, sự kiện và điều kiện khác. Chính sách kế toán chỉ thay đổi nếu
+  32 | đáp ứng 2 điều kiện sau:
+  33 | Điều kiện thay đổi chính sách kế toán
+  34 | Yêu cầu bởi chuẩn mực
+  35 | hoặc giải thích mới
+  36 | Cung cấp thông tin liên quan và
+  37 | đáng tin cậy hơn.
+  38 | Chúng ta có thể xác định thay đổi có phải là thay đổi chính sách kế toán hay không dựa trên
+  39 | đặc điểm sau:
+  40 | Ghi nhận
+  41 | ví dụ: chi phí nay được ghi nhận
+  42 | thay vì tài sản
+  43 | Trình bày
+  44 | ví dụ: khấu hao nay được bao gồm
+  45 | trong giá vốn hàng bán
+  46 | thay vì chi phí quản lý
+  47 | Cơ sở đo lường
+  48 | ví dụ: ghi nhận tài sản theo
+  49 | chi phí thay thế thay vì
+  50 | nguyên giá.
+  51 | Dấu hiệu thay đổi chính sách kế toán
+
+================================================================================
+PAGE 54
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 107
+   3 | CHÍNH SÁCH KẾ TOÁN, THAY ĐỔI
+   4 | ƯỚC TÍNH KẾ TOÁN VÀ SAI SÓT
+   5 | II. ƯỚC TÍNH KẾ TOÁN
+   6 | Định nghĩa
+   7 | Ước tính kế toán là các đánh giá hoặc giả định
+   8 | được sử dụng khi áp dụng chính sách kế toán khi, do
+   9 | sự không chắc chắn về ước tính, một khoản mục trong báo cáo tài chính
+  10 | không thể đo lường chính xác.
+  11 | Ví dụ về ước tính kế toán:
+  12 | •
+  13 | Thời hạn sử dụng hữu ích của tài sản khấu hao
+  14 | •
+  15 | Dự phòng lỗi thời của hàng tồn kho
+  16 | Thay đổi ước tính
+  17 | kế toán
+  18 | Thay đổi ước tính kế toán là điều chỉnh giá trị ghi nhận
+  19 | của tài sản hoặc nợ phải trả hoặc số tiền tiêu hao định kỳ của tài sản
+  20 | phát sinh từ đánh giá tình trạng hiện tại và lợi ích
+  21 | tương lai kỳ vọng và nghĩa vụ liên quan đến tài sản và
+  22 | nợ phải trả
+  23 | Nguyên tắc thay đổi
+  24 | ước tính
+  25 | kế toán
+  26 | Ghi nhận thay đổi theo nguyên tắc trong lãi hoặc lỗ:
+  27 | •
+  28 | Kỳ thay đổi, nếu chỉ ảnh hưởng đến kỳ đó
+  29 | •
+  30 | Kỳ thay đổi và các kỳ tương lai, nếu thay đổi
+  31 | ảnh hưởng đến cả hai
+  32 | Ghi chú của bạn
+  33 | 108
+  34 | CHÍNH SÁCH KẾ TOÁN, THAY ĐỔI
+  35 | ƯỚC TÍNH KẾ TOÁN VÀ SAI SÓT
+  36 | II. ƯỚC TÍNH KẾ TOÁN
+  37 | Bảng sau cho thấy khác biệt giữa thay đổi chính sách kế toán và
+  38 | ước tính kế toán:
+  39 | Nguyên tắc, cơ sở, thông lệ, quy tắc
+  40 | và phương pháp cụ thể
+  41 | Hồi tố
+  42 | Kỳ quá khứ, hiện tại và tương lai
+  43 | • Bản chất và số tiền thay đổi
+  44 | cho kỳ hiện tại và cho
+  45 | mỗi kỳ trước
+  46 | được trình bày.
+  47 | • Việc thông tin so sánh
+  48 | đã được trình bày lại.
+  49 | Khoản mục bị ảnh hưởng
+  50 | Tiêu chuẩn
+  51 | Nguyên tắc
+  52 | Công bố
+  53 | Kỳ bị ảnh hưởng
+  54 | Thay đổi chính sách
+  55 | kế toán
+  56 | Theo nguyên tắc
+  57 | Kỳ hiện tại và tương lai
+  58 | Giá trị ghi nhận, số tiền tiêu hao
+  59 | định kỳ, lợi ích tương lai, nghĩa vụ
+  60 | • Bản chất và số tiền thay đổi
+  61 | có ảnh hưởng trong kỳ hiện tại (hoặc
+  62 | kỳ vọng ảnh hưởng trong tương lai).
+  63 | • Việc hiệu ứng của các kỳ tương lai
+  64 | KHÔNG được công bố do không
+  65 | thực tế.
+  66 | Thay đổi ước tính
+  67 | kế toán
+
+================================================================================
+PAGE 55
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 109
+   3 | CHÍNH SÁCH KẾ TOÁN, THAY ĐỔI
+   4 | ƯỚC TÍNH KẾ TOÁN VÀ SAI SÓT
+   5 | II. ƯỚC TÍNH KẾ TOÁN
+   6 | Ví dụ 1:
+   7 | 1. Đơn vị trước đây ghi nhận chi phí lãi vay phát sinh liên quan đến
+   8 | xây dựng tài sản dài hạn hữu hình vào báo cáo lãi hoặc lỗ.
+   9 | Theo sửa đổi IAS 23 Chi phí Vay vốn và theo yêu cầu sửa đổi
+  10 | của chuẩn mực đó, nay đơn vị vốn hóa lãi vay này.
+  11 | 2. Đơn vị trước đây khấu hao xe bằng phương pháp số dư giảm dần
+  12 | với tỷ lệ 40%/năm. Nay sử dụng phương pháp đường thẳng trong 5 năm.
+  13 | 3. Đơn vị trước đây trình bày một số chi phí chung trong giá vốn hàng bán. Nay
+  14 | trình bày các chi phí chung đó trong chi phí quản lý doanh nghiệp.
+  15 | 4. Đơn vị trước đây đo lường hàng tồn kho theo chi phí bình quân gia quyền. Nay
+  16 | đo lường hàng tồn kho theo phương pháp nhập trước xuất trước (FIFO).
+  17 | Trả lời
+  18 | 1. Đây là thay đổi về ghi nhận và trình bày. Do đó đây là thay đổi chính sách
+  19 | kế toán.
+  20 | 2. Phương pháp khấu hao chỉ là giả định
+  21 | không liên quan đến ghi nhận, trình bày và đo lường. Đây chỉ là thay đổi ước tính
+  22 | kế toán.
+  23 | 3. Đây là thay đổi về trình bày và do đó là thay đổi chính sách kế toán.
+  24 | 4. Đây là thay đổi về cơ sở đo lường và do đó là thay đổi chính sách kế toán.
+  25 | Ghi chú của bạn
+  26 | 110
+  27 | CHÍNH SÁCH KẾ TOÁN, THAY ĐỔI
+  28 | ƯỚC TÍNH KẾ TOÁN VÀ SAI SÓT
+  29 | III. SAI SÓT KỲ TRƯỚC
+  30 | Sai sót kỳ trước là các bỏ sót và sai lệch trong báo cáo tài chính của
+  31 | đơn vị cho một hoặc nhiều kỳ trước phát sinh từ việc không sử dụng hoặc
+  32 | sử dụng sai thông tin đáng tin cậy.
+  33 | Nguyên tắc xử lý sai sót
+  34 | Công bố
+  35 | Nguyên tắc xử lý sai sót
+  36 | •
+  37 | Điều chỉnh HỒI TỐ như thể sai sót
+  38 | chưa từng xảy ra.
+  39 | •
+  40 | Hoặc trình bày lại số tiền so sánh cho các kỳ trước
+  41 | mà sai sót xảy ra, hoặc
+  42 | •
+  43 | Khi sai sót xảy ra trước kỳ trước sớm nhất
+  44 | được trình bày, trình bày lại số dư đầu kỳ của
+  45 | tài sản, nợ phải trả và vốn chủ sở hữu cho
+  46 | kỳ đó.
+  47 | •
+  48 | Chỉ khi không thể xác định hiệu ứng lũy kế
+  49 | của sai sót trên các kỳ trước thì đơn vị
+  50 | mới được điều chỉnh sai sót theo nguyên tắc.
+  51 | Công bố
+  52 | •
+  53 | Bản chất của sai sót kỳ trước
+  54 | •
+  55 | Cho mỗi kỳ trước, trong phạm vi có thể, số tiền
+  56 | điều chỉnh:
+  57 | o
+  58 | Cho mỗi khoản mục báo cáo tài chính
+  59 | bị ảnh hưởng
+  60 | o
+  61 | Nếu IAS 33 áp dụng, cho thu nhập trên cổ phiếu
+  62 | cơ bản và pha loãng
+  63 | •
+  64 | Số tiền điều chỉnh tại đầu kỳ sớm nhất
+  65 | được trình bày
+  66 | •
+  67 | Nếu trình bày lại hồi tố không thực hiện được, cần giải thích
+  68 | và mô tả cách sai sót đã được điều chỉnh
+
+================================================================================
+PAGE 56
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 111
+   3 | CHÍNH SÁCH KẾ TOÁN, THAY ĐỔI
+   4 | ƯỚC TÍNH KẾ TOÁN VÀ SAI SÓT
+   5 | Ví dụ 2:
+   6 | Hội đồng quản trị công ty phát hiện gian lận. Tổng cộng, 1 triệu USD đã
+   7 | được bao gồm là khoản phải thu trong bảng cân đối thử trên đã bị nhân viên thu ngân đánh cắp.
+   8 | Nhân viên thu ngân tuyên bố khách hàng đã thanh toán số tiền này, nhưng thay vì ghi nhận
+   9 | giảm khoản phải thu, nhân viên thu ngân đã biển thủ tiền và sử dụng cho mục đích
+  10 | cá nhân.
+  11 | Nhân viên thu ngân
+  12 | biển thủ
+  13 | USD600,000
+  14 | trong
+  15 | kỳ trước
+  16 | và
+  17 | USD400,000 trong kỳ này.
+  18 | Trả lời:
+  19 | Nếu nhân viên thu ngân không biển thủ
+  20 | Nợ Tiền mặt
+  21 | USD1 triệu
+  22 | Có Khoản phải thu
+  23 | USD1 triệu
+  24 | Vì nhân viên thu ngân biển thủ, khoản phải thu phải được ghi nhận là chi phí cho kỳ này
+  25 | Trong kỳ trước:
+  26 | Lợi nhuận giảm USD600,000 và Lợi nhuận giữ lại cuối kỳ giảm USD600,000
+  27 | Trong kỳ này:
+  28 | •
+  29 | Lợi nhuận giữ lại đầu kỳ giảm USD600,000
+  30 | •
+  31 | Chi phí tăng USD400,000
+  32 | •
+  33 | Lợi nhuận giảm USD400,000 và Lợi nhuận giữ lại cuối kỳ giảm USD400,000
+  34 | •
+  35 | Lợi nhuận giữ lại cuối kỳ giảm USD 1 triệu
+  36 | Điều chỉnh:
+  37 | Nợ Lợi nhuận giữ lại đầu kỳ
+  38 | USD600,000
+  39 | Nợ Chi phí
+  40 | USD400,000
+  41 | Có Khoản phải thu
+  42 | USD 1 triệu
+  43 | III. SAI SÓT KỲ TRƯỚC
+  44 | 112
+  45 | Ghi chú của bạn
+  46 | 112
+  47 | MODULE 4: KẾ TOÁN TÀI SẢN
+  48 | VÀ NỢ PHẢI TRẢ – PHẦN 1
+
+================================================================================
+PAGE 57
+================================================================================
+   1 | 113
+   2 | Ghi chú của bạn
+   3 | 11
+   4 | 3
+   5 | GIỚI THIỆU
+   6 | 114
+   7 | Ghi chú của bạn
+   8 | GIỚI THIỆU
+   9 | "Định nghĩa tài sản là: nguồn lực do đơn vị kiểm soát do
+  10 | sự kiện trong quá khứ và từ đó lợi ích kinh tế tương lai
+  11 | được kỳ vọng sẽ chảy vào đơn vị."
+  12 | Khung Khái niệm
+  13 | Xác định tài sản có nên
+  14 | được
+  15 | ghi nhận
+  16 | trong
+  17 | báo cáo tình hình tài chính?
+  18 | Xác định cách tài sản
+  19 | nên được đo lường
+  20 | Xác định khoản mục có
+  21 | đáp ứng định nghĩa tài sản
+  22 | Bước 1
+  23 | Bước 2
+  24 | Bước 3
+  25 | Xử lý kế toán tài sản bao gồm quy trình ba giai đoạn:
+  26 | GIỚI THIỆU
+
+================================================================================
+PAGE 58
+================================================================================
+   1 | 115
+   2 | Ghi chú của bạn
+   3 | GIỚI THIỆU
+   4 | Cần lưu ý rằng tài sản không nhất thiết là thứ được sở hữu
+   5 | mà là thứ được kiểm soát.
+   6 | Ví dụ, công ty thuê tài sản để sử dụng có thể có tài sản nếu
+   7 | kiểm soát tài sản đó. Tất nhiên, để một khoản mục là tài sản, nó phải tạo ra
+   8 | một số lợi ích tương lai cho đơn vị.
+   9 | Tài sản
+  10 | Không phải tất cả tài sản của đơn vị đều nên được ghi nhận trong
+  11 | báo cáo tình hình tài chính. Một số không thể
+  12 | được đo lường đủ đáng tin cậy để đưa vào. Cần
+  13 | phải có một số đo lường chi phí hoặc giá trị
+  14 | Ghi nhận tài sản
+  15 | Sau khi quyết định ghi nhận tài sản, có thể có
+  16 | nhiều cách đo lường, như chi phí khấu hao
+  17 | hoặc giá trị thị trường hiện tại
+  18 | Đo lường tài sản
+  19 | GIỚI THIỆU
+  20 | 116
+  21 | Ghi chú của bạn
+  22 | 11
+  23 | 6
+  24 | CHƯƠNG 5:
+  25 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  26 | CHI PHÍ VAY VỐN
+
+================================================================================
+PAGE 59
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 117
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH & CHI PHÍ VAY VỐN
+   4 | Định nghĩa và
+   5 | Thuật ngữ
+   6 | Định nghĩa
+   7 | TỔNG QUAN
+   8 | Bạn sẽ học được gì?
+   9 | IAS 16 TSCĐ
+  10 | Ghi nhận
+  11 | IAS 23 Chi phí
+  12 | Vay vốn
+  13 | Đo lường
+  14 | Hủy ghi nhận và
+  15 | thanh lý
+  16 | Phạm vi
+  17 | Ghi nhận
+  18 | Vốn hóa
+  19 | Đánh giá lại
+  20 | Khấu hao
+  21 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  22 | CHI PHÍ VAY VỐN
+  23 | Ghi chú của bạn
+  24 | 118
+  25 | I. ĐỊNH NGHĨA VÀ THUẬT NGỮ
+  26 | 1. Định nghĩa TSCĐ
+  27 | Tài sản cố định hữu hình (TSCĐ) là tài sản hữu hình:
+  28 | •
+  29 | Giữ để sử dụng trong sản xuất hoặc cung cấp hàng hóa hoặc dịch vụ, cho thuê
+  30 | hoặc cho mục đích quản lý.
+  31 | •
+  32 | Được kỳ vọng sử dụng trong hơn một kỳ.
+  33 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  34 | CHI PHÍ VAY VỐN
+
+================================================================================
+PAGE 60
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 119
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | II. IAS 16 - TSCĐ
+   6 | 1. Ghi nhận TSCĐ theo IAS 16
+   7 | Là một loại tài sản, TSCĐ phải đồng thời đáp ứng hai (02) tiêu chuẩn ghi nhận
+   8 | tài sản:
+   9 | Ví dụ: Công ty mua máy sản xuất lốp xe với giá $200,000 và
+  10 | kỳ vọng sử dụng máy trong năm năm tới. Dựa trên thông tin
+  11 | này, máy được ghi nhận là tài sản theo IAS 16 vì:
+  12 | •
+  13 | Có thể mang lại lợi ích kinh tế tương lai từ sản xuất lốp xe cho công ty
+  14 | (năm năm tới)
+  15 | •
+  16 | Chi phí máy có thể đo lường đáng tin cậy (tại $200,000)
+  17 | Có khả năng
+  18 | lợi ích kinh tế
+  19 | tương lai
+  20 | liên quan đến tài sản
+  21 | sẽ chảy vào đơn vị.
+  22 | Chi phí của tài sản
+  23 | cho đơn vị
+  24 | có thể
+  25 | được đo lường
+  26 | đáng tin cậy
+  27 | 01
+  28 | 02
+  29 | Ghi chú của bạn
+  30 | 120
+  31 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  32 | CHI PHÍ VAY VỐN
+  33 | II. IAS 16 - TSCĐ
+  34 | 2. Đo lường TSCĐ theo IAS 16
+  35 | Đo lường ban đầu
+  36 | 2.1
+  37 | Chi phí ban đầu của TSCĐ bao gồm:
+  38 | 01
+  39 | Giá mua trừ chiết khấu thương mại hoặc giảm giá (*)
+  40 | 02
+  41 | Thuế nhập khẩu, thuế không hoàn lại
+  42 | 03
+  43 | Ước tính ban đầu chi phí tháo dỡ (**), di dời, phục hồi
+  44 | 04
+  45 | Chi phí có thể quy thuộc trực tiếp
+  46 | 05
+  47 | Chi phí vay vốn (IAS 23)
+  48 | Lưu ý:
+  49 | (*) Trừ chiết khấu thương mại thay vì chiết khấu thanh toán vì chiết khấu thương mại ảnh hưởng
+  50 | trực tiếp đến chi phí TSCĐ, trong khi chiết khấu thanh toán tăng thu nhập tài chính nhưng
+  51 | không ảnh hưởng đến chi phí ban đầu của TSCĐ.
+  52 | (**) Chi phí tháo dỡ – giá trị hiện tại (PV) của các chi phí này nên được vốn hóa,
+  53 | với khoản nợ tương đương được thiết lập. Có thể cần sử dụng lãi suất cho trước và áp dụng
+  54 | hệ số chiết khấu trong đó:
+  55 | PV = Chi phí tháo dỡ x Hệ số chiết khấu với:
+  56 | r: lãi suất; và
+  57 | Hệ số chiết khấu =
+  58 | 1
+  59 | (1+r)^n
+  60 | n: số năm đến khi thanh toán.
+
+================================================================================
+PAGE 61
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 121
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | II. IAS 16 - TSCĐ
+   6 | 2. Đo lường TSCĐ theo IAS 16
+   7 | Đo lường ban đầu
+   8 | 2.1
+   9 | Có một số chi phí cụ thể có thể được bao gồm hoặc không bao gồm trong chi phí
+  10 | có thể quy thuộc trực tiếp của đo lường ban đầu TSCĐ:
+  11 | ĐƯỢC BAO GỒM
+  12 | KHÔNG ĐƯỢC BAO GỒM
+  13 | Quyền lợi nhân viên
+  14 | phát sinh trực tiếp từ
+  15 | việc xây dựng hoặc
+  16 | mua tài sản
+  17 | Chi phí chuẩn bị mặt bằng,
+  18 | vận chuyển, lắp đặt và
+  19 | lắp ráp, chi phí thử nghiệm, phí
+  20 | chuyên nghiệp (ví dụ: phí pháp lý
+  21 | và phí kiến trúc sư).
+  22 | Chi phí quản lý và chi phí
+  23 | chung khác
+  24 | Chi phí khởi tạo và chi phí trước
+  25 | sản xuất tương tự
+  26 | Lỗ hoạt động
+  27 | ban đầu trước khi tài sản
+  28 | đạt hiệu suất kế hoạch
+  29 | Chi phí đào tạo nhân viên
+  30 | Ghi chú của bạn
+  31 | 122
+  32 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  33 | CHI PHÍ VAY VỐN
+  34 | II. IAS 16 - TSCĐ
+  35 | 2. Đo lường TSCĐ theo IAS 16
+  36 | Đo lường ban đầu
+  37 | 2.1
+  38 | Chi phí TSCĐ
+  39 | Thanh toán chậm (*)
+  40 | Trao đổi tài sản (***)
+  41 | Đo lường theo giá tiền mặt tại
+  42 | thời điểm ghi nhận, với
+  43 | chiết khấu (**)
+  44 | Đo lường theo giá trị hợp lý
+  45 | TSCĐ mua theo thanh toán chậm hoặc trao đổi tài sản yêu cầu đo lường
+  46 | cụ thể như sau:
+  47 | Lưu ý:
+  48 | (*) Thanh toán chậm khi vượt quá điều khoản tín dụng thông thường.
+  49 | (**) Đây là giá trị hiện tại (PV) với hệ số chiết khấu:
+  50 | PV = Thanh toán x Hệ số chiết khấu với:
+  51 | r: lãi suất; và
+  52 | Hệ số chiết khấu =
+  53 | 1
+  54 | (1+r)^n
+  55 | n: số năm đến khi thanh toán.
+  56 | (***) Khi giao dịch trao đổi thiếu bản chất thương mại và/hoặc giá trị hợp lý
+  57 | của cả hai tài sản trao đổi không thể đo lường đáng tin cậy ⇒ Đo lường theo giá trị
+  58 | ghi nhận.
+
+================================================================================
+PAGE 62
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 123
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | II. IAS 16 - TSCĐ
+   6 | 2. Đo lường TSCĐ theo IAS 16
+   7 | Đo lường ban đầu
+   8 | 2.1
+   9 | Ví dụ 1: Tính chi phí ban đầu
+  10 | Tusco mua 20 máy sản xuất bông vào ngày 1/1/2020 với giá
+  11 | $100,000 mỗi máy và nhận chiết khấu thương mại $1,000 mỗi máy.
+  12 | Ngoài ra, để tăng cường công suất của các máy, Tusco trả thêm
+  13 | $400 mỗi máy để nâng cấp bánh xoay. Dự án liên quan đến
+  14 | TSCĐ kéo dài 4 năm. Khi dự án kết thúc vào 31/12/2023,
+  15 | chi phí tháo dỡ là $50,000 mỗi máy, tỷ suất chiết khấu 10%. Tính
+  16 | chi phí ban đầu của các máy.
+  17 | Trả lời:
+  18 | Chi phí ban đầu mỗi máy = ($100,000 - $1,000) + $400 + $50,000
+  19 | / (1+0.1)^4 ≈
+  20 | $133,550
+  21 | Chi phí ban đầu tất cả máy = 20 x $133,550 ≈ $2,671,000.
+  22 | Ghi chú của bạn
+  23 | 124
+  24 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  25 | CHI PHÍ VAY VỐN
+  26 | II. IAS 16 - TSCĐ
+  27 | 2. Đo lường TSCĐ theo IAS 16
+  28 | Đo lường sau ghi nhận
+  29 | 2.2
+  30 | Mô hình chi phí
+  31 | Giá trị
+  32 | ghi nhận
+  33 | Chi phí
+  34 | Khấu hao
+  35 | lũy kế (Tham khảo 1)
+  36 | Tham khảo 1: Có bốn phương pháp tính khấu hao:
+  37 | Công thức
+  38 | Phương pháp
+  39 | số dư giảm dần
+  40 | Phương pháp
+  41 | đường thẳng
+  42 | Phương pháp
+  43 | đơn vị sản lượng
+  44 | Chi phí tài sản - Giá trị thanh lý
+  45 | Thời hạn sử dụng hữu ích
+  46 | (Giá trị gốc - Giá trị thanh lý) x Đơn vị mỗi năm
+  47 | Công suất sản xuất ước tính
+  48 | Phương pháp
+  49 | tổng số chữ số
+  50 | (Chi phí - Giá trị thanh lý) x y
+  51 | d
+  52 | y - thời hạn sử dụng còn lại
+  53 | d - tổng chữ số = n x (n+1) / 2
+  54 | n - thời hạn sử dụng
+  55 | Từ năm 1 đến năm n-1: Khấu hao = Số dư đầu kỳ x Tỷ lệ khấu hao
+  56 | Tại năm n: Khấu hao = Số dư đầu kỳ - Giá trị thanh lý
+  57 | Tổn thất
+  58 | lũy kế (Tham khảo 2)
+
+================================================================================
+PAGE 63
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 125
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | II. IAS 16 - TSCĐ
+   6 | 2. Đo lường TSCĐ theo IAS 16
+   7 | Đo lường sau ghi nhận
+   8 | 2.2
+   9 | Mô hình chi phí
+  10 | Tham khảo 1: Thời hạn sử dụng hữu ích của TSCĐ nên được xem xét ít nhất vào mỗi cuối năm tài chính.
+  11 | Tham khảo 2: Tổn thất tài sản là số tiền mà giá trị ghi nhận của tài sản hoặc
+  12 | đơn vị tạo tiền vượt quá giá trị có thể thu hồi. Chúng ta sẽ học về
+  13 | tổn thất tài sản trong Chương Tổn thất tài sản
+  14 | Tính khấu hao lũy kế trước khi xem xét
+  15 | 1
+  16 | Bước 1
+  17 | 2
+  18 | Bước 2
+  19 | Tính khấu hao sau khi xem xét =
+  20 | Giá trị ghi nhận
+  21 | Thời hạn còn lại sau khi xem xét
+  22 | 3
+  23 | Bước 3
+  24 | Ba bước tính khấu hao khi có thay đổi thời hạn sử dụng hữu ích, bao gồm:
+  25 | Tính giá trị ghi nhận = Chi phí gốc - Khấu hao
+  26 | lũy kế
+  27 | Ghi chú của bạn
+  28 | 126
+  29 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  30 | CHI PHÍ VAY VỐN
+  31 | II. IAS 16 - TSCĐ
+  32 | 2. Đo lường TSCĐ theo IAS 16
+  33 | Đo lường sau ghi nhận
+  34 | 2.2
+  35 | Ví dụ 2:
+  36 | NCC Co mua tài sản dài hạn vào ngày 1 tháng 1 năm 20X4 với giá $160,000. Không
+  37 | có giá trị thanh lý và thời hạn sử dụng hữu ích 10 năm. Vào ngày 1 tháng 1 năm 20X7
+  38 | thời hạn sử dụng còn lại được xem xét và điều chỉnh thành 4 năm.
+  39 | Yêu cầu: Chi phí khấu hao cho năm 20X7 là bao nhiêu?
+  40 | Trả lời:
+  41 | Bước 1: Tính khấu hao lũy kế trước khi xem xét
+  42 | Khấu hao mỗi năm = $160,000/10 = $16,000
+  43 | Khấu hao lũy kế 20X4 – 20X6 = $16,000 * 3 = $48,000
+  44 | Bước 2: Tính giá trị ghi nhận = Chi phí gốc - Khấu hao lũy kế
+  45 | Giá trị ghi nhận TSCĐ (20X6) = $160,000 - $48,000 = $112,000
+  46 | Bước 3: Tính khấu hao sau khi xem xét =
+  47 | Giá trị ghi nhận
+  48 | Thời hạn còn lại sau khi xem xét
+  49 | Khấu hao (20X7) = $112,000/4 = $28,000
+
+================================================================================
+PAGE 64
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 127
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | II. IAS 16 - TSCĐ
+   6 | 2. Đo lường TSCĐ theo IAS 16
+   7 | Đo lường sau ghi nhận
+   8 | 2.2
+   9 | Mô hình đánh giá lại
+  10 | Đánh giá lại tài sản phải được tiến hành thường xuyên để giá trị ghi nhận
+  11 | của tài sản không khác biệt đáng kể so với giá trị hợp lý trên Bảng cân đối kế toán.
+  12 | Khi áp dụng đánh giá lại để đo lường TSCĐ, phải tuân thủ yêu cầu
+  13 | sau:
+  14 | Tiêu đề
+  15 | Số tiền đánh giá lại phải thể hiện giá trị hợp lý
+  16 | Nên được tiến hành đủ thường xuyên (giá trị hợp lý càng biến động,
+  17 | đánh giá lại càng thường xuyên)
+  18 | Áp dụng cho toàn bộ lớp tài sản
+  19 | mà nó thuộc về, được đánh giá lại
+  20 | cùng thời điểm
+  21 | Yêu cầu
+  22 | đánh giá lại
+  23 | Ghi chú của bạn
+  24 | 128
+  25 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  26 | CHI PHÍ VAY VỐN
+  27 | II. IAS 16 - TSCĐ
+  28 | 2. Đo lường TSCĐ theo IAS 16
+  29 | Đo lường sau ghi nhận
+  30 | 2.2
+  31 | Mô hình đánh giá lại
+  32 | Ví dụ 3:
+  33 | NCC Co mua tài sản với giá $20,000 vào đầu năm 20X7. Thời hạn sử dụng
+  34 | hữu ích 5 năm. Vào ngày 31 tháng 12 năm 20X8 tài sản được đánh giá lại ở $24,000.
+  35 | Thời hạn sử dụng hữu ích kỳ vọng không thay đổi (tức còn 3 năm).
+  36 | Yêu cầu: Hạch toán đánh giá lại TSCĐ tại NCC
+  37 | Các bước đánh giá lại ban đầu:
+  38 | Lỗ đánh giá lại
+  39 | ⇒ Ghi nhận vào Lãi/Lỗ
+  40 | Lãi đánh giá lại
+  41 | ⇒ Ghi nhận vào OCI
+  42 | Giá trị ghi nhận > Giá trị hợp lý
+  43 | Giá trị ghi nhận < Giá trị hợp lý
+  44 | Bước 1: Xác định giá trị
+  45 | ghi nhận tài sản trước
+  46 | đánh giá lại
+  47 | Bước 2: Xác định và ghi nhận
+  48 | lãi/lỗ đánh giá lại
+  49 |
+
+================================================================================
+PAGE 65
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 129
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | II. IAS 16 - TSCĐ
+   6 | 2. Đo lường TSCĐ theo IAS 16
+   7 | Đo lường sau ghi nhận
+   8 | 2.2
+   9 | Ví dụ 3:
+  10 | Trả lời:
+  11 | Bước 1: Xác định giá trị ghi nhận tài sản trước đánh giá lại
+  12 | Tại 31 tháng 12 năm 20X8, khấu hao lũy kế của tài sản = (2 x $20,000/5) = $8,000
+  13 | ⇒ Giá trị ghi nhận tài sản tại 31/12/20X8 = $20,000 – $8,000 = $12,000
+  14 | Bước 2: Xác định và ghi nhận lãi/lỗ đánh giá lại
+  15 | Giá trị ghi nhận = $12,000 < Giá trị hợp lý = $24,000 ⇒ Lãi đánh giá lại = $12,000
+  16 | Ghi nhận:
+  17 | Nợ TSCĐ
+  18 | $12,000
+  19 | Có OCI
+  20 | $12,000
+  21 | Ghi chú của bạn
+  22 | 130
+  23 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  24 | CHI PHÍ VAY VỐN
+  25 | II. IAS 16 - TSCĐ
+  26 | 2. Đo lường TSCĐ theo IAS 16
+  27 | Đo lường sau ghi nhận
+  28 | 2.2
+  29 | Mô hình đánh giá lại
+  30 | Lãi đánh giá lại
+  31 | Nợ TSCĐ
+  32 | Có OCI
+  33 | Lỗ đánh giá lại
+  34 | Nợ Lãi/Lỗ
+  35 | Có TSCĐ
+  36 | Lãi đánh giá lại
+  37 | Nợ TSCĐ
+  38 | Có OCI
+  39 | Lỗ đánh giá lại
+  40 | Nợ OCI
+  41 | Nợ Lãi/Lỗ
+  42 | Có TSCĐ
+  43 | Lãi đánh giá lại
+  44 | Nợ TSCĐ
+  45 | Có OCI
+  46 | Có Lãi/Lỗ
+  47 | Lỗ đánh giá lại
+  48 | Nợ Lãi/Lỗ
+  49 | Có TSCĐ
+  50 | Đánh giá lại ban đầu
+  51 | Đánh giá lại sau đó
+  52 | Sơ đồ sau trình bày chi tiết về bút toán đánh giá lại:
+
+================================================================================
+PAGE 66
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 131
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | II. IAS 16 - TSCĐ
+   6 | 2. Đo lường TSCĐ theo IAS 16
+   7 | Đo lường sau ghi nhận
+   8 | 2.2
+   9 | Mô hình đánh giá lại
+  10 | Hiệu ứng đánh giá lại đối với khấu hao tài sản (Nếu khấu hao mới > khấu hao cũ):
+  11 | Khấu hao mới
+  12 | Khấu hao cũ
+  13 | Thay đổi khấu hao
+  14 | Ghi nhận toàn bộ
+  15 | số tiền vào Lãi/Lỗ
+  16 | Nợ Thặng dư
+  17 | đánh giá lại
+  18 | Có Lợi nhuận giữ lại
+  19 | Các bước hạch toán hiệu ứng đánh giá lại đối với khấu hao tài sản:
+  20 | Tính khấu hao mới = Số tiền đánh giá lại - Giá trị thanh lý
+  21 | Thời hạn sử dụng hữu ích còn lại
+  22 | So sánh với khấu hao cũ và tính thay đổi khấu hao
+  23 | Nợ Thặng dư đánh giá lại
+  24 | Có Lợi nhuận giữ lại
+  25 | Bước 1
+  26 | Bước 2
+  27 | Bước 3
+  28 | Bù trừ hiệu ứng khấu hao bổ sung:
+  29 | Ghi chú của bạn
+  30 | 132
+  31 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  32 | CHI PHÍ VAY VỐN
+  33 | II. IAS 16 - TSCĐ
+  34 | 2. Đo lường TSCĐ theo IAS 16
+  35 | Đo lường sau ghi nhận
+  36 | 2.2
+  37 | Ví dụ 4:
+  38 | NCC Co mua tài sản với giá $20,000 vào đầu năm 20X7. Thời hạn sử dụng hữu ích
+  39 | 5 năm. Vào ngày 31/12/20X8 tài sản được đánh giá lại ở $24,000. Thời hạn sử dụng
+  40 | hữu ích kỳ vọng không thay đổi (tức còn 3 năm).
+  41 | Yêu cầu: Trình bày xử lý khấu hao từ năm 20X9 trở đi.
+  42 | Trả lời:
+  43 | Trình bày xử lý khấu hao từ 20X9
+  44 | Bước 1: Tính khấu hao mới = Số tiền đánh giá lại / thời hạn sử dụng còn lại
+  45 | Khấu hao mới = $24,000/3 = $8,000
+  46 | Bước 2: So sánh khấu hao mới ở bước 1 với khấu hao cũ và tính thay đổi
+  47 | khấu hao
+  48 | Thay đổi khấu hao = $8,000 – $4,000 = $4,000
+  49 | Bước 3: Bù trừ hiệu ứng khấu hao bổ sung bằng cách chuyển từ thặng dư
+  50 | đánh giá lại sang lợi nhuận giữ lại
+  51 | Nợ Thặng dư đánh giá lại
+  52 | $4,000
+  53 | Có Lợi nhuận giữ lại
+  54 | $4,000
+
+================================================================================
+PAGE 67
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 133
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | II. IAS 16 - TSCĐ
+   6 | 2. Đo lường TSCĐ theo IAS 16
+   7 | Chi phí sau ghi nhận TSCĐ
+   8 | Đo lường sau ghi nhận
+   9 | 2.2
+  10 | Chi phí sau ghi nhận TSCĐ chỉ được ghi nhận là tài sản khi chi phí
+  11 | cải thiện tình trạng tài sản vượt quá hiệu suất trước đó.
+  12 | Về chi phí phát sinh sau để bổ sung, thay thế bộ phận hoặc bảo dưỡng
+  13 | tài sản, ứng dụng thực tế là:
+  14 | •
+  15 | Chi phí sửa chữa và bảo dưỡng không nên được vốn hóa.
+  16 | •
+  17 | Phụ tùng thay thế nên được vốn hóa.
+  18 | •
+  19 | Đại tu nên được vốn hóa và chi phí đại tu được vốn hóa như một
+  20 | thành phần riêng biệt
+  21 | Cải thiện TSCĐ
+  22 | Sửa đổi tài sản để kéo dài thời hạn sử dụng hữu ích, bao gồm tăng công suất
+  23 | Nâng cấp bộ phận máy móc để cải thiện chất lượng sản lượng
+  24 | Thêm chức năng mới cho tài sản
+  25 | Ghi chú của bạn
+  26 | 134
+  27 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  28 | CHI PHÍ VAY VỐN
+  29 | II. IAS 16 - TSCĐ
+  30 | 2. Đo lường TSCĐ theo IAS 16
+  31 | Ví dụ 5:
+  32 | Đơn vị mua máy bay có thời hạn sử dụng hữu ích kỳ vọng 20 năm,
+  33 | không có giá trị thanh lý. Máy bay cần đại tu đáng kể vào cuối năm
+  34 | 5, 10 và 15. Máy bay có giá $20 triệu và $4 triệu trong số này được
+  35 | ước tính thuộc về lợi ích kinh tế được khôi phục bằng các lần
+  36 | đại tu
+  37 | Yêu cầu: Tính chi phí khấu hao hàng năm cho năm 1–5
+  38 | Đo lường sau ghi nhận
+  39 | 2.2
+  40 | Trả lời
+  41 | Năm 1– 5
+  42 | $ triệu
+  43 | Giá trị đại tu $4 triệu khấu hao trong 5 năm
+  44 | 0,8
+  45 | Còn lại $20 triệu khấu hao trong 20 năm
+  46 | 1
+  47 | Chi phí khấu hao mỗi năm
+  48 | 1,8
+
+================================================================================
+PAGE 68
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 135
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | II. IAS 16 - TSCĐ
+   6 | 3. Hủy ghi nhận và thanh lý
+   7 | Lưu ý: Điều này không ảnh hưởng đến thu nhập bao gồm khác, chỉ thay đổi khi
+   8 | tài sản thực tế được đánh giá lại tăng hoặc giảm.
+   9 | Khi nào hủy ghi nhận TSCĐ?
+  10 | Hai bước thanh lý TSCĐ
+  11 | Không kỳ vọng thêm lợi ích kinh tế
+  12 | Khi thanh lý
+  13 | Bước 1: Được hạch toán trong Báo cáo Lãi/Lỗ
+  14 | của kỳ mà thanh lý xảy ra.
+  15 | Bước
+  16 | 2:
+  17 | Bất kỳ
+  18 | số dư
+  19 | nào
+  20 | trên thặng dư đánh giá lại nên được chuyển
+  21 | sang lợi nhuận giữ lại.
+  22 | Lãi từ thanh lý
+  23 | Lỗ từ thanh lý
+  24 | Nợ Tiền mặt
+  25 | Có Lãi từ thanh lý
+  26 | Có TSCĐ
+  27 | Nợ Tiền mặt
+  28 | Nợ Lỗ từ thanh lý
+  29 | Có TSCĐ
+  30 | Tiền thanh lý > Giá trị ghi nhận
+  31 | Tiền thanh lý < Giá trị ghi nhận
+  32 | Ghi chú của bạn
+  33 | 136
+  34 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  35 | CHI PHÍ VAY VỐN
+  36 | III. CHI PHÍ VAY VỐN (IAS 23)
+  37 | 1. Phạm vi IAS 23
+  38 | Chi phí vay vốn
+  39 | Chi phí lãi vay
+  40 | theo IFRS 9
+  41 | Phí tài chính đối với
+  42 | nợ phải trả thuê
+  43 | theo IFRS 16
+  44 | Chênh lệch tỷ giá
+  45 | phát sinh từ vay ngoại tệ
+  46 | IAS 23 xem xét xử lý chi phí vay vốn liên quan đến tài sản tự xây dựng
+  47 | và hàng tồn kho mất nhiều thời gian để sẵn sàng sử dụng hoặc
+  48 | bán theo mục đích.
+  49 | Một số thuật ngữ liên quan:
+  50 | IAS
+  51 | Thuật ngữ
+  52 | Định nghĩa
+  53 | IAS 23
+  54 | Chi phí vay vốn
+  55 | Chi phí phát sinh bởi đơn vị liên quan
+  56 | đến việc đi vay
+  57 | vốn
+  58 | để
+  59 | xây dựng tài sản.
+  60 | Tài sản đủ điều kiện
+  61 | Tài sản cần thiết mất nhiều thời gian
+  62 | để sẵn sàng sử dụng hoặc bán theo mục đích.
+
+================================================================================
+PAGE 69
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 137
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | III. CHI PHÍ VAY VỐN (IAS 23)
+   6 | 2. Vốn hóa
+   7 | Kỳ vốn hóa
+   8 | 2.1
+   9 | Chi phí vay vốn phải được vốn hóa như một phần chi phí của tài sản đủ điều kiện.
+  10 | TẠM NGỪNG
+  11 | •
+  12 | Phát triển bị
+  13 | gián đoạn trong thời gian
+  14 | dài
+  15 | •
+  16 | Trì hoãn tạm thời
+  17 | không bao gồm
+  18 | 01
+  19 | 03
+  20 | 02
+  21 | CHẤM DỨT
+  22 | •
+  23 | Xây dựng vật lý
+  24 | tài sản hoàn thành
+  25 | •
+  26 | Hoạt động nhỏ không
+  27 |构成 hoạt động
+  28 | đáng kể
+  29 | BẮT ĐẦU
+  30 | •
+  31 | Sự kiện phát sinh chi phí
+  32 | cho tài sản
+  33 | •
+  34 | Sự kiện phát sinh chi phí
+  35 | vay vốn
+  36 | •
+  37 | Sự kiện tiến hành hoạt động
+  38 | cần thiết cho sự sẵn sàng
+  39 | của tài sản
+  40 | Ghi chú của bạn
+  41 | 138
+  42 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  43 | CHI PHÍ VAY VỐN
+  44 | III. CHI PHÍ VAY VỐN (IAS 23)
+  45 | 2. Vốn hóa
+  46 | Xác định chi phí vay vốn vốn hóa
+  47 | 2.2
+  48 | Các bước xác định vay cụ thể và vay chung:
+  49 | Vay cụ thể
+  50 | Chi phí vay vốn thực tế phát sinh
+  51 | trừ
+  52 | thu nhập đầu tư
+  53 | từ đầu tư
+  54 | tạm thời số tiền vay.
+  55 | Vay chung
+  56 | Quỹ dự án lấy từ vay chung;
+  57 | tỷ lệ bình quân gia quyền
+  58 | của vay chung được sử dụng.
+  59 | Xác định kỳ đủ
+  60 | điều kiện
+  61 | vốn hóa chi phí
+  62 | vay vốn
+  63 | 01
+  64 | Tính lãi trả
+  65 | trên vay cụ thể
+  66 | 02
+  67 | Tính lãi nhận được
+  68 | từ tiền vay không sử dụng
+  69 | 03
+  70 | Tính chi phí vốn hóa
+  71 | = Bước 2 – Bước 3
+  72 | 04
+  73 | Xác định kỳ đủ
+  74 | điều kiện
+  75 | vốn hóa chi phí
+  76 | vay vốn
+  77 | 01
+  78 | Tỷ lệ bình quân gia quyền (WAR):
+  79 | WAR = Tổng lãi
+  80 | Tổng vay
+  81 | 02
+  82 | Tính số tiền
+  83 | lãi áp dụng
+  84 | = WAR x Chi phí
+  85 | cho tài sản
+  86 | 03
+  87 | 04
+  88 | Tính chi phí vốn hóa
+
+================================================================================
+PAGE 70
+================================================================================
+   1 | Ghi chú của bạn
+   2 | 139
+   3 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+   4 | CHI PHÍ VAY VỐN
+   5 | III. CHI PHÍ VAY VỐN (IAS 23)
+   6 | 2. Vốn hóa
+   7 | Xác định chi phí vay vốn vốn hóa
+   8 | 2.2
+   9 | Ví dụ 6: (Vay cụ thể)
+  10 | SKT Co mua tài sản giá $4,000 - mất 2 năm để xây. Vay $4,000 lãi suất 10%.
+  11 | SKT Co tái đầu tư tiền không sử dụng vào tài khoản tiền gửi 8%. Năm 1, SKT
+  12 | Co chi tiêu 2,400.
+  13 | Yêu cầu: Bao nhiêu chi phí vay (lãi) được vốn hóa (thêm vào
+  14 | chi phí tài sản)?
+  15 | Trả lời:
+  16 | Bước 1: Không có thông tin khi bắt đầu xây dựng ⇒ giả định bắt đầu cùng lúc
+  17 | với thời điểm vay.
+  18 | Bước 2: Tính lãi trả trên vay cụ thể
+  19 | Lãi trả trên vay: $4,000 × 10% = $400
+  20 | Bước 3: Tính lãi nhận được từ tiền vay không sử dụng
+  21 | Lãi nhận được = ($4,000 - $2,400) × 8% = $128
+  22 | Bước 4: Tính chi phí vốn hóa = $400 - $128 = $272.
+  23 | Ghi chú của bạn
+  24 | 140
+  25 | TÀI SẢN CỐ ĐỊNH HỮU HÌNH &
+  26 | CHI PHÍ VAY VỐN
+  27 | III. CHI PHÍ VAY VỐN (IAS 23)
+  28 | 2. Vốn hóa
+  29 | Xác định chi phí vay vốn vốn hóa
+  30 | 2.2
+  31 | Ví dụ 7: (Vay chung)
+  32 | SKT Co có 3 nguồn vay khác nhau để mua tài sản giá $10,000, mất 1 năm
+  33 | xây dựng. Thấu chi 5%: 2,000; Vay 8%: 6,000; Vay 10%: 4,000.
+  34 | Yêu cầu: Bao nhiêu lãi sẽ vào chi phí tài sản?
+  35 | Trả lời:
+  36 | Bước 1: Không có thông tin khi bắt đầu xây dựng ⇒ giả định bắt đầu cùng lúc
+  37 | với thời điểm vay.
+  38 | Bước 2: Tỷ lệ bình quân gia quyền = $2,000 × 5% + $6,000 × 8% + $4,000 × 10%
+  39 | / ($2,000 + $6,000 + $4,000)
+  40 | = 8,17%
+  41 | Bước 3: Tính số tiền lãi áp dụng
+  42 | Tổng lãi vốn hóa = $10,000 × 8,17% = $817

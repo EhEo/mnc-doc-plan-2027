@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "entries": {
+    "79a93d4a2f8f50b95f852280616242fee1855dc99a3c75211917f55e72e95fae": {
+      "last_emitted_at_ms": 1781517412067,
+      "message": "Use parallel execution for independent tasks. Use run_in_background for long operations (npm install, builds, tests)."
+    },
+    "466399dafa2d20f60587180bad0a07358eb7f2bce724df0ff682f038ad33f5ad": {
+      "last_emitted_at_ms": 1781517350116,
+      "message": "Read multiple files in parallel when possible for faster analysis."
+    },
+    "445ed27a3872b681d98190bae61ccb84954e1bc4e140df5370be958dee776b3a": {
+      "last_emitted_at_ms": 1781517332937,
+      "message": "Verify changes work after editing. Test functionality before marking complete."
+    },
+    "1112f7a4756dba8262a2dd97badf5365a44192d60af7f155ebb3061ad0097a2e": {
+      "last_emitted_at_ms": 1781516032325,
+      "message": "Spawning agent: claude-main (inherit) | Task: 이미지/도식 기획안 작성"
+    }
+  },
+  "updated_at": "2026-06-15T09:56:52.067Z"
+}

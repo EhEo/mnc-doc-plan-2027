@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "entries": {
+    "445ed27a3872b681d98190bae61ccb84954e1bc4e140df5370be958dee776b3a": {
+      "last_emitted_at_ms": 1782107653863,
+      "message": "Verify changes work after editing. Test functionality before marking complete."
+    },
+    "79a93d4a2f8f50b95f852280616242fee1855dc99a3c75211917f55e72e95fae": {
+      "last_emitted_at_ms": 1782106516508,
+      "message": "Use parallel execution for independent tasks. Use run_in_background for long operations (npm install, builds, tests)."
+    },
+    "ef3d99e0969cb6812900cc7c0f203e26c6f52cdc8c3b0d7f2e7bc11b25c06eef": {
+      "last_emitted_at_ms": 1782106514126,
+      "message": "Spawning agent: unknown (haiku) | Task: Task 10+11: 분석 에이전트 + 통합 실행 스크립트"
+    },
+    "466399dafa2d20f60587180bad0a07358eb7f2bce724df0ff682f038ad33f5ad": {
+      "last_emitted_at_ms": 1782106449119,
+      "message": "Read multiple files in parallel when possible for faster analysis."
+    },
+    "459c54e5f35d6a58dcd90d2aecc21fa6d1f35d241bc5b134c506f87dc7b6d67b": {
+      "last_emitted_at_ms": 1782106116860,
+      "message": "Combine searches in parallel when investigating multiple patterns."
+    },
+    "ff3db072d78b4a5d748e6c8432d5a1099753e7996f7b3d500756f903e01a34bc": {
+      "last_emitted_at_ms": 1782105958158,
+      "message": "Spawning agent: unknown (haiku) | Task: Task 8+9: 대시보드 CSS/JS + HTML 생성기"
+    },
+    "9f441b6e92dd9ea3c2480576510dcee8406a131a645bd4d142559984750917db": {
+      "last_emitted_at_ms": 1782105743619,
+      "message": "Spawning agent: unknown (haiku) | Task: Task 7: Excel→JSON 변환 스크립트"
+    },
+    "dbc7bb2cc31901570c33e0160f7c35d58d92c5d2efad4a1189a9fac94de0f243": {
+      "last_emitted_at_ms": 1782105719311,
+      "message": "Spawning agent: unknown (haiku) | Task: Task 6: KPI JSON 스키마 + 검증 스크립트"
+    },
+    "ae4ac6dfc46b744247ce116db996931a4a6611c8ed76f4eba1f7138fa1d6e42a": {
+      "last_emitted_at_ms": 1782104695227,
+      "message": "Spawning agent: unknown (sonnet) | Task: KPI 통합 프로세스 문서 작성"
+    },
+    "e46e5615c946cf307f3db015ca14dabd749862f50e36dcb5577607edd4368a2c": {
+      "last_emitted_at_ms": 1782104524163,
+      "message": "Spawning agent: unknown (haiku) | Task: Phase B Excel 템플릿 스크립트 구현 및 실행"
+    },
+    "8a47f127703312319fe701bf630af1dc85d4d07ba0a6a15686b9090ac57834c7": {
+      "last_emitted_at_ms": 1782104058557,
+      "message": "Spawning agent: unknown (haiku) | Task: 회사 전략 목표 문서 작성"
+    }
+  },
+  "updated_at": "2026-06-22T05:54:13.863Z"
+}

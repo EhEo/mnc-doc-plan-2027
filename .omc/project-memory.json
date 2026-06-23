@@ -1,0 +1,444 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1782189530014,
+  "projectRoot": "D:\\Michael\\OneDrive - Team Redpanda\\ClaudeCowork",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "01_경영재무": {
+      "path": "01_경영재무",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1782189529984,
+      "keyFiles": [
+        "미국_이란_전쟁_증시_영향_보고서.docx"
+      ]
+    },
+    "02_AI디지털전환": {
+      "path": "02_AI디지털전환",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529985,
+      "keyFiles": []
+    },
+    "03_품질관리": {
+      "path": "03_품질관리",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1782189529986,
+      "keyFiles": [
+        "SK01_규격서.xlsx"
+      ]
+    },
+    "04_구매·설비": {
+      "path": "04_구매·설비",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1782189529987,
+      "keyFiles": [
+        "20260618- 설비 입고 일정.xlsx",
+        "강영규_과장_인수인계_20260529.docx",
+        "구매절차서_작성_프롬프트.md"
+      ]
+    },
+    "05_법무계약": {
+      "path": "05_법무계약",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529988,
+      "keyFiles": []
+    },
+    "06_경영보고": {
+      "path": "06_경영보고",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1782189529989,
+      "keyFiles": [
+        "그룹_세무투자_구조_설계_보고서1.docx"
+      ]
+    },
+    "07_투자분석": {
+      "path": "07_투자분석",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529990,
+      "keyFiles": []
+    },
+    "08_MyWiki": {
+      "path": "08_MyWiki",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529990,
+      "keyFiles": []
+    },
+    "09_생산·제조시스템": {
+      "path": "09_생산·제조시스템",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529991,
+      "keyFiles": []
+    },
+    "10_IT·시스템": {
+      "path": "10_IT·시스템",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529992,
+      "keyFiles": []
+    },
+    "11_인사·총무": {
+      "path": "11_인사·총무",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529993,
+      "keyFiles": []
+    },
+    "12_참고자료": {
+      "path": "12_참고자료",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1782189529993,
+      "keyFiles": [
+        "클레드엣_메타태그_가이드.md"
+      ]
+    },
+    "13_정보보안·TISAX": {
+      "path": "13_정보보안·TISAX",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529994,
+      "keyFiles": []
+    },
+    "99_기타시스템": {
+      "path": "99_기타시스템",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529994,
+      "keyFiles": []
+    },
+    "antigravity": {
+      "path": "antigravity",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529995,
+      "keyFiles": []
+    },
+    "ep-a-demo": {
+      "path": "ep-a-demo",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529995,
+      "keyFiles": []
+    },
+    "my-claude-cowork": {
+      "path": "my-claude-cowork",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529996,
+      "keyFiles": []
+    },
+    "Tags": {
+      "path": "Tags",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1782189529996,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "01_경영재무\\KPI\\2026년\\docs\\superpowers\\plans\\2026-06-22-kpi-management-system.md",
+      "accessCount": 10,
+      "lastAccessed": 1782106455203,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\scripts\\setup_templates.py",
+      "accessCount": 9,
+      "lastAccessed": 1782104651839,
+      "type": "file"
+    },
+    {
+      "path": "wiki.md",
+      "accessCount": 7,
+      "lastAccessed": 1782104048650,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\scripts\\03_generate_dashboard.py",
+      "accessCount": 5,
+      "lastAccessed": 1782106133071,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\scripts\\02_excel_to_json.py",
+      "accessCount": 4,
+      "lastAccessed": 1782105842105,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\scripts\\excel_to_json.py",
+      "accessCount": 4,
+      "lastAccessed": 1782105863794,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\scripts\\generate_dashboard.py",
+      "accessCount": 4,
+      "lastAccessed": 1782106134342,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\tasks\\rev27-cost-method\\task.md",
+      "accessCount": 3,
+      "lastAccessed": 1782104011152,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\00_프로세스\\KPI_전체_라이프사이클.md",
+      "accessCount": 2,
+      "lastAccessed": 1782104700334,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\00_프로세스\\KPI_수립_가이드.md",
+      "accessCount": 2,
+      "lastAccessed": 1782104700744,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\00_프로세스\\월간보고_절차.md",
+      "accessCount": 2,
+      "lastAccessed": 1782104701717,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\00_프로세스\\연말평가_절차.md",
+      "accessCount": 2,
+      "lastAccessed": 1782104702087,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\scripts\\04_analyze_kpi_agent.py",
+      "accessCount": 2,
+      "lastAccessed": 1782106583952,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\_templates\\kpi-analysis\\task.md",
+      "accessCount": 2,
+      "lastAccessed": 1782106586400,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\_templates\\kpi-analysis\\workers\\claude-main\\brief.md",
+      "accessCount": 2,
+      "lastAccessed": 1782106588628,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\scripts\\make_compare_xlsx.py",
+      "accessCount": 2,
+      "lastAccessed": 1782123516763,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\analyze_rev27_method.py",
+      "accessCount": 1,
+      "lastAccessed": 1782101183044,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\analyze_rev27_ratios.py",
+      "accessCount": 1,
+      "lastAccessed": 1782101390606,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\analyze_rev27_detail.py",
+      "accessCount": 1,
+      "lastAccessed": 1782101484120,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\tasks\\rev27-cost-method\\artifacts\\비용예측방법론_분석보고서_v1.md",
+      "accessCount": 1,
+      "lastAccessed": 1782101886073,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\_shared\\routing.md",
+      "accessCount": 1,
+      "lastAccessed": 1782102773933,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\_shared\\orchestrator-rules.md",
+      "accessCount": 1,
+      "lastAccessed": 1782102774143,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\tasks\\rev27-cost-method\\artifacts\\비용예측방법론_분석보고서_v1.1.md",
+      "accessCount": 1,
+      "lastAccessed": 1782103837847,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\01_KPI수립_2026H2\\00_회사전략목표.md",
+      "accessCount": 1,
+      "lastAccessed": 1782104069667,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\00_프로세스\\KPI_통합_운영지침.md",
+      "accessCount": 1,
+      "lastAccessed": 1782104811979,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\MISTOP\\AppData\\Local\\Temp\\claude\\D--Michael-OneDrive---Team-Redpanda-ClaudeCowork-01------KPI-2026-\\bf71dd36-8e90-41bb-92e9-ae30fdc45da4\\scratchpad\\kpi_briefing.html",
+      "accessCount": 1,
+      "lastAccessed": 1782105454166,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\schema\\kpi_schema.json",
+      "accessCount": 1,
+      "lastAccessed": 1782105742118,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\scripts\\01_validate_kpi.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105749451,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\scripts\\validate_kpi.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105754570,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\tests\\test_validate_kpi.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105760905,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\tests\\test_excel_to_json.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105776913,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\dashboard\\css\\style.css",
+      "accessCount": 1,
+      "lastAccessed": 1782105980539,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\dashboard\\js\\app.js",
+      "accessCount": 1,
+      "lastAccessed": 1782105985146,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\tests\\test_generate_dashboard.py",
+      "accessCount": 1,
+      "lastAccessed": 1782106009444,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\run_setup.ps1",
+      "accessCount": 1,
+      "lastAccessed": 1782106559110,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\run_monthly.ps1",
+      "accessCount": 1,
+      "lastAccessed": 1782106565420,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\PROJECT_STATUS.md",
+      "accessCount": 1,
+      "lastAccessed": 1782107654660,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\KPI\\2026년\\kpi-system\\IMPROVEMENTS.md",
+      "accessCount": 1,
+      "lastAccessed": 1782107696980,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\scripts\\make_summary_xlsx.py",
+      "accessCount": 1,
+      "lastAccessed": 1782122508138,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\scripts\\make_summary_xlsx_rev2.py",
+      "accessCount": 1,
+      "lastAccessed": 1782122508266,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\scripts\\make_report_xlsx.py",
+      "accessCount": 1,
+      "lastAccessed": 1782122508426,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\scripts\\analyze_rev27_method.py",
+      "accessCount": 1,
+      "lastAccessed": 1782123515571,
+      "type": "file"
+    },
+    {
+      "path": "01_경영재무\\사업계획\\2027년도계획\\scripts\\fix_ref_errors.py",
+      "accessCount": 1,
+      "lastAccessed": 1782123516031,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\MISTOP\\AppData\\Local\\Temp\\claude\\d--Michael-OneDrive---Team-Redpanda-ClaudeCowork-01-----------2027----\\79ef0f20-61e4-4dc3-9c59-acff5e9255ca\\scratchpad\\fix_paths.py",
+      "accessCount": 1,
+      "lastAccessed": 1782125830019,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 1,
+      "lastAccessed": 1782190672449,
+      "type": "directory"
+    }
+  ],
+  "userDirectives": []
+}
