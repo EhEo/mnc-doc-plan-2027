@@ -78,3 +78,42 @@ def format_type(data_type: str, max_length: int | None,
     if dt in _PREC_TYPES and precision is not None:
         return f"{data_type}({precision},{scale})"
     return data_type
+
+
+@dataclass
+class ActivityMeta:
+    schema: str
+    name: str
+    last_activity: object | None          # datetime 또는 None
+    source: str                            # 활동시각 산출 근거 컬럼명 또는 "none"
+
+    @property
+    def full_name(self) -> str:
+        return f"{self.schema}.{self.name}"
+
+
+@dataclass
+class PriorityMeta:
+    schema: str
+    name: str
+    score: float
+    rank: int
+    is_priority: bool = False
+    reason: str | None = None
+
+    @property
+    def full_name(self) -> str:
+        return f"{self.schema}.{self.name}"
+
+
+@dataclass
+class ColumnProfile:
+    schema: str
+    name: str
+    column_name: str
+    null_ratio: float
+    distinct_count: int
+    sample_size: int
+    min_value: str | None = None
+    max_value: str | None = None
+    top_values: str | None = None          # "값:빈도, ..." 요약 문자열
