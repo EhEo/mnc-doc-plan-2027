@@ -50,3 +50,47 @@ def write_snapshot(catalog_conn: str, result: ExtractResult, label: str) -> int:
             )
 
     return snapshot_id
+
+
+def _replace(cur, table, snapshot_id, rows_sql, params_list):
+    cur.execute(f"DELETE FROM catalog.{table} WHERE snapshot_id=?", snapshot_id)
+    for p in params_list:
+        cur.execute(rows_sql, *p)
+
+
+def write_activity(catalog_conn, snapshot_id, activities):
+    with connect(catalog_conn) as conn:
+        cur = conn.cursor()
+        _replace(cur, "activity", snapshot_id,
+                 "INSERT INTO catalog.activity(snapshot_id,schema_name,object_name,last_activity,source) VALUES (?,?,?,?,?)",
+                 [(snapshot_id, a.schema, a.name, a.last_activity, a.source) for a in activities])
+
+
+def write_usage(catalog_conn, snapshot_id, dmv):
+    if not dmv:
+        return
+    rows = []
+    for key, u in dmv.items():
+        sch, name = key.split(".", 1)
+        rows.append((snapshot_id, sch, name, u["seeks"], u["scans"], u["lookups"], u["updates"]))
+    with connect(catalog_conn) as conn:
+        cur = conn.cursor()
+        _replace(cur, "usage", snapshot_id,
+                 "INSERT INTO catalog.usage(snapshot_id,schema_name,object_name,seeks,scans,lookups,updates) VALUES (?,?,?,?,?,?,?)",
+                 rows)
+
+
+def write_priority(catalog_conn, snapshot_id, priorities):
+    with connect(catalog_conn) as conn:
+        cur = conn.cursor()
+        _replace(cur, "priority", snapshot_id,
+                 "INSERT INTO catalog.priority(snapshot_id,schema_name,object_name,score,rank,is_priority,reason) VALUES (?,?,?,?,?,?,?)",
+                 [(snapshot_id, p.schema, p.name, p.score, p.rank, 1 if p.is_priority else 0, p.reason) for p in priorities])
+
+
+def write_profiles(catalog_conn, snapshot_id, profiles):
+    with connect(catalog_conn) as conn:
+        cur = conn.cursor()
+        _replace(cur, "profiles", snapshot_id,
+                 "INSERT INTO catalog.profiles(snapshot_id,schema_name,object_name,column_name,null_ratio,distinct_count,sample_size,min_value,max_value,top_values) VALUES (?,?,?,?,?,?,?,?,?,?)",
+                 [(snapshot_id, p.schema, p.name, p.column_name, p.null_ratio, p.distinct_count, p.sample_size, p.min_value, p.max_value, p.top_values) for p in profiles])
