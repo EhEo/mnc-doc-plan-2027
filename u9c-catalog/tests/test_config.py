@@ -2,6 +2,8 @@ from u9c_catalog.config import load_settings
 
 
 def test_load_settings_reads_yaml_and_env(tmp_path, monkeypatch):
+    # 실제 .env가 있어도 테스트가 흔들리지 않게 load_dotenv를 무력화(테스트 격리)
+    monkeypatch.setattr("u9c_catalog.config.load_dotenv", lambda *a, **k: None)
     cfg = tmp_path / "config.yaml"
     cfg.write_text(
         "source_schema_filter: [dbo]\noutput_dir: ./out\nsnapshot_label: test\n",
@@ -20,6 +22,8 @@ def test_load_settings_reads_yaml_and_env(tmp_path, monkeypatch):
 
 
 def test_missing_conn_raises(tmp_path, monkeypatch):
+    # 실제 .env가 있어도 테스트가 흔들리지 않게 load_dotenv를 무력화(테스트 격리)
+    monkeypatch.setattr("u9c_catalog.config.load_dotenv", lambda *a, **k: None)
     cfg = tmp_path / "config.yaml"
     cfg.write_text("output_dir: ./out\n", encoding="utf-8")
     monkeypatch.delenv("U9C_SOURCE_CONN", raising=False)
