@@ -15,6 +15,6 @@ CREATE TABLE dbo.CBO_ItemMaster_Trl (
     Name nvarchar(200) NULL
 );
 GO
-INSERT INTO dbo.PM_Receivement (ID, Org, DocNo) VALUES (1, 100, 'RCV-0001');
+INSERT INTO dbo.PM_Receivement (ID, Org, DocNo, CreatedOn) VALUES (1, 100, 'RCV-0001', '2026-07-01T09:00:00');
 INSERT INTO dbo.CBO_ItemMaster_Trl (ID, Name) VALUES (1, N'품목A');
 GO
