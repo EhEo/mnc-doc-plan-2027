@@ -1,0 +1,29 @@
+[project]
+name = "u9c-catalog"
+version = "0.1.0"
+description = "U9C ERP 스키마 추출·분류·카탈로그·문서화 도구"
+requires-python = ">=3.11"
+dependencies = [
+    "pyodbc>=5.1",
+    "jinja2>=3.1",
+    "openpyxl>=3.1",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+u9c-catalog = "u9c_catalog.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+markers = ["integration: DB가 필요한 통합 테스트 (환경변수 없으면 skip)"]
+testpaths = ["tests"]
