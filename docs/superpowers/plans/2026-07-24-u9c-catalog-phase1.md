@@ -1269,6 +1269,25 @@ git commit -m "feat: Phase 1 파이프라인 오케스트레이션 CLI 추가"
 - [ ] CLI 엔드투엔드로 데이터 사전(HTML/Excel) 생성 + 카탈로그 스냅샷 적재 확인.
 - [ ] 한글이 HTML/Excel에 정상 표시(맑은 고딕).
 
+## 코드 리뷰 반영 (2026-07-25)
+
+Phase 1 완료 후 전체 종합 코드 리뷰 수행(판정: 승인 가능, Critical/High 없음). 아래 HIGH 2건은 Phase 1 내 수정 완료.
+
+- [x] FK 추출에 schema_filter 적용 — 필터 사용 시 고아(orphan) 의존성 방지 (`extractor.py`).
+- [x] 컬럼 타입에 길이/정밀도 표시 — `type_display`(`nvarchar(40)`, `decimal(18,2)`) 추가, 카탈로그·HTML·Excel 반영.
+
+## Phase 2 백로그 (코드 리뷰에서 이관된 개선 항목)
+
+다음 Phase 착수 시 함께 처리한다.
+
+- `catalog.columns`에 `default_definition` 적재 (현재 추출하지만 미저장 — 설계 §7 항목).
+- 비-FK 의존성 수집: `sys.sql_expression_dependencies`로 뷰/프로시저→테이블 참조 추가(`DependencyMeta.kind="REFERENCE"`). Phase 3 관계 발견과 연계.
+- 노이즈 분류 대소문자 무시 매칭(casefold) — U9C 버전/모듈 명명 변형 대응(사용자가 언급한 버전 차이와 직결).
+- `_split_batches`의 GO 분리를 `^GO$`(라인 전체) 기준으로 견고화.
+- `schema_filter`를 COLUMNS 쿼리에 밀어넣어 대형 DB 전송량 절감.
+- 루틴을 `catalog.objects`에도 등록하거나, 소비자용 조회 규약 문서화.
+- 소스 읽기 전용 보장은 계정 권한에 의존함을 README/주석에 명시.
+
 ## 다음 Phase 예고 (별도 계획으로 작성)
 
 - **Phase 2** — 사용량 수집(DMV/Query Store) + 우선순위 점수 + 데이터 프로파일링.
