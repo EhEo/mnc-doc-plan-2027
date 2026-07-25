@@ -1,4 +1,5 @@
 # 메타데이터로 HTML/Excel 데이터 사전을 생성 (한글 폰트 맑은 고딕)
+import json
 from jinja2 import Environment, PackageLoader, select_autoescape
 from openpyxl import Workbook
 from openpyxl.styles import Font
@@ -40,3 +41,20 @@ def generate_excel(result: ExtractResult, out_path: str) -> None:
             cell.font = Font(name="맑은 고딕", bold=True)
 
     wb.save(out_path)
+
+
+def filter_priority_tables(tables, priorities):
+    """is_priority=True인 테이블만 원래 순서로 반환."""
+    pri = {(p.schema, p.name) for p in priorities if p.is_priority}
+    return [t for t in tables if (t.schema, t.name) in pri]
+
+
+def generate_priority_json(priorities, out_path):
+    """우선순위 랭킹을 다운스트림(MES/대시보드)용 JSON으로 출력 (rank 오름차순)."""
+    data = [
+        {"object": f"{p.schema}.{p.name}", "rank": p.rank, "score": round(p.score, 3),
+         "is_priority": p.is_priority, "reason": p.reason}
+        for p in sorted(priorities, key=lambda x: x.rank)
+    ]
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
