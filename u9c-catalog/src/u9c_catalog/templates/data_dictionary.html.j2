@@ -25,7 +25,7 @@
 <tr><th>#</th><th>컬럼</th><th>타입</th><th>NULL</th><th>PK</th><th>구분</th></tr>
 {% for c in t.columns %}
 <tr class="{{ 'sys' if c.is_system else '' }}">
-  <td>{{ c.ordinal }}</td><td>{{ c.name }}</td><td>{{ c.data_type }}</td>
+  <td>{{ c.ordinal }}</td><td>{{ c.name }}</td><td>{{ c.type_display or c.data_type }}</td>
   <td>{{ 'Y' if c.is_nullable else 'N' }}</td>
   <td>{{ 'PK' if c.is_pk else '' }}</td>
   <td>{{ ('시스템: ' + c.system_reason) if c.is_system else '업무' }}</td>

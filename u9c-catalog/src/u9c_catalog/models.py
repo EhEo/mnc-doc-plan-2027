@@ -12,6 +12,9 @@ class ColumnMeta:
     is_identity: bool = False
     default_definition: str | None = None
     ordinal: int = 0
+    precision: int | None = None
+    scale: int | None = None
+    type_display: str | None = None
     is_system: bool = False          # noise_classifier가 채움
     system_reason: str | None = None
 
@@ -49,3 +52,29 @@ class DependencyMeta:
     to_object: str
     kind: str                        # "FK" | "REFERENCE"
     detail: str | None = None
+
+
+_LEN_TYPES = {"char", "varchar", "binary", "varbinary"}
+_NLEN_TYPES = {"nchar", "nvarchar"}
+_PREC_TYPES = {"decimal", "numeric"}
+
+
+def format_type(data_type: str, max_length: int | None,
+                precision: int | None, scale: int | None) -> str:
+    """SQL Server 컬럼을 사람이 읽는 타입 표기로 변환한다 (예: nvarchar(40), decimal(18,2))."""
+    dt = data_type.lower()
+    if dt in _NLEN_TYPES:
+        if max_length == -1:
+            return f"{data_type}(MAX)"
+        if max_length is None:
+            return data_type
+        return f"{data_type}({max_length // 2})"  # nchar/nvarchar는 byte 길이 → 문자수
+    if dt in _LEN_TYPES:
+        if max_length == -1:
+            return f"{data_type}(MAX)"
+        if max_length is None:
+            return data_type
+        return f"{data_type}({max_length})"
+    if dt in _PREC_TYPES and precision is not None:
+        return f"{data_type}({precision},{scale})"
+    return data_type

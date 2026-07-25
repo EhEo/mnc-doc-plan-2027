@@ -31,7 +31,7 @@ def generate_excel(result: ExtractResult, out_path: str) -> None:
     ws_col.append(["schema", "object", "column", "type", "nullable", "pk", "is_system", "system_reason"])
     for t in result.tables:
         for c in t.columns:
-            ws_col.append([t.schema, t.name, c.name, c.data_type,
+            ws_col.append([t.schema, t.name, c.name, c.type_display or c.data_type,
                            "Y" if c.is_nullable else "N", "PK" if c.is_pk else "",
                            "Y" if c.is_system else "N", c.system_reason or ""])
 

@@ -31,8 +31,8 @@ def write_snapshot(catalog_conn: str, result: ExtractResult, label: str) -> int:
             )
             for c in t.columns:
                 cur.execute(
-                    "INSERT INTO catalog.columns(snapshot_id,schema_name,object_name,column_name,data_type,is_nullable,is_pk,is_system,system_reason,ordinal) VALUES (?,?,?,?,?,?,?,?,?,?)",
-                    snapshot_id, t.schema, t.name, c.name, c.data_type,
+                    "INSERT INTO catalog.columns(snapshot_id,schema_name,object_name,column_name,data_type,type_display,is_nullable,is_pk,is_system,system_reason,ordinal) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+                    snapshot_id, t.schema, t.name, c.name, c.data_type, c.type_display,
                     1 if c.is_nullable else 0, 1 if c.is_pk else 0,
                     1 if c.is_system else 0, c.system_reason, c.ordinal,
                 )

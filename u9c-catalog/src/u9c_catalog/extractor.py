@@ -3,7 +3,7 @@ from dataclasses import dataclass, field
 
 from u9c_catalog import queries
 from u9c_catalog.db import connect
-from u9c_catalog.models import ColumnMeta, DependencyMeta, RoutineMeta, TableMeta
+from u9c_catalog.models import ColumnMeta, DependencyMeta, RoutineMeta, TableMeta, format_type
 
 
 @dataclass
@@ -42,6 +42,8 @@ def extract_metadata(conn_str: str, schema_filter: list[str] | None = None) -> E
                 is_nullable=bool(r["is_nullable"]), max_length=r["max_length"],
                 is_pk=bool(r["is_pk"]), is_identity=bool(r["is_identity"]),
                 default_definition=r["default_definition"], ordinal=r["ordinal"],
+                precision=r["precision"], scale=r["scale"],
+                type_display=format_type(r["data_type"], r["max_length"], r["precision"], r["scale"]),
             ))
 
         for r in _rows(cur, queries.ROW_COUNTS):
@@ -60,6 +62,9 @@ def extract_metadata(conn_str: str, schema_filter: list[str] | None = None) -> E
             ))
 
         for r in _rows(cur, queries.FOREIGN_KEYS):
+            # 추출 범위(schema_filter)에 포함된 객체 간 FK만 유지 → 고아 의존성 방지
+            if r["from_object"] not in tables or r["to_object"] not in tables:
+                continue
             result.dependencies.append(DependencyMeta(
                 from_object=r["from_object"], to_object=r["to_object"],
                 kind="FK", detail=r["detail"],

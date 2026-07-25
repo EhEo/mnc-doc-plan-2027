@@ -11,7 +11,9 @@ ORDER BY s.name, o.name;
 COLUMNS = """
 SELECT s.name AS [schema], o.name AS [table],
        c.name AS [column], t.name AS data_type,
-       c.max_length AS max_length, c.is_nullable AS is_nullable,
+       c.max_length AS max_length,
+       c.precision AS [precision], c.scale AS [scale],
+       c.is_nullable AS is_nullable,
        c.is_identity AS is_identity, c.column_id AS ordinal,
        CAST(CASE WHEN pk.column_id IS NOT NULL THEN 1 ELSE 0 END AS bit) AS is_pk,
        dc.definition AS default_definition

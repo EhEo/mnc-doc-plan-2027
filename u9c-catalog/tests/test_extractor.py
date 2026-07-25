@@ -14,3 +14,4 @@ def test_extract_finds_fixture_tables(test_conn_str):
     by_name = {c.name: c for c in recv.columns}
     assert by_name["ID"].is_pk is True
     assert recv.row_count == 1
+    assert by_name["DocNo"].type_display == "nvarchar(40)"

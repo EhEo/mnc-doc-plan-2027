@@ -27,6 +27,7 @@ CREATE TABLE catalog.columns (
     object_name   nvarchar(256) NOT NULL,
     column_name   nvarchar(128) NOT NULL,
     data_type     nvarchar(64) NOT NULL,
+    type_display  nvarchar(128) NULL,
     is_nullable   bit NOT NULL,
     is_pk         bit NOT NULL,
     is_system     bit NOT NULL DEFAULT 0,
