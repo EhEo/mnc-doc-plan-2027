@@ -1,6 +1,4 @@
 # U9C 지식 베이스 규칙으로 시스템 컬럼/부수 테이블을 태깅하는 분류기
-import re
-
 from u9c_catalog.models import TableMeta
 
 # §3: 정확 일치 시스템 컬럼 (표준 명명)
