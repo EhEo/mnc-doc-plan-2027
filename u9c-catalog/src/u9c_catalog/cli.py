@@ -11,7 +11,7 @@ from u9c_catalog.doc_generator import (generate_html, generate_excel,
 from u9c_catalog.extractor import extract_metadata, ExtractResult
 from u9c_catalog.noise_classifier import classify_all
 from u9c_catalog.prioritizer import score_tables
-from u9c_catalog.profiler import profile_table
+from u9c_catalog.profiler import profile_tables
 from u9c_catalog.usage_dmv import collect_dmv_usage
 
 
@@ -53,9 +53,7 @@ def run(config_path: str) -> int:
     write_priority(s.catalog_conn, snapshot_id, priorities)
     pri_tables = filter_priority_tables(result.tables, priorities)
     print(f"      우선순위 상위 {len(pri_tables)}개 선별")
-    all_profiles = []
-    for t in pri_tables:
-        all_profiles.extend(profile_table(s.source_conn, t))
+    all_profiles = profile_tables(s.source_conn, pri_tables)
     write_profiles(s.catalog_conn, snapshot_id, all_profiles)
     print(f"      프로파일 {len(all_profiles)}개 컬럼")
 

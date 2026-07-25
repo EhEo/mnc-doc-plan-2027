@@ -35,5 +35,5 @@ def load_settings(config_path: str) -> Settings:
         exclude_object_prefixes=cfg.get("exclude_object_prefixes") or [],
         output_dir=cfg.get("output_dir") or "./output",
         snapshot_label=cfg.get("snapshot_label") or "",
-        profile_top_n=cfg.get("profile_top_n") or 200,
+        profile_top_n=(200 if cfg.get("profile_top_n") is None else cfg.get("profile_top_n")),
     )

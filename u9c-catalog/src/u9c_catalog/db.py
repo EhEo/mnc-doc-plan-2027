@@ -18,3 +18,8 @@ def connect(conn_str: str, readonly: bool = False):
         raise
     finally:
         conn.close()
+
+
+def quote_ident(name: str) -> str:
+    """SQL Server 식별자를 대괄호로 안전 인용 ( ] 이스케이프 )."""
+    return "[" + name.replace("]", "]]") + "]"

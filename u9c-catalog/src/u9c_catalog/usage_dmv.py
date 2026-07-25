@@ -26,7 +26,7 @@ def collect_dmv_usage(conn_str: str) -> dict | None:
                     "lookups": int(r[4] or 0), "updates": int(r[5] or 0),
                 }
             return out
-    except Exception as e:
-        if "VIEW SERVER STATE" in str(e) or "permission" in str(e).lower():
-            return None
-        raise
+    except Exception:
+        # DMV는 선택적 보강 신호. 권한 부족/로케일/DMV 미가용 등 어떤 실패든
+        # 조용히 None 반환하여 파이프라인을 막지 않는다(graceful skip).
+        return None
