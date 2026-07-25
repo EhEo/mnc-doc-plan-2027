@@ -74,7 +74,6 @@ description = "U9C ERP 스키마 추출·분류·카탈로그·문서화 도구"
 requires-python = ">=3.11"
 dependencies = [
     "pyodbc>=5.1",
-    "pandas>=2.2",
     "jinja2>=3.1",
     "openpyxl>=3.1",
     "pyyaml>=6.0",
@@ -577,14 +576,14 @@ git commit -m "feat: 지식베이스 규칙 기반 노이즈 분류기 추가"
 
 ```python
 # pyodbc 연결을 생성/관리하는 얇은 팩토리 (읽기 전용 소스, 쓰기 카탈로그)
+# pyodbc는 컴파일 의존성이므로 함수 내부에서 지연 import한다 (순수 로직 계층과 분리).
 from contextlib import contextmanager
-
-import pyodbc
 
 
 @contextmanager
 def connect(conn_str: str, readonly: bool = False):
     """연결을 열고 컨텍스트 종료 시 닫는다. readonly=True면 자동커밋(쓰기 없음)."""
+    import pyodbc
     conn = pyodbc.connect(conn_str, autocommit=readonly)
     try:
         yield conn
