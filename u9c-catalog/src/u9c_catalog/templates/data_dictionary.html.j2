@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>U9C 데이터 사전</title>
+<style>
+ body { font-family: 'Malgun Gothic','맑은 고딕',sans-serif; margin: 24px; }
+ h2 { border-bottom: 2px solid #333; padding-bottom: 4px; }
+ table { border-collapse: collapse; width: 100%; margin-bottom: 24px; }
+ th, td { border: 1px solid #ccc; padding: 4px 8px; font-size: 13px; }
+ th { background: #f0f0f0; }
+ .sys { color: #999; }
+ .aux { background: #fff4e5; }
+</style>
+</head>
+<body>
+<h1>U9C 데이터 사전</h1>
+{% for t in tables %}
+<h2 class="{{ 'aux' if t.is_auxiliary else '' }}">
+  {{ t.full_name }} ({{ t.object_type }})
+  {% if t.is_auxiliary %}<small>[부수: {{ t.auxiliary_reason }}]</small>{% endif %}
+  {% if t.row_count is not none %}<small>rows={{ t.row_count }}</small>{% endif %}
+</h2>
+<table>
+<tr><th>#</th><th>컬럼</th><th>타입</th><th>NULL</th><th>PK</th><th>구분</th></tr>
+{% for c in t.columns %}
+<tr class="{{ 'sys' if c.is_system else '' }}">
+  <td>{{ c.ordinal }}</td><td>{{ c.name }}</td><td>{{ c.type_display or c.data_type }}</td>
+  <td>{{ 'Y' if c.is_nullable else 'N' }}</td>
+  <td>{{ 'PK' if c.is_pk else '' }}</td>
+  <td>{{ ('시스템: ' + c.system_reason) if c.is_system else '업무' }}</td>
+</tr>
+{% endfor %}
+</table>
+{% endfor %}
+</body>
+</html>
