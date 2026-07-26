@@ -27,3 +27,16 @@ def make_trl_table() -> TableMeta:
     t.columns.append(ColumnMeta(name="ID", data_type="bigint", is_nullable=False, is_pk=True))
     t.columns.append(ColumnMeta(name="Name", data_type="nvarchar", is_nullable=True))
     return t
+
+
+def make_flow_tables() -> list[TableMeta]:
+    """헤더-상세 + SrcDoc 문서흐름 픽스처."""
+    hdr = TableMeta(schema="dbo", name="PM_Receivement", object_type="TABLE")
+    hdr.columns.append(ColumnMeta(name="ID", data_type="bigint", is_nullable=False, is_pk=True))
+    hdr.columns.append(ColumnMeta(name="DocNo", data_type="nvarchar", is_nullable=False))
+    line = TableMeta(schema="dbo", name="PM_RcvLine", object_type="TABLE")
+    line.columns.append(ColumnMeta(name="ID", data_type="bigint", is_nullable=False, is_pk=True))
+    line.columns.append(ColumnMeta(name="Receivement", data_type="bigint", is_nullable=False))
+    line.columns.append(ColumnMeta(name="SrcDoc_SrcDocSubLine_EntityID", data_type="bigint", is_nullable=True))
+    line.columns.append(ColumnMeta(name="SrcDocType", data_type="int", is_nullable=True))
+    return [hdr, line]
