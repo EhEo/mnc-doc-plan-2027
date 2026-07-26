@@ -94,3 +94,19 @@ def write_profiles(catalog_conn, snapshot_id, profiles):
         _replace(cur, "profiles", snapshot_id,
                  "INSERT INTO catalog.profiles(snapshot_id,schema_name,object_name,column_name,null_ratio,distinct_count,sample_size,min_value,max_value,top_values) VALUES (?,?,?,?,?,?,?,?,?,?)",
                  [(snapshot_id, p.schema, p.name, p.column_name, p.null_ratio, p.distinct_count, p.sample_size, p.min_value, p.max_value, p.top_values) for p in profiles])
+
+
+def write_business_map(catalog_conn, snapshot_id, assignments):
+    with connect(catalog_conn) as conn:
+        cur = conn.cursor()
+        _replace(cur, "business_map", snapshot_id,
+                 "INSERT INTO catalog.business_map(snapshot_id,schema_name,object_name,domain,role,confidence,evidence,verified_by) VALUES (?,?,?,?,?,?,?,?)",
+                 [(snapshot_id, a.schema, a.name, a.domain, a.role, a.confidence, a.evidence, a.verified_by) for a in assignments])
+
+
+def write_relations(catalog_conn, snapshot_id, edges):
+    with connect(catalog_conn) as conn:
+        cur = conn.cursor()
+        _replace(cur, "relations", snapshot_id,
+                 "INSERT INTO catalog.relations(snapshot_id,from_object,from_column,to_object,kind,evidence) VALUES (?,?,?,?,?,?)",
+                 [(snapshot_id, e.from_object, e.from_column, e.to_object, e.kind, e.evidence) for e in edges])

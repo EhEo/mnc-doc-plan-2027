@@ -88,3 +88,17 @@ CREATE TABLE catalog.profiles (
     CONSTRAINT PK_catalog_profiles PRIMARY KEY (snapshot_id, schema_name, object_name, column_name)
 );
 GO
+IF OBJECT_ID('catalog.business_map','U') IS NULL
+CREATE TABLE catalog.business_map (
+    snapshot_id int NOT NULL, schema_name nvarchar(128) NOT NULL, object_name nvarchar(256) NOT NULL,
+    domain nvarchar(40) NOT NULL, role nvarchar(20) NULL, confidence float NOT NULL,
+    evidence nvarchar(400) NULL, verified_by nvarchar(64) NULL,
+    CONSTRAINT PK_catalog_business_map PRIMARY KEY (snapshot_id, schema_name, object_name)
+);
+GO
+IF OBJECT_ID('catalog.relations','U') IS NULL
+CREATE TABLE catalog.relations (
+    snapshot_id int NOT NULL, from_object nvarchar(384) NOT NULL, from_column nvarchar(128) NOT NULL,
+    to_object nvarchar(384) NULL, kind nvarchar(20) NOT NULL, evidence nvarchar(400) NULL
+);
+GO
