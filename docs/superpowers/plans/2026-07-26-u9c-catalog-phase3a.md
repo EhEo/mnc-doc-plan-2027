@@ -556,9 +556,40 @@ u9c-catalog-map = "u9c_catalog.mapper_cli:main"
 
 ## Phase 3a 완료 기준
 
-- [ ] 순수 테스트(models_p3, domain_mapper, relation_finder, domain_map_export) 통과.
-- [ ] 통합 테스트(catalog_reader, catalog_writer_p3) LocalDB로 통과.
-- [ ] `u9c-catalog-map`으로 운영 snapshot_id=2에 대해 도메인 매핑 실행 → `catalog.business_map` 적재 + `domain_map.json` 생성, 6개 도메인 분포 확인.
+- [x] 순수 테스트(models_p3, domain_mapper, relation_finder, domain_map_export) 통과.
+- [x] 통합 테스트(catalog_reader, catalog_writer_p3) LocalDB로 통과.
+- [x] `u9c-catalog-map`으로 운영 snapshot_id=2에 대해 도메인 매핑 실행 → `catalog.business_map` 적재 + `domain_map.json` 생성, 6개 도메인 분포 확인.
+
+## 실행 결과 (2026-07-26)
+
+전체 테스트 43 passed (순수 + LocalDB 통합, skip 0). 운영 카탈로그 `ERP_Catalog` snapshot_id=2(7,216 객체 / 279,445 컬럼) 전체 매핑 완료.
+
+**도메인 분포** (업무 2,246 / 미분류 4,970 = 68.9%)
+
+| 도메인 | 테이블 수 |
+|--------|----------|
+| 비용등록 | 598 |
+| 매출 | 507 |
+| 입출고 | 457 |
+| 구매 | 384 |
+| 생산실적 | 284 |
+| 구매요청 | 16 |
+
+**관계 엣지 16,214개** — `master-ref` 11,704 / `doc-flow` 2,813 / `header-detail` 1,697.
+산출물: `output/domain_map.json` (미분류 제외, 6개 도메인 2,246 테이블 + 엣지 전량).
+
+### 규칙 보정 후보 (미분류 상위 검토 결과)
+
+- **`MonthInOut` (301,561행)** — 이름상 월별 입출고 집계로 보이나 접두어가 없어 미분류. 입출고 도메인 규칙에 접두어 없는 이름 패턴(`InOut`) 추가 검토 필요.
+- **`bak_ubf_md_uifield` / `bak_ubf_md_attribute` (각 48만행)** — 백업 테이블인데 `is_auxiliary=0`. `bak_` 접두어를 노이즈 분류기(`noise_classifier`)에 추가하면 우선순위·매핑 양쪽에서 제외된다.
+- **`CS_Workflow_*` (32~47만행)** — 워크플로 플랫폼. `_PLATFORM_PREFIXES`에 `CS_Workflow_` 추가 후보.
+- `UBF_*` 대량 테이블(최대 275만행)은 의도대로 플랫폼 처리되어 미분류.
+
+### 계획 대비 변경점
+
+- `mapper_cli._latest_snapshot` — 스냅샷이 없을 때 `int(None)` TypeError 대신 한국어 안내 `ValueError`를 던지도록 보강.
+- `test_domain_map_export.py` — 미분류 제외 동작을 검증하는 테스트 1건 추가(총 2건).
+- 알려진 마찰: `load_settings`가 카탈로그 전용 CLI에도 `U9C_SOURCE_CONN`을 요구한다(공용 로더 특성). 매핑은 소스에 접속하지 않으므로 값 자체는 사용되지 않음. Phase 3b에서 설정 분리 검토.
 
 ## 운영 적용 메모
 
