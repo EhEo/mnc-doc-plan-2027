@@ -58,3 +58,20 @@ def generate_priority_json(priorities, out_path):
     ]
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def generate_domain_map_json(assignments, edges, out_path):
+    """도메인별 테이블 + 관계 엣지를 MES/대시보드용 JSON으로 내보낸다."""
+    domains: dict = {}
+    for a in assignments:
+        if a.domain == "미분류":
+            continue
+        d = domains.setdefault(a.domain, {"tables": []})
+        d["tables"].append({"object": a.full_name, "role": a.role,
+                            "confidence": round(a.confidence, 2), "evidence": a.evidence,
+                            "verified_by": a.verified_by})
+    rels = [{"from": e.from_object, "column": e.from_column, "to": e.to_object,
+             "kind": e.kind, "evidence": e.evidence} for e in edges]
+    data = {"domains": domains, "relations": rels}
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)

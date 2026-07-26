@@ -16,6 +16,7 @@ dev = ["pytest>=8.0"]
 
 [project.scripts]
 u9c-catalog = "u9c_catalog.cli:main"
+u9c-catalog-map = "u9c_catalog.mapper_cli:main"
 
 [build-system]
 requires = ["setuptools>=68"]
