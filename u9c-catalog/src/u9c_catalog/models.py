@@ -117,3 +117,27 @@ class ColumnProfile:
     min_value: str | None = None
     max_value: str | None = None
     top_values: str | None = None          # "값:빈도, ..." 요약 문자열
+
+
+@dataclass
+class DomainAssignment:
+    schema: str
+    name: str
+    domain: str                    # 생산실적/입출고/구매/구매요청/비용등록/매출/미분류
+    role: str                      # 앵커/상세/연관/코드/미상
+    confidence: float              # 0.0~1.0 (3a는 추정, 3b에서 상향)
+    evidence: str
+    verified_by: str | None = None
+
+    @property
+    def full_name(self) -> str:
+        return f"{self.schema}.{self.name}"
+
+
+@dataclass
+class RelationEdge:
+    from_object: str
+    from_column: str
+    to_object: str
+    kind: str                      # "header-detail" | "master-ref" | "doc-flow"
+    evidence: str
